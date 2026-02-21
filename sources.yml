@@ -3,24 +3,23 @@ mcp_name: "Pakistani Law MCP"
 jurisdiction: "PK"
 
 sources:
-  - name: "Pakistan Code"
-    authority: "Pakistan Code"
-    official_portal: "http://www.pakistancode.gov.pk"
+  - name: "The Pakistan Code"
+    authority: "Ministry of Law and Justice, Government of Pakistan (Laws of Pakistan Cell)"
+    official_portal: "https://pakistancode.gov.pk/english/index.php"
     retrieval_method: "HTML_SCRAPE"
-    update_frequency: "weekly"
-    last_ingested: "2026-02-21"
+    update_frequency: "unknown"
     license_or_terms:
-      type: "Government Open Data"
-      url: "http://www.pakistancode.gov.pk"
-      summary: "Official legislative texts are public domain"
+      type: "government_terms"
+      url: "https://pakistancode.gov.pk/english/Xki72HF.php"
+      summary: "Portal disclaimer states content is for information purposes and users should refer to Gazette notifications."
     coverage:
-      scope: "Data protection, cybersecurity, e-commerce, criminal law cyber provisions"
-      limitations: "AI-generated seed data; full official ingestion pending"
+      scope: "Federal laws listed on Pakistan Code with law-level pages and downloadable PDF texts."
+      limitations: "Complete law text is served as embedded/downloadable PDF. The article-text AJAX endpoint (UY2FqaJw2.php) returns a WAF block page from this environment, so machine-readable section extraction was not feasible."
     languages:
       - "en"
       - "ur"
 
 data_freshness:
-  automated_checks: true
-  check_frequency: "weekly"
+  automated_checks: false
+  check_frequency: "manual"
   last_verified: "2026-02-21"
