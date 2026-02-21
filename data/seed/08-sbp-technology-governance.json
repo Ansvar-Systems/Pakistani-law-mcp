@@ -1,0 +1,96 @@
+{
+  "id": "pk-sbp-tgf-2024",
+  "type": "statute",
+  "title": "State Bank of Pakistan — Technology Governance Framework for Banks 2024",
+  "title_en": "SBP Technology Governance Framework for Banks 2024",
+  "short_name": "SBP-TGF",
+  "status": "in_force",
+  "issued_date": "2024-01-01",
+  "in_force_date": "2024-01-01",
+  "url": "https://www.sbp.org.pk/acd/2023/CL15.htm",
+  "description": "The State Bank of Pakistan's Technology Governance Framework establishes comprehensive requirements for banks and financial institutions to manage technology-related risks, including cybersecurity, IT governance, data management, cloud computing, and digital banking. The Framework aligns with international standards and complements the Prevention of Electronic Crimes Act and the SBP's broader supervisory framework for financial institutions.",
+  "provisions": [
+    {
+      "provision_ref": "ch1",
+      "section": "Chapter 1",
+      "title": "Chapter 1. Scope and Applicability",
+      "content": "This Technology Governance Framework (TGF) applies to all banks and financial institutions licensed and supervised by the State Bank of Pakistan, including commercial banks, Islamic banks, development finance institutions, microfinance banks, and payment service providers. The Framework establishes the minimum standards for technology governance, information security and cybersecurity that financial institutions must implement. All financial institutions shall comply with the Framework within the timelines specified therein, with larger systemically important institutions subject to more stringent requirements and earlier compliance deadlines. The Framework shall be read alongside the SBP's Risk Management Guidelines, the Guidelines for IT Infrastructure, and applicable circular letters and regulatory directions issued by SBP. In case of conflict between this Framework and earlier SBP instructions on technology governance, this Framework shall prevail."
+    },
+    {
+      "provision_ref": "ch2",
+      "section": "Chapter 2",
+      "title": "Chapter 2. IT Governance",
+      "content": "The Board of Directors of each financial institution bears ultimate responsibility for technology governance and shall: approve the IT strategy and budget aligned with business objectives; receive quarterly reports from senior management on key technology risks and performance indicators; ensure adequate resources are allocated to technology security and risk management; establish a Board-level Technology and Cybersecurity Committee to provide oversight. The Chief Information Officer (CIO) and Chief Information Security Officer (CISO) shall report to the Board's Technology Committee at least quarterly. The CISO shall be independent of the IT function and shall have direct access to the Board for escalation of significant cybersecurity matters. Financial institutions shall maintain a Technology Risk Register, updated at least annually, identifying all significant technology risks and the controls in place to mitigate them. The internal audit function shall include technology and cybersecurity audits in its annual plan."
+    },
+    {
+      "provision_ref": "ch3",
+      "section": "Chapter 3",
+      "title": "Chapter 3. Information Security Management",
+      "content": "Financial institutions shall implement an Information Security Management System (ISMS) conforming to ISO/IEC 27001 or an equivalent recognized standard. The ISMS shall cover all systems, applications, data, and processes involved in the financial institution's operations. Key requirements of the ISMS include: information classification and handling procedures; access control based on the principle of least privilege and need-to-know; cryptographic controls for data at rest and in transit; physical and environmental security for data centres; secure development lifecycle for internally developed applications; vulnerability management and patch management; configuration management and secure baseline configuration; security monitoring using Security Information and Event Management (SIEM) systems; and security incident management. Financial institutions shall conduct independent security audits of their ISMS at least once every two years and shall share the audit findings with SBP upon request."
+    },
+    {
+      "provision_ref": "ch4",
+      "section": "Chapter 4",
+      "title": "Chapter 4. Cybersecurity Requirements",
+      "content": "Financial institutions shall implement cybersecurity controls commensurate with their risk profile, covering: (a) Network Security: firewall management, network segmentation, intrusion detection and prevention systems, DDoS protection, and web application firewalls for internet-facing applications; (b) Endpoint Security: endpoint detection and response (EDR), device management, application whitelisting on critical systems; (c) Identity and Access Management: multi-factor authentication for privileged access and remote access, privileged access management, identity governance; (d) Application Security: secure coding standards, code reviews, dynamic and static application security testing; (e) Data Security: data loss prevention (DLP), database activity monitoring, encryption of sensitive data; (f) Cyber Threat Intelligence: participation in financial sector information sharing, subscription to relevant threat intelligence feeds; (g) Security Operations: 24x7 security monitoring for systemically important banks, with escalation procedures for critical alerts. Cybersecurity assessments including penetration testing shall be conducted at least annually."
+    },
+    {
+      "provision_ref": "ch5",
+      "section": "Chapter 5",
+      "title": "Chapter 5. Cyber Incident Response",
+      "content": "Financial institutions shall establish a Cyber Incident Response capability including: a documented Incident Response Plan (IRP) tested through simulation exercises at least annually; a designated Cyber Incident Response Team (CIRT) with clearly defined roles and responsibilities; procedures for escalation of incidents to senior management and the Board; mechanisms for coordination with SBP, CERT-PK, and law enforcement during significant incidents. Financial institutions shall notify SBP of significant cybersecurity incidents within four hours of detection, using the prescribed incident notification template. A significant incident includes: unauthorized access to customer data or funds; disruption of core banking services for more than two hours; ransomware or destructive malware attacks; and any attack with potential systemic implications for the financial sector. Post-incident reports shall be submitted to SBP within fifteen working days of incident containment, including root cause analysis and remediation actions."
+    },
+    {
+      "provision_ref": "ch6",
+      "section": "Chapter 6",
+      "title": "Chapter 6. Third-Party Risk Management",
+      "content": "Financial institutions that outsource technology functions or use cloud services shall maintain comprehensive third-party risk management programs covering the full lifecycle of the outsourcing arrangement. Key requirements include: due diligence of technology vendors before engagement; contract provisions covering data security, audit rights, incident notification, and business continuity; ongoing monitoring of vendor performance and security posture; right to audit vendors directly or through third-party assessors; and exit planning for critical outsourced services. Cloud services used for processing or storing banking data shall meet the security standards prescribed by SBP. Material outsourcing arrangements, including cloud services for core banking functions, shall be approved by the Board and notified to SBP in advance. Financial institutions remain responsible for customer data and regulatory compliance regardless of the outsourcing arrangement. Multi-cloud strategies are encouraged to avoid over-dependence on a single cloud provider."
+    },
+    {
+      "provision_ref": "ch7",
+      "section": "Chapter 7",
+      "title": "Chapter 7. Business Continuity and Disaster Recovery",
+      "content": "Financial institutions shall maintain Business Continuity Plans (BCP) and IT Disaster Recovery Plans (DRP) that address cyber incidents as a specific scenario. The BCP/DRP shall define: Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs) for each critical system, approved by the Board; alternate processing arrangements for critical banking services; communication plans for customers, staff, regulators and media during disruptions; procedures for declaration of a disaster and activation of the recovery plan. Financial institutions shall maintain geographically separated disaster recovery sites for critical systems. BCPs and DRPs shall be tested through comprehensive simulation exercises at least once a year, with table-top exercises conducted semi-annually. Test results and any identified weaknesses shall be reported to the Board and remediated within specified timeframes. Financial institutions shall report major business continuity incidents to SBP within twenty-four hours."
+    },
+    {
+      "provision_ref": "ch8",
+      "section": "Chapter 8",
+      "title": "Chapter 8. Digital Banking Security",
+      "content": "Financial institutions offering digital banking services (internet banking, mobile banking, branchless banking) shall implement enhanced security controls including: strong customer authentication (SCA) using multi-factor authentication for all high-value and sensitive transactions; risk-based authentication that adjusts authentication requirements based on the assessed risk of each transaction; real-time transaction monitoring and fraud detection systems with immediate alerting to customers; secure communication channels between customer devices and bank servers; protection against common web and mobile application attacks as defined by OWASP; customer notification for all transactions and account changes via SMS and email; and clear mechanisms for customers to report unauthorized transactions and request temporary freezing of their accounts. Financial institutions shall educate customers about digital banking security through regular awareness campaigns. Liability for unauthorized transactions shall be borne by the institution unless customer negligence or fraud is proven."
+    },
+    {
+      "provision_ref": "ch9",
+      "section": "Chapter 9",
+      "title": "Chapter 9. Data Governance and Privacy",
+      "content": "Financial institutions shall implement data governance frameworks ensuring the quality, integrity, availability, and security of data used for regulatory reporting, risk management, and customer service. Financial institutions shall classify all data according to its sensitivity and criticality, and implement appropriate controls for each data classification. Customer data shall be treated as confidential and shall not be shared with third parties without the customer's consent, except as required by law. Financial institutions shall implement privacy-by-design principles in the development of all new customer-facing systems and services. The SBP's guidelines on customer data protection shall be complied with, and customer data shall only be used for the purposes for which it was collected. Data retention policies shall specify the minimum and maximum retention periods for different categories of data, with secure deletion of data at the end of its retention period. Financial institutions shall comply with Pakistan's Personal Data Protection legislation when enacted."
+    },
+    {
+      "provision_ref": "ch10",
+      "section": "Chapter 10",
+      "title": "Chapter 10. Technology Risk Reporting",
+      "content": "Financial institutions shall submit to SBP the following technology risk reports on the prescribed forms: (a) Annual Technology Risk Profile: a comprehensive assessment of the institution's technology risk landscape, submitted within sixty days of the end of the financial year; (b) Quarterly Cybersecurity Metrics Report: key performance and risk indicators including number and severity of incidents, vulnerability management metrics, and patch compliance; (c) Immediate Incident Notifications: within four hours of detection of significant incidents as defined in Chapter 5; (d) Annual Board Technology and Cybersecurity Report: a summary of the Board's oversight activities and key technology risk decisions. SBP may conduct on-site technology examinations of financial institutions and may issue specific directions based on examination findings. Financial institutions that fail to meet the standards of this Framework shall be subject to regulatory action including enhanced supervisory requirements, financial penalties, and restrictions on the launch of new digital products."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Technology Governance Framework",
+      "definition": "The SBP's comprehensive set of standards and requirements governing how banks and financial institutions in Pakistan manage technology risks, including IT governance, cybersecurity, data management, cloud computing, and digital banking security.",
+      "source_provision": "ch1"
+    },
+    {
+      "term": "CISO",
+      "definition": "Chief Information Security Officer, the senior executive responsible for establishing and maintaining information security governance within a financial institution, independent of the IT function.",
+      "source_provision": "ch2"
+    },
+    {
+      "term": "Recovery Time Objective",
+      "definition": "The maximum acceptable time period within which a critical system or process must be recovered after a disruption event.",
+      "source_provision": "ch7"
+    },
+    {
+      "term": "strong customer authentication",
+      "definition": "Authentication method based on the use of two or more elements categorized as knowledge (something only the user knows), possession (something only the user possesses) or inherence (something the user is), that are independent of each other.",
+      "source_provision": "ch8"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "pk-peca-2016",
+  "type": "statute",
+  "title": "Prevention of Electronic Crimes Act 2016",
+  "title_en": "Prevention of Electronic Crimes Act 2016 (PECA)",
+  "short_name": "PECA",
+  "status": "in_force",
+  "issued_date": "2016-08-11",
+  "in_force_date": "2016-08-11",
+  "url": "https://www.na.gov.pk/uploads/documents/1469519540_564.pdf",
+  "description": "The Prevention of Electronic Crimes Act 2016 (PECA) is Pakistan's primary legislation addressing cybercrime, establishing offences relating to unauthorized access to information systems, cyberterrorism, electronic fraud, identity crimes, cyberstalking, and online hate speech. PECA establishes the legal framework for investigation, prosecution and international cooperation in cybercrime matters, and grants powers to the Pakistan Telecommunication Authority (PTA) for content regulation.",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short Title, Extent and Commencement",
+      "content": "This Act shall be called the Prevention of Electronic Crimes Act, 2016. It shall extend to the whole of Pakistan and shall also apply to every citizen of Pakistan wherever he may be, and to every other person for the time being in Pakistan. It shall also apply to any act committed outside Pakistan, if such act constitutes an offence under this Act and involves a citizen or information system or data of Pakistan. The Act shall come into force at once. For the purpose of territorial jurisdiction, it shall be sufficient that the information system involved in the commission of an offence is located in Pakistan or the effect of the offence is felt in Pakistan."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions",
+      "content": "In this Act, unless there is anything repugnant in the subject or context: 'access' means the ability to make use of any function or capability of an information system; 'data' means representations of information or concepts that are being prepared or have been prepared in a form suitable for use in a computer or information system; 'electronic fraud' means dishonest representation of facts whether by words, conduct, or by concealing material facts, to deceive a person, gaining unlawful advantage or causing harm to another person; 'information system' means an electronic system for creating, generating, sending, receiving, storing, reproducing, displaying, recording or processing any information; 'service provider' means any public or private entity that provides the users of its services with an ability to communicate by means of a computer system or information system, and any entity that processes or stores data on behalf of such communication service or users of such service."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Unauthorized Access to Information System or Data",
+      "content": "Whoever intentionally gains unauthorized access to the whole or any part of an information system or data shall be punished with imprisonment for a term which may extend to three months or with fine which may extend to fifty thousand rupees or with both. Provided that the punishment shall extend to two years or with fine up to five hundred thousand rupees or with both where unauthorized access is gained to restricted information or systems maintained by the Government or any critical infrastructure. Where such access is for the purpose of committing another offence, the punishment shall be for both the offences cumulatively. An information system shall be deemed to be restricted if it is protected by any technical, legal or physical means and the person gaining access knows or ought to know that such access is unauthorized. Unauthorized access obtained through the use of another person's credentials or by exploiting vulnerabilities in the system shall be deemed intentional unless the contrary is proved."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Unauthorized Copying or Transmission of Data",
+      "content": "Whoever intentionally and without authorization gains access to, copies, or transmits any data, information system or part thereof, whether within Pakistan or outside Pakistan, shall be punished with imprisonment for a term which may extend to six months or with fine which may extend to one hundred thousand rupees or with both. The punishment shall be enhanced to three years or with fine up to five hundred thousand rupees or with both where: the data relates to critical infrastructure or a system controlled by the Government; or the data constitutes personally identifiable information of natural persons. Where the offence is committed by an organized criminal group, the punishment shall be enhanced by one-half. The term 'critical infrastructure' includes systems related to national security, energy, water supply, finance, transportation, and public health. Data obtained through unauthorized copying may be confiscated by the court regardless of whether conviction is obtained."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Interference with Information System or Data",
+      "content": "Whoever intentionally and without authorization interferes with or damages or degrades an information system or data or impairs the functioning of such system shall be punished with imprisonment for a term which may extend to two years or with fine which may extend to five hundred thousand rupees or with both. Where such interference: affects a critical infrastructure or a system maintained for public welfare; involves the introduction of malicious code; is committed with the intent to cause harm or financial gain; or is committed as part of an organized group — the punishment shall extend to seven years or with fine up to five million rupees or with both. Interference includes the introduction, transmission, damaging, deletion, deterioration, alteration, suppression, or blocking of data. Disruption or denial of service attacks shall constitute interference for the purposes of this section."
+    },
+    {
+      "provision_ref": "sec6",
+      "section": "6",
+      "title": "Section 6. Electronic Fraud",
+      "content": "Whoever commits electronic fraud shall be punished with imprisonment which may extend to two years or with fine which may extend to ten million rupees or with both. Electronic fraud consists of dishonest representation of facts whether by words, conduct, or by concealing material facts, to deceive a person, gaining unlawful advantage or causing harm to another person through information systems. Electronic fraud that involves: unauthorized use of another person's identity or financial information; creation or use of fraudulent websites, emails or electronic communications designed to deceive; manipulation of data in an information system to obtain financial benefit — shall be punished with imprisonment of up to seven years or fine of fifty million rupees or both. Financial institutions and e-commerce platforms shall report instances of electronic fraud detected on their systems to the Federal Investigation Agency (FIA) within twenty-four hours."
+    },
+    {
+      "provision_ref": "sec7",
+      "section": "7",
+      "title": "Section 7. Making, Obtaining or Supplying Device for Use in Offence",
+      "content": "Whoever manufactures, generates, adapts, exports, supplies, offers to supply or imports any device or data including a computer program, designed or adapted primarily for use in the commission of an offence under this Act shall be punished with imprisonment for a term which may extend to six months or with fine which may extend to fifty thousand rupees or with both. Where such device or data is used to commit an actual offence under this Act, the person shall be punishable for both the preparation offence under this section and the substantive offence. The term 'device' includes any hardware, software, code, algorithm, or other digital tool designed to compromise information systems or bypass security measures. This section shall not apply to legitimate security research conducted in good faith, penetration testing performed with authorization, or the development of security tools for defensive purposes."
+    },
+    {
+      "provision_ref": "sec9",
+      "section": "9",
+      "title": "Section 9. Cyber Terrorism",
+      "content": "Whoever commits or threatens to commit any of the offences under this Act with the intent to: coerce, intimidate, overawe, or create a sense of fear, panic or insecurity in the Government or the public or a section of the public or a community or a sect; or advance ethno-national, sectarian or religious goals — shall be guilty of cyber terrorism and shall be punished with imprisonment which may extend to fourteen years or with fine which may extend to fifty million rupees or with both. Cyber terrorism shall include attacks on critical infrastructure, defacement of Government websites for terrorist purposes, and use of information systems to recruit or incite terrorism. The Federal Government may prescribe additional categories of acts that constitute cyber terrorism. Investigation of cyber terrorism offences shall be conducted by the Federal Investigation Agency or such other agency as the Federal Government may designate."
+    },
+    {
+      "provision_ref": "sec10",
+      "section": "10",
+      "title": "Section 10. Hate Speech",
+      "content": "Whoever prepares or disseminates information, through any information system or device, that advances or is likely to advance inter-faith, sectarian, racial or ethnic hatred shall be punished with imprisonment for a term which may extend to seven years or with fine or with both. Where such information is likely to cause breach of public peace, cause loss of life or property, or incites the public to commit any violence, the punishment may extend to fourteen years. Persons hosting, storing, or facilitating such content on their platforms shall take down such content within twenty-four hours of a request by the competent authority failing which they shall be liable for prosecution. The Pakistan Telecommunication Authority (PTA) shall maintain a mechanism for reporting hate speech content. Content removed pursuant to a PTA order shall be reported to the tribunal for ex post facto review of the legal basis for removal."
+    },
+    {
+      "provision_ref": "sec17",
+      "section": "17",
+      "title": "Section 17. Cyberstalking",
+      "content": "Whoever with the intent to coerce or intimidate or harass any person uses information system, information system network, the internet, website, electronic mail or any other similar means of communication to: follow a person or contacts or attempts to contact a person to foster personal interaction repeatedly despite a clear indication of disinterest by such person; monitor the use by a person of the internet, electronic mail, text message or any other form of electronic communication; watch or spy upon a person in a manner that results in fear of violence or serious alarm or distress in the mind of such person; take a photograph or make a video of any person and display or distribute it without his consent in a manner that harms a person — shall be punished with imprisonment for a term which may extend to one year or with fine or with both, and where the victim is a minor the punishment shall be enhanced to five years with fine."
+    },
+    {
+      "provision_ref": "sec23",
+      "section": "23",
+      "title": "Section 23. Preservation of Data",
+      "content": "A competent court may direct or the investigation agency may request any service provider to preserve the records or data that are in its possession or control for a period not exceeding ninety days, which may be extended for another ninety days. The preservation order shall include the types of data to be preserved, the period of preservation, and the means by which the data must be kept confidential. Service providers shall maintain preserved data in a secure manner, preventing unauthorized access or tampering. Where a service provider is aware that preserved data is relevant to multiple investigations, it shall preserve multiple copies. Upon expiry of the preservation period without further order, the service provider shall destroy the preserved data in a secure manner. Service providers shall maintain logs of all preservation orders received and their compliance therewith for a period of five years."
+    },
+    {
+      "provision_ref": "sec29",
+      "section": "29",
+      "title": "Section 29. International Cooperation",
+      "content": "Pakistan may, in accordance with relevant international agreements or on the basis of reciprocity, cooperate with foreign countries for the purposes of investigations or proceedings concerning offences related to information systems, data and electronic communications. Cooperation may be granted in relation to: the search and seizure of information systems or data; the preservation or real-time collection of electronic evidence; the extradition of persons accused of offences under this Act. Pakistan shall designate a point of contact to facilitate international cooperation in cybercrime investigations, available on a 24-hour, 7-days-a-week basis. Information received from foreign authorities shall be treated in accordance with the requirements of confidentiality specified by the foreign authority. International cooperation shall not be provided where it would prejudice the sovereignty, security or other essential interests of Pakistan."
+    },
+    {
+      "provision_ref": "sec38",
+      "section": "38",
+      "title": "Section 38. Removal of Offending Content",
+      "content": "Upon receipt of a complaint from an aggrieved person or upon its own motion, the Authority (PTA) may direct a service provider to remove or block access to any information, if it considers it necessary in the interest of the glory of Islam or the integrity, security or defence of Pakistan or any part thereof, friendly relations with foreign states, public order, decency or morality, or in relation to contempt of court or commission of or incitement to an offence under this Act. The Authority shall pass a reasoned order in writing after giving the service provider an opportunity to be heard. The service provider shall comply with such order within twenty-four hours. The Authority shall maintain a record of all content removal orders passed. Any person aggrieved by an order of the Authority may prefer an appeal before a court of competent jurisdiction within thirty days of the date of the order."
+    },
+    {
+      "provision_ref": "sec44",
+      "section": "44",
+      "title": "Section 44. National Response Centre for Cyber Crime",
+      "content": "There shall be established at the Federal Investigation Agency a unit to be known as the National Response Centre for Cyber Crime (NR3C) which shall be responsible for the investigation of offences under this Act. The NR3C shall: receive, register, investigate and prosecute reports of electronic crimes; develop and maintain an online portal for reporting electronic crimes; provide assistance to law enforcement agencies in the investigation of electronic crimes; develop technical capacities for investigation of cybercrime; liaise with national and international agencies on cybercrime matters; and maintain national statistics on electronic crimes. The FIA may appoint or designate officers with appropriate technical qualifications as cyber crime investigators. The NR3C shall coordinate with CERT-PK (the national computer emergency response team) on matters of national cybersecurity significance."
+    },
+    {
+      "provision_ref": "sec46",
+      "section": "46",
+      "title": "Section 46. Trial of Offences",
+      "content": "Offences under this Act shall be triable by courts of sessions or by such other courts as the Government may by notification designate. The Government shall designate special courts for the trial of offences under this Act which shall consist of a qualified judge having knowledge and experience in matters relating to information systems, electronic crimes and related technical issues. Special courts may take cognizance of offences under this Act on a complaint or on a report of the investigation agency. The court may record evidence through video link or similar technology in appropriate cases. Digital evidence shall be admissible in proceedings under this Act and shall be evaluated according to the rules of evidence applicable to electronic records. The court shall endeavor to complete trial of offences under this Act within six months from the date of framing of charge."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "information system",
+      "definition": "An electronic system for creating, generating, sending, receiving, storing, reproducing, displaying, recording or processing any information.",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "data",
+      "definition": "Representations of information or concepts that are being prepared or have been prepared in a form suitable for use in a computer or information system.",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "cyber terrorism",
+      "definition": "Commission or threat of any offence under PECA with the intent to coerce, intimidate or create fear in the Government or public, or to advance ethno-national, sectarian or religious goals.",
+      "source_provision": "sec9"
+    },
+    {
+      "term": "electronic fraud",
+      "definition": "Dishonest representation of facts whether by words, conduct, or by concealing material facts, to deceive a person, gaining unlawful advantage or causing harm to another person through information systems.",
+      "source_provision": "sec6"
+    },
+    {
+      "term": "service provider",
+      "definition": "Any public or private entity that provides users with an ability to communicate by means of a computer system or information system, and any entity that processes or stores data on behalf of such communication service or its users.",
+      "source_provision": "sec2"
+    }
+  ]
+}

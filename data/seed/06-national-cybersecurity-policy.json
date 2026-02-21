@@ -1,0 +1,96 @@
+{
+  "id": "pk-ncsp-2021",
+  "type": "statute",
+  "title": "National Cyber Security Policy 2021",
+  "title_en": "Pakistan National Cyber Security Policy 2021",
+  "short_name": "NCSP-2021",
+  "status": "in_force",
+  "issued_date": "2021-07-28",
+  "in_force_date": "2021-07-28",
+  "url": "https://moitt.gov.pk/SiteImage/Misc/files/National%20Cyber%20Security%20Policy%202021.pdf",
+  "description": "Pakistan's National Cyber Security Policy 2021 provides the strategic framework for protecting Pakistan's cyberspace, critical information infrastructure, and digital economy. The Policy establishes the National Cyber Security Authority (NCSA) as the apex body for cybersecurity governance, sets out the principles of national cybersecurity, and defines the roles and responsibilities of government, the private sector, and citizens in protecting Pakistan's digital interests.",
+  "provisions": [
+    {
+      "provision_ref": "ch1",
+      "section": "Chapter 1",
+      "title": "Chapter 1. Vision and Objectives",
+      "content": "Pakistan's vision for cybersecurity is a secure, resilient and trustworthy cyberspace that enables national security, economic growth, and social progress. The National Cyber Security Policy 2021 aims to achieve the following objectives: (a) Protect the sovereignty and territorial integrity of Pakistan in cyberspace; (b) Secure the critical information infrastructure from cyber threats; (c) Build national capacity and capability in cybersecurity; (d) Foster a culture of cybersecurity awareness and responsibility; (e) Promote innovation in cybersecurity to support the digital economy; (f) Strengthen Pakistan's cyber resilience at national, sectoral and organizational levels; (g) Develop effective mechanisms for cooperation with international partners in cybersecurity; (h) Ensure a secure and trusted digital environment for e-commerce, e-government, and digital financial services. The Policy applies to all public and private entities operating in Pakistan's cyberspace."
+    },
+    {
+      "provision_ref": "ch2",
+      "section": "Chapter 2",
+      "title": "Chapter 2. Principles of National Cybersecurity",
+      "content": "The National Cyber Security Policy is guided by the following principles: 1. Sovereign Jurisdiction: Pakistan asserts its sovereign right to regulate cyberspace within its territory and to protect its national interests in the global digital environment. 2. Risk-based Approach: Cybersecurity measures shall be proportionate to the assessed risks and impact of potential cyber incidents. 3. Shared Responsibility: Cybersecurity is a shared responsibility of the government, private sector, civil society, and individual citizens. 4. Privacy and Civil Liberties: Cybersecurity measures shall be implemented in a manner that respects the privacy and civil liberties of citizens. 5. Resilience: Pakistan's critical information infrastructure shall be designed and maintained to be resilient against cyber attacks. 6. International Cooperation: Pakistan shall cooperate with the international community in addressing cyber threats while protecting national security interests. 7. Capacity Building: Pakistan shall invest in human capital development in cybersecurity to build a robust national workforce."
+    },
+    {
+      "provision_ref": "ch3",
+      "section": "Chapter 3",
+      "title": "Chapter 3. National Cybersecurity Governance",
+      "content": "The National Cyber Security Authority (NCSA) shall be established as the apex regulatory and operational body for national cybersecurity, under the Ministry of Information Technology and Telecommunication. The NCSA shall: (a) develop and implement the National Cyber Security Policy and Strategy; (b) coordinate cybersecurity across government ministries, departments, and agencies; (c) establish and maintain the national cybersecurity incident management framework; (d) oversee the protection of critical information infrastructure; (e) develop national cybersecurity standards and guidelines; (f) represent Pakistan in international cybersecurity forums; (g) maintain the national cybersecurity threat intelligence platform. The National Computer Emergency Response Team (CERT-PK) shall function under the NCSA and shall be the operational center for incident response, threat analysis, and coordination. A National Cyber Security Council, chaired by the Prime Minister, shall provide strategic oversight and high-level guidance."
+    },
+    {
+      "provision_ref": "ch4",
+      "section": "Chapter 4",
+      "title": "Chapter 4. Critical Information Infrastructure Protection",
+      "content": "Critical Information Infrastructure (CII) refers to those systems, services, networks and assets which, if disrupted or destroyed, would have a severe impact on the health, safety, security or economic well-being of citizens, or on the effective functioning of government. The following sectors are designated as comprising critical information infrastructure: energy (electricity, oil and gas); water and wastewater treatment; transportation (aviation, rail, road, maritime); financial services (banking, payment systems, stock exchange); telecommunications and internet services; healthcare; government services; and defence and security. Operators of CII shall: implement minimum cybersecurity standards prescribed by NCSA; report significant cyber incidents to CERT-PK within four hours of detection; participate in national cybersecurity exercises; and cooperate with NCSA inspections and audits. NCSA shall maintain a national CII register. Attacks on CII shall be treated as matters of national security."
+    },
+    {
+      "provision_ref": "ch5",
+      "section": "Chapter 5",
+      "title": "Chapter 5. Incident Response and Recovery",
+      "content": "Pakistan shall establish a national cyber incident response capability under CERT-PK that is able to operate 24 hours a day, 7 days a week. The national incident response framework shall classify incidents according to their severity and impact, with different response protocols for each level. All government agencies shall have appointed cybersecurity officers and shall establish their own incident response capabilities coordinated with CERT-PK. The national incident response framework shall cover: detection and analysis of cyber incidents; containment, eradication and recovery procedures; evidence preservation and forensic analysis; communication and public information management during significant incidents; post-incident review and lessons learned. Pakistan shall develop and regularly test a National Cyber Crisis Management Plan to coordinate whole-of-government response to major cyber incidents affecting national security or critical infrastructure. Recovery from major cyber incidents shall be treated as a national priority."
+    },
+    {
+      "provision_ref": "ch6",
+      "section": "Chapter 6",
+      "title": "Chapter 6. Cybersecurity of Public Sector",
+      "content": "All Federal Government ministries, departments and agencies shall implement the National Cyber Security Framework (NCSF) developed by NCSA, based on international standards including NIST, ISO 27001 and CIS Controls. Each Federal Government entity shall: designate a Chief Information Security Officer (CISO); develop and implement an Information Security Management System; conduct annual cybersecurity risk assessments; perform penetration testing of critical systems at least annually; implement security monitoring and log management; and report cybersecurity incidents to CERT-PK. The Ministry of Information Technology shall develop and implement a Government Cloud Security Framework to secure data held in government cloud systems. The e-government services of the Government of Pakistan shall be subject to regular security assessments by NCSA. Federal Government entities shall share threat intelligence with CERT-PK through the national cyber threat intelligence sharing platform."
+    },
+    {
+      "provision_ref": "ch7",
+      "section": "Chapter 7",
+      "title": "Chapter 7. Cybersecurity Workforce and Capacity Building",
+      "content": "Pakistan shall develop a robust national cybersecurity workforce capable of defending Pakistan's cyberspace. The National Cybersecurity Strategy for Workforce Development shall: establish cybersecurity as a discipline in universities and higher education institutions; promote cybersecurity education at secondary school level; develop professional certifications recognized nationally and internationally; create incentive schemes to attract and retain cybersecurity talent in government service; encourage partnerships between academic institutions and industry for practical cybersecurity training; and support the development of a cybersecurity startup ecosystem. The Higher Education Commission (HEC) shall introduce cybersecurity degree programs meeting international standards. NCSA shall develop a national cybersecurity training and certification framework. Pakistan shall aim to produce ten thousand certified cybersecurity professionals per year within five years of this Policy. Special incentives shall be provided for women in cybersecurity to address the gender gap in the profession."
+    },
+    {
+      "provision_ref": "ch8",
+      "section": "Chapter 8",
+      "title": "Chapter 8. Cybersecurity in the Financial Sector",
+      "content": "The financial sector, comprising banks, insurance companies, payment service providers, and capital markets, constitutes a critical information infrastructure sector requiring enhanced cybersecurity protections. The State Bank of Pakistan (SBP) and the Securities and Exchange Commission of Pakistan (SECP) shall issue sector-specific cybersecurity regulations aligned with international standards. Financial institutions shall: implement multi-factor authentication for all customer-facing digital services; deploy real-time transaction monitoring and fraud detection systems; maintain cyber incident response plans tested at least annually; report cybersecurity incidents to SBP/SECP and CERT-PK within specified timeframes; conduct third-party risk assessments of technology service providers; and maintain business continuity plans addressing cyber scenarios. The SBP shall establish a Financial Sector CERT (FS-CERT) for sector-specific threat intelligence sharing and incident coordination. Pakistan shall develop domestic capabilities in financial cybersecurity technology."
+    },
+    {
+      "provision_ref": "ch9",
+      "section": "Chapter 9",
+      "title": "Chapter 9. International Cooperation in Cybersecurity",
+      "content": "Pakistan shall actively engage in international cooperation to address shared cyber threats, build national capacity, and promote responsible state behaviour in cyberspace. Pakistan's international cooperation in cybersecurity shall include: bilateral agreements with partner countries for information sharing and mutual assistance in cybercrime investigations; multilateral engagement through the United Nations, the OIC, SAARC, SCO, and other relevant international bodies; participation in international cybersecurity exercises and trainings; cooperation in the development of international norms for responsible state behaviour in cyberspace; mutual legal assistance treaties for cyber-enabled crimes. Pakistan shall seek to accede to the Budapest Convention on Cybercrime subject to national security requirements. CERT-PK shall develop and maintain trusted relationships with CERTs of partner countries for operational cooperation. Pakistan shall advocate for international frameworks that support developing countries' cybersecurity capacity building."
+    },
+    {
+      "provision_ref": "ch10",
+      "section": "Chapter 10",
+      "title": "Chapter 10. Cybersecurity Awareness",
+      "content": "Pakistan shall implement a National Cybersecurity Awareness Programme to build a security-conscious digital culture among citizens, businesses, and government employees. The awareness programme shall: reach every citizen through media campaigns, educational curriculum, and community outreach; target business owners and employees with sector-specific awareness materials; build the capacity of journalists and media professionals to report accurately on cybersecurity issues; engage civil society and community leaders in spreading cybersecurity awareness. October shall be designated as National Cybersecurity Awareness Month in Pakistan. Schools shall integrate cyber hygiene and online safety into the standard curriculum. NCSA shall develop and freely distribute awareness materials in English, Urdu, and major regional languages. NCSA shall collaborate with internet service providers to send cybersecurity awareness messages to subscribers. The awareness programme shall be evaluated annually and its content updated to reflect the evolving threat landscape."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "critical information infrastructure",
+      "definition": "Systems, services, networks and assets whose disruption or destruction would have a severe impact on the health, safety, security or economic well-being of citizens, or on the effective functioning of government.",
+      "source_provision": "ch4"
+    },
+    {
+      "term": "NCSA",
+      "definition": "National Cyber Security Authority, the apex regulatory and operational body for national cybersecurity in Pakistan, established under the Ministry of Information Technology and Telecommunication.",
+      "source_provision": "ch3"
+    },
+    {
+      "term": "CERT-PK",
+      "definition": "Pakistan's national Computer Emergency Response Team, functioning under NCSA as the operational center for incident response, threat analysis, and cybersecurity coordination.",
+      "source_provision": "ch3"
+    },
+    {
+      "term": "cyber incident",
+      "definition": "An event that actually or potentially jeopardizes the confidentiality, integrity or availability of an information system or the information the system processes, stores or transmits.",
+      "source_provision": "ch5"
+    }
+  ]
+}

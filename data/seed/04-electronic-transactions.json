@@ -1,0 +1,97 @@
+{
+  "id": "pk-eto-2002",
+  "type": "statute",
+  "title": "Electronic Transactions Ordinance 2002",
+  "title_en": "Electronic Transactions Ordinance 2002 (ETO)",
+  "short_name": "ETO",
+  "status": "in_force",
+  "issued_date": "2002-09-11",
+  "in_force_date": "2002-09-11",
+  "url": "https://www.moitt.gov.pk/SiteImage/Misc/files/Electronic%20Transactions%20Ordinance,%202002.pdf",
+  "description": "The Electronic Transactions Ordinance 2002 (ETO) is Pakistan's foundational legislation recognizing the legal validity of electronic records, electronic signatures, and electronic transactions. The ETO establishes the legal equivalence of electronic documents with paper documents, enables e-commerce and digital government services, and creates the framework for electronic signatures and the accreditation of certification service providers in Pakistan.",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short Title, Extent and Commencement",
+      "content": "This Ordinance may be called the Electronic Transactions Ordinance, 2002. It extends to the whole of Pakistan. It shall come into force at once. The Ordinance applies to any kind of electronic communication and electronic record made or used in connection with commercial activity, governmental activity, and any other activity that may be prescribed. The Ordinance does not apply to wills or codicils within the meaning of the Succession Act, documents creating trusts other than express trusts or testamentary trusts, powers of attorney, and contracts for the sale, purchase, lease, transfer or conveyance of immovable property. The Ordinance shall be construed consistently with applicable rules of international law related to electronic commerce."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions",
+      "content": "In this Ordinance: 'electronic' means created, recorded, transmitted or stored in digital or other intangible form by electronic, magnetic, optical, computer or similar technology; 'electronic record' means data, text, images, sound, codes, computer programs, software, databases, or the like, which are prepared or have been prepared in a form suitable for use in an electronic system; 'electronic signature' means any letters, numbers, symbols, images, characters or combination thereof in electronic form, applied to, incorporated in or logically associated with an electronic document, with the intention of authenticating or approving the same; 'advanced electronic signature' means an electronic signature which is uniquely linked to the signatory, capable of identifying the signatory, created using means that the signatory can maintain under his sole control, and linked to the document to which it relates in a manner that any subsequent change of the document or data is detectable; 'certification service provider' means a person, authority, institution or body that issues certificates for authenticating electronic signatures."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Legal Recognition of Electronic Documents",
+      "content": "A document shall not be denied legal effect, validity or enforceability solely on the ground that it is in electronic form. Where a law requires a document or record to be in writing, that requirement shall be met by an electronic document if the information contained therein is accessible so as to be usable for subsequent reference. Where a law requires a signature, that requirement shall be met by an electronic signature. Where a law requires information to be presented or retained in original form, that requirement shall be met by an electronic record if there exists a reliable assurance as to the integrity of the information from the time when it was first generated in its final form. An electronic record shall not be denied admissibility in evidence solely on the ground that it is an electronic record. The best evidence rule shall not operate to deny admissibility of an electronic record solely on the ground that it is not in original form."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Formation of Contracts",
+      "content": "In the context of formation of contracts, unless otherwise agreed by the parties, an offer and the acceptance of an offer may be expressed by means of electronic documents. A contract shall not be denied validity or enforceability on the sole ground that an electronic document was used in its formation. An offer or the acceptance of an offer, or any other information constituting a contract between the parties, may be expressed by means of an electronic document. An electronic document shall be deemed to have been dispatched when it is sent or transmitted by the originator from his control. An electronic document dispatched by a person not known to be authorized by the originator shall be binding on the originator if the addressee has complied with a procedure previously agreed to by the originator for verifying whether the electronic document was that of the originator, and has complied with that procedure. Electronic contracts shall be governed by the same principles of offer, acceptance, consideration, and capacity as paper contracts."
+    },
+    {
+      "provision_ref": "sec6",
+      "section": "6",
+      "title": "Section 6. Certification Service Providers",
+      "content": "Any person may provide certification services. A certification service provider is accredited by the authority designated by the Federal Government, upon meeting the requirements set forth in this Ordinance and the regulations made thereunder. Accreditation of a certification service provider shall not be compulsory but certificates issued by accredited certification service providers shall be presumed to be valid and authentic. A certification service provider which issues a certificate to a subscriber shall: accurately disclose the material information set forth in the certificate; maintain a reliable means to identify itself, its signing key and all the certificates it has issued; act with reasonable care and diligence in the management of its keys and operations; maintain an accurate and accessible record of all certificates issued; promptly suspend or revoke a certificate upon receiving a valid request or upon detecting grounds for suspension or revocation."
+    },
+    {
+      "provision_ref": "sec7",
+      "section": "7",
+      "title": "Section 7. Obligations of Subscribers",
+      "content": "A subscriber or holder of an electronic signature creation data shall: (a) exercise reasonable care to avoid unauthorized use of its signature creation data; (b) without undue delay, utilize the means made available by the certification service provider for the purpose of making requests for revocation of its certificate upon knowing that the signature creation data has been lost, disclosed, compromised or become inoperative; (c) take reasonable care to avoid misuse of signature creation data; (d) retain control of its signature creation data and exercise reasonable care not to allow others to access it. Where a subscriber fails to comply with these obligations, the certification service provider shall not be liable for any losses suffered by the subscriber or third parties as a result of the failure. A subscriber's private key shall be deemed to be compromised where there has been unauthorized access to or use of the private key."
+    },
+    {
+      "provision_ref": "sec9",
+      "section": "9",
+      "title": "Section 9. Electronic Evidence",
+      "content": "In any legal proceedings, evidence of: (a) the content of an electronic record; (b) a record of an electronic record; (c) a copy of an electronic record; or (d) any act or event which occurred with respect to an electronic record — may be given by the person who has custody or control of the electronic record at the time the evidence is to be given. An electronic record produced from a computer shall be admissible as evidence provided that: the electronic record was produced by the computer in the ordinary course of its activities; the computer was in regular use at the material time; the computer was operating properly at all material times, or if not, any respect in which it was not operating properly or was out of operation was not such as to affect the production of the document or the accuracy of its contents. Electronic records stored in tamper-evident formats with verified integrity shall be accorded a higher degree of credibility by courts."
+    },
+    {
+      "provision_ref": "sec10",
+      "section": "10",
+      "title": "Section 10. Secure Electronic Records and Signatures",
+      "content": "An electronic record or electronic signature is a secure electronic record or secure electronic signature, as the case may be, if through the application of a security procedure agreed to by the parties concerned, it can be verified that the electronic record has not been altered since a specific point in time, and the electronic signature was created by the person who purports to have created it. An accredited certification service provider may issue certificates attesting that an electronic signature is a secure electronic signature. The presumption of security attaching to an accredited certificate and the advanced electronic signature based thereon shall be rebuttable on proof that the security procedure was compromised or was applied in a manner that was unreliable for the purpose. Courts shall give such weight to electronic evidence as is appropriate in all the circumstances, including any relevant standards pertaining to secure electronic records and signatures."
+    },
+    {
+      "provision_ref": "sec13",
+      "section": "13",
+      "title": "Section 13. Exclusions from the Ordinance",
+      "content": "This Ordinance shall not apply to the following: (a) negotiable instruments other than a cheque; (b) documents affecting the creation, performance, modification, sale, mortgage or transfer of real property rights, including agreements for such transactions; (c) wills and testamentary instruments; (d) any transaction whereby a party acquires rights upon the death of a person; (e) powers of attorney; (f) trust instruments; (g) documents which are required by law to be registered, other than such documents as may be prescribed; (h) such other documents as the Federal Government may, by notification in the official Gazette, specify. The exclusions in this section shall not prevent parties from agreeing to use electronic documents for the purposes listed above where permitted by other applicable law. The Federal Government may, by regulation, reduce the scope of the exclusions in this section as technology and legal frameworks evolve."
+    },
+    {
+      "provision_ref": "sec14",
+      "section": "14",
+      "title": "Section 14. Electronic Payments and Commerce",
+      "content": "Payment for goods or services may be made by electronic means, including electronic money transfers, credit cards, debit cards, and other electronic payment instruments. Electronic payment transactions shall have the same legal effect as payments made by cheque or other traditional means. Electronic payment service providers shall maintain security standards prescribed by the State Bank of Pakistan and shall ensure the integrity, confidentiality, and availability of payment transactions. Unauthorized electronic payment transactions shall be reported by payment service providers to the State Bank of Pakistan and to the Federal Investigation Agency within twenty-four hours of detection. Electronic payment service providers shall implement fraud detection systems and shall provide consumers with mechanisms to report unauthorized transactions. Consumers shall be protected against liability for unauthorized transactions except where they have acted with gross negligence or fraud. The State Bank of Pakistan may issue detailed regulations on electronic payments and consumer protection."
+    },
+    {
+      "provision_ref": "sec15",
+      "section": "15",
+      "title": "Section 15. Liability of Internet Service Providers",
+      "content": "An Internet Service Provider or other telecommunications service provider shall not be liable for any electronic document or information originating from a third party unless such service provider has actual knowledge that the electronic document or information is being used to commit an unlawful act and has failed to act expeditiously to remove or disable access to such material. An Internet Service Provider shall not be required to monitor or filter any electronic documents or information transmitted through its network, but shall cooperate with law enforcement agencies upon receipt of a proper lawful order. Where an Internet Service Provider receives a notice alleging that electronic documents transmitted through its network violate applicable law, it shall forward such notice to the relevant competent authority. An Internet Service Provider shall not be liable for damages arising from its good faith compliance with orders of the competent authority to remove or block electronic documents."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "electronic record",
+      "definition": "Data, text, images, sound, codes, computer programs, software, databases, or the like, prepared or used in a form suitable for use in an electronic system.",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "advanced electronic signature",
+      "definition": "An electronic signature uniquely linked to the signatory, capable of identifying the signatory, created using means under the signatory's sole control, and linked to the document such that any subsequent change is detectable.",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "certification service provider",
+      "definition": "A person, authority, institution or body that issues certificates for authenticating electronic signatures.",
+      "source_provision": "sec2"
+    }
+  ]
+}
