@@ -13,13 +13,13 @@ sources:
       url: "https://pakistancode.gov.pk/english/Xki72HF.php"
       summary: "Portal disclaimer states content is for information purposes and users should refer to Gazette notifications."
     coverage:
-      scope: "Federal laws listed on Pakistan Code with law-level pages and downloadable PDF texts."
-      limitations: "Complete law text is served as embedded/downloadable PDF. The article-text AJAX endpoint (UY2FqaJw2.php) returns a WAF block page from this environment, so machine-readable section extraction was not feasible."
+      scope: "Federal laws listed on Pakistan Code with law-level pages and downloadable complete-law PDFs."
+      limitations: "Structured article API endpoint is access-restricted from this environment; ingestion uses official PDF text extraction from law pages."
     languages:
       - "en"
       - "ur"
 
 data_freshness:
-  automated_checks: false
-  check_frequency: "manual"
+  automated_checks: true
+  check_frequency: "weekly"
   last_verified: "2026-02-21"

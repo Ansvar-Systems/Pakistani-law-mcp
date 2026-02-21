@@ -1,39 +1,170 @@
 #!/usr/bin/env tsx
 /**
- * Pakistani Law MCP -- Ingestion Pipeline
+ * Pakistani Law MCP -- Real legislation ingestion from The Pakistan Code.
  *
- * Fetches Pakistani legislation from the Sejm ELI API (api.sejm.gov.pl).
- * The Sejm (Pakistani Parliament) provides free public access to all legislation
- * published in Dziennik Ustaw (Journal of Laws) via the ELI API.
- *
- * Strategy:
- * 1. For each act, fetch the HTML text from the ELI API endpoint
- * 2. Parse articles (Art.) from the structured HTML
- * 3. Write seed JSON files for the database builder
- *
- * Usage:
- *   npm run ingest                    # Full ingestion
- *   npm run ingest -- --limit 5       # Test with 5 acts
- *   npm run ingest -- --skip-fetch    # Reuse cached pages
- *
- * Data source: api.sejm.gov.pl (Chancellery of the Sejm of the Republic of Poland)
- * License: Pakistani legislation is public domain under Art. 4 of the Copyright Act
+ * Source portal: https://pakistancode.gov.pk/english/index.php
+ * Method:
+ * 1) Fetch law detail page
+ * 2) Resolve official PDF URL
+ * 3) Download PDF and extract text via pdftotext
+ * 4) Parse sections/provisions and definitions
+ * 5) Write data/seed/*.json
  */
 
-import * as fs from 'fs';
-import * as path from 'path';
-import { fileURLToPath } from 'url';
-import { fetchWithRateLimit } from './lib/fetcher.js';
-import { parsePakistaniHtml, KEY_PAKISTANI_ACTS, type ActIndexEntry, type ParsedAct } from './lib/parser.js';
+import * as fs from 'node:fs';
+import * as path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { fetchBinary, fetchText } from './lib/fetcher.js';
+import {
+  extractDefinitions,
+  extractTextFromPdf,
+  parseLawPagePdfUrl,
+  parseProvisionsFromPdfText,
+  type ParsedAct,
+} from './lib/parser.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SOURCE_DIR = path.resolve(__dirname, '../data/source');
 const SEED_DIR = path.resolve(__dirname, '../data/seed');
+const PAKISTAN_CODE_BASE = 'https://pakistancode.gov.pk/english';
 
-/** ELI API base URL for the Sejm */
-const ELI_API_BASE = 'https://api.sejm.gov.pl/eli/acts/DU';
+interface TargetLaw {
+  order: number;
+  fileName: string;
+  id: string;
+  title: string;
+  titleEn: string;
+  shortName: string;
+  lawPath: string;
+  actNo: string;
+  promulgationDate: string;
+  status: 'in_force' | 'amended' | 'repealed' | 'not_yet_in_force';
+}
+
+const TARGET_LAWS: TargetLaw[] = [
+  {
+    order: 1,
+    fileName: '01-electronic-transactions-ordinance-2002.json',
+    id: 'pk-eto-2002',
+    title: 'Electronic Transactions Ordinance, 2002',
+    titleEn: 'Electronic Transactions Ordinance, 2002',
+    shortName: 'ETO 2002',
+    lawPath: 'UY2FqaJw1-apaUY2Fqa-apaUY2Fta5Y%3D-sg-jjjjjjjjjjjjj',
+    actNo: 'LI of 2002',
+    promulgationDate: '2002-09-11',
+    status: 'in_force',
+  },
+  {
+    order: 2,
+    fileName: '02-prevention-of-electronic-crimes-act-2016.json',
+    id: 'pk-peca-2016',
+    title: 'Prevention of Electronic Crimes Act, 2016',
+    titleEn: 'Prevention of Electronic Crimes Act, 2016',
+    shortName: 'PECA 2016',
+    lawPath: 'UY2FqaJw1-apaUY2Fqa-apaUY2Jvbp8%3D-sg-jjjjjjjjjjjjj',
+    actNo: 'XL of 2016',
+    promulgationDate: '2016-08-22',
+    status: 'in_force',
+  },
+  {
+    order: 3,
+    fileName: '03-pakistan-telecommunication-reorganization-act-1996.json',
+    id: 'pk-pta-1996',
+    title: 'Pakistan Telecommunication (Re-organization) Act, 1996',
+    titleEn: 'Pakistan Telecommunication (Re-organization) Act, 1996',
+    shortName: 'PTA Act 1996',
+    lawPath: 'UY2FqaJw1-apaUY2Fqa-apqWaw%3D%3D-sg-jjjjjjjjjjjjj',
+    actNo: 'XVII of 1996',
+    promulgationDate: '1996-12-01',
+    status: 'in_force',
+  },
+  {
+    order: 4,
+    fileName: '04-right-of-access-to-information-act-2017.json',
+    id: 'pk-rtia-2017',
+    title: 'Right of Access to Information Act, 2017',
+    titleEn: 'Right of Access to Information Act, 2017',
+    shortName: 'RTI Act 2017',
+    lawPath: 'UY2FqaJw1-apaUY2Fqa-apaUY2Noa5c%3D-sg-jjjjjjjjjjjjj',
+    actNo: 'XX of 2017',
+    promulgationDate: '2017-02-17',
+    status: 'in_force',
+  },
+  {
+    order: 5,
+    fileName: '05-payment-systems-and-electronic-fund-transfers-act-2007.json',
+    id: 'pk-payment-systems-2007',
+    title: 'Payment Systems and Electronic Fund Transfers Act, 2007',
+    titleEn: 'Payment Systems and Electronic Fund Transfers Act, 2007',
+    shortName: 'PSEFT Act 2007',
+    lawPath: 'UY2FqaJw1-apaUY2Fqa-apaUY2FsaZY%3D-sg-jjjjjjjjjjjjj',
+    actNo: 'IV of 2007',
+    promulgationDate: '2007-12-01',
+    status: 'in_force',
+  },
+  {
+    order: 6,
+    fileName: '06-pemra-ordinance-2002.json',
+    id: 'pk-pemra-2002',
+    title: 'Pakistan Electronic Media Regulatory Authority Ordinance (PEMRA), 2002',
+    titleEn: 'Pakistan Electronic Media Regulatory Authority Ordinance (PEMRA), 2002',
+    shortName: 'PEMRA 2002',
+    lawPath: 'UY2FqaJw1-apaUY2Fqa-apaUY2FrbZ8%3D-sg-jjjjjjjjjjjjj',
+    actNo: 'XIII of 2002',
+    promulgationDate: '2002-03-10',
+    status: 'in_force',
+  },
+  {
+    order: 7,
+    fileName: '07-investigation-for-fair-trial-act-2013.json',
+    id: 'pk-investigation-fair-trial-2013',
+    title: 'Investigation for fair Trial Act, 2013',
+    titleEn: 'Investigation for Fair Trial Act, 2013',
+    shortName: 'Fair Trial Act 2013',
+    lawPath: 'UY2FqaJw1-apaUY2Fqa-apaUY2FqbZw%3D-sg-jjjjjjjjjjjjj',
+    actNo: 'I of 2013',
+    promulgationDate: '2013-02-22',
+    status: 'in_force',
+  },
+  {
+    order: 8,
+    fileName: '08-competition-act-2010.json',
+    id: 'pk-competition-act-2010',
+    title: 'Competition Act, 2010',
+    titleEn: 'Competition Act, 2010',
+    shortName: 'Competition Act 2010',
+    lawPath: 'UY2FqaJw1-apaUY2Fqa-apaUY2FsbJk%3D-sg-jjjjjjjjjjjjj',
+    actNo: 'XIX of 2010',
+    promulgationDate: '2010-10-13',
+    status: 'in_force',
+  },
+  {
+    order: 9,
+    fileName: '09-state-bank-of-pakistan-act-1956.json',
+    id: 'pk-sbp-act-1956',
+    title: 'State Bank of Pakistan (SBP) Act, 1956',
+    titleEn: 'State Bank of Pakistan (SBP) Act, 1956',
+    shortName: 'SBP Act 1956',
+    lawPath: 'UY2FqaJw1-apaUY2Fqa-ap%2BbZw%3D%3D-sg-jjjjjjjjjjjjj',
+    actNo: 'XXXIII of 1956',
+    promulgationDate: '1956-04-18',
+    status: 'in_force',
+  },
+  {
+    order: 10,
+    fileName: '10-federal-investigation-agency-act-1974.json',
+    id: 'pk-fia-act-1974',
+    title: 'Federal Investigation Agency Act (FIA), 1974',
+    titleEn: 'Federal Investigation Agency Act (FIA), 1974',
+    shortName: 'FIA Act 1974',
+    lawPath: 'UY2FqaJw1-apaUY2Fqa-bpuUY2Zr-sg-jjjjjjjjjjjjj',
+    actNo: 'VIII of 1975',
+    promulgationDate: '1975-01-13',
+    status: 'in_force',
+  },
+];
 
 function parseArgs(): { limit: number | null; skipFetch: boolean } {
   const args = process.argv.slice(2);
@@ -42,7 +173,7 @@ function parseArgs(): { limit: number | null; skipFetch: boolean } {
 
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--limit' && args[i + 1]) {
-      limit = parseInt(args[i + 1], 10);
+      limit = Number.parseInt(args[i + 1], 10);
       i++;
     } else if (args[i] === '--skip-fetch') {
       skipFetch = true;
@@ -52,135 +183,128 @@ function parseArgs(): { limit: number | null; skipFetch: boolean } {
   return { limit, skipFetch };
 }
 
-/**
- * Build the ELI API URL for fetching an act's HTML text.
- * Pattern: https://api.sejm.gov.pl/eli/acts/DU/{YEAR}/{POZ}/text.html
- */
-function buildTextUrl(act: ActIndexEntry): string {
-  return `${ELI_API_BASE}/${act.year}/${act.poz}/text.html`;
-}
-
-async function fetchAndParseActs(acts: ActIndexEntry[], skipFetch: boolean): Promise<void> {
-  console.log(`\nProcessing ${acts.length} Pakistani Acts from api.sejm.gov.pl...\n`);
-
+function ensureDirs(): void {
   fs.mkdirSync(SOURCE_DIR, { recursive: true });
   fs.mkdirSync(SEED_DIR, { recursive: true });
+}
 
-  let processed = 0;
-  let skipped = 0;
-  let failed = 0;
-  let totalProvisions = 0;
-  let totalDefinitions = 0;
-  const results: { act: string; provisions: number; definitions: number; status: string }[] = [];
-
-  for (const act of acts) {
-    const sourceFile = path.join(SOURCE_DIR, `${act.id}.html`);
-    const seedFile = path.join(SEED_DIR, `${act.id}.json`);
-
-    // Skip if seed already exists and we're in skip-fetch mode
-    if (skipFetch && fs.existsSync(seedFile)) {
-      const existing = JSON.parse(fs.readFileSync(seedFile, 'utf-8')) as ParsedAct;
-      const provCount = existing.provisions?.length ?? 0;
-      const defCount = existing.definitions?.length ?? 0;
-      totalProvisions += provCount;
-      totalDefinitions += defCount;
-      results.push({ act: act.shortName, provisions: provCount, definitions: defCount, status: 'cached' });
-      skipped++;
-      processed++;
-      continue;
+function clearExistingSeedJson(): void {
+  for (const file of fs.readdirSync(SEED_DIR)) {
+    if (file.endsWith('.json')) {
+      fs.unlinkSync(path.join(SEED_DIR, file));
     }
+  }
+}
 
-    try {
-      let html: string;
+async function ingestLaw(target: TargetLaw, skipFetch: boolean): Promise<ParsedAct> {
+  const lawUrl = `${PAKISTAN_CODE_BASE}/${target.lawPath}`;
+  const htmlPath = path.join(SOURCE_DIR, `${target.id}.html`);
+  const pdfPath = path.join(SOURCE_DIR, `${target.id}.pdf`);
+  const txtPath = path.join(SOURCE_DIR, `${target.id}.txt`);
 
-      if (fs.existsSync(sourceFile) && skipFetch) {
-        html = fs.readFileSync(sourceFile, 'utf-8');
-        console.log(`  Using cached ${act.shortName} (${act.dziennikRef}) (${(html.length / 1024).toFixed(0)} KB)`);
-      } else {
-        const textUrl = buildTextUrl(act);
-        process.stdout.write(`  Fetching ${act.shortName} (${act.dziennikRef})...`);
-        const result = await fetchWithRateLimit(textUrl);
-
-        if (result.status !== 200) {
-          console.log(` HTTP ${result.status}`);
-          results.push({ act: act.shortName, provisions: 0, definitions: 0, status: `HTTP ${result.status}` });
-          failed++;
-          processed++;
-          continue;
-        }
-
-        html = result.body;
-
-        // Validate that we got real legislation content, not a bot challenge
-        if (html.includes('window["bobcmn"]') || !html.includes('unit_arti')) {
-          console.log(` BLOCKED (bot challenge or no article content)`);
-          results.push({ act: act.shortName, provisions: 0, definitions: 0, status: 'BLOCKED' });
-          failed++;
-          processed++;
-          continue;
-        }
-
-        fs.writeFileSync(sourceFile, html);
-        console.log(` OK (${(html.length / 1024).toFixed(0)} KB)`);
-      }
-
-      const parsed = parsePakistaniHtml(html, act);
-      fs.writeFileSync(seedFile, JSON.stringify(parsed, null, 2));
-      totalProvisions += parsed.provisions.length;
-      totalDefinitions += parsed.definitions.length;
-      console.log(`    -> ${parsed.provisions.length} provisions, ${parsed.definitions.length} definitions extracted`);
-      results.push({
-        act: act.shortName,
-        provisions: parsed.provisions.length,
-        definitions: parsed.definitions.length,
-        status: 'OK',
-      });
-    } catch (error) {
-      const msg = error instanceof Error ? error.message : String(error);
-      console.log(`  ERROR ${act.shortName}: ${msg}`);
-      results.push({ act: act.shortName, provisions: 0, definitions: 0, status: `ERROR: ${msg.substring(0, 80)}` });
-      failed++;
+  let html: string;
+  if (skipFetch && fs.existsSync(htmlPath)) {
+    html = fs.readFileSync(htmlPath, 'utf-8');
+  } else {
+    const page = await fetchText(lawUrl);
+    if (page.status !== 200) {
+      throw new Error(`Law page HTTP ${page.status}: ${lawUrl}`);
     }
-
-    processed++;
+    html = page.body;
+    fs.writeFileSync(htmlPath, html);
   }
 
-  console.log(`\n${'='.repeat(72)}`);
-  console.log('Ingestion Report');
-  console.log('='.repeat(72));
-  console.log(`\n  Source:       api.sejm.gov.pl (Sejm ELI API)`);
-  console.log(`  License:     Public domain (Art. 4 Pakistani Copyright Act)`);
-  console.log(`  Processed:   ${processed}`);
-  console.log(`  Cached:      ${skipped}`);
-  console.log(`  Failed:      ${failed}`);
-  console.log(`  Total provisions:  ${totalProvisions}`);
-  console.log(`  Total definitions: ${totalDefinitions}`);
-  console.log(`\n  Per-Act breakdown:`);
-  console.log(`  ${'Act'.padEnd(20)} ${'Provisions'.padStart(12)} ${'Definitions'.padStart(13)} ${'Status'.padStart(10)}`);
-  console.log(`  ${'-'.repeat(20)} ${'-'.repeat(12)} ${'-'.repeat(13)} ${'-'.repeat(10)}`);
-  for (const r of results) {
-    console.log(`  ${r.act.padEnd(20)} ${String(r.provisions).padStart(12)} ${String(r.definitions).padStart(13)} ${r.status.padStart(10)}`);
+  const pdfUrl = parseLawPagePdfUrl(html);
+  if (!pdfUrl) {
+    throw new Error(`No official PDF link found on law page: ${lawUrl}`);
   }
-  console.log('');
+
+  if (!(skipFetch && fs.existsSync(pdfPath))) {
+    const pdf = await fetchBinary(pdfUrl);
+    if (pdf.status !== 200) {
+      throw new Error(`PDF HTTP ${pdf.status}: ${pdfUrl}`);
+    }
+    fs.writeFileSync(pdfPath, pdf.body);
+  }
+
+  const text = extractTextFromPdf(pdfPath);
+  fs.writeFileSync(txtPath, text);
+
+  const provisions = parseProvisionsFromPdfText(text);
+  if (provisions.length === 0) {
+    throw new Error(`No provisions parsed from PDF: ${pdfUrl}`);
+  }
+
+  const definitions = extractDefinitions(provisions);
+
+  return {
+    id: target.id,
+    type: 'statute',
+    title: target.title,
+    title_en: target.titleEn,
+    short_name: target.shortName,
+    status: target.status,
+    issued_date: target.promulgationDate,
+    in_force_date: target.promulgationDate,
+    url: lawUrl,
+    description: `Official consolidated text of ${target.title} (${target.actNo}) published by The Pakistan Code.`,
+    provisions,
+    definitions,
+  };
 }
 
 async function main(): Promise<void> {
   const { limit, skipFetch } = parseArgs();
+  const selected = limit ? TARGET_LAWS.slice(0, limit) : TARGET_LAWS;
 
-  console.log('Pakistani Law MCP -- Ingestion Pipeline');
-  console.log('====================================\n');
-  console.log(`  Source: api.sejm.gov.pl (Chancellery of the Sejm)`);
-  console.log(`  Format: ELI HTML (structured legislation text)`);
-  console.log(`  License: Public domain (Art. 4 Pakistani Copyright Act)`);
+  console.log('Pakistani Law MCP -- Real Data Ingestion');
+  console.log('=======================================\n');
+  console.log('Source: https://pakistancode.gov.pk/english/index.php');
+  console.log('Method: HTML scrape (law pages) + official PDF text extraction');
+  console.log(`Target laws: ${selected.length}`);
+  if (skipFetch) console.log('Mode: --skip-fetch (reuse downloaded HTML/PDF files)');
+  console.log('');
 
-  if (limit) console.log(`  --limit ${limit}`);
-  if (skipFetch) console.log(`  --skip-fetch`);
+  ensureDirs();
+  clearExistingSeedJson();
 
-  const acts = limit ? KEY_PAKISTANI_ACTS.slice(0, limit) : KEY_PAKISTANI_ACTS;
-  await fetchAndParseActs(acts, skipFetch);
+  let ok = 0;
+  let failed = 0;
+  let totalProvisions = 0;
+  let totalDefinitions = 0;
+
+  for (const target of selected) {
+    process.stdout.write(`Ingesting [${target.order}] ${target.shortName}... `);
+    try {
+      const act = await ingestLaw(target, skipFetch);
+      const outPath = path.join(SEED_DIR, target.fileName);
+      fs.writeFileSync(outPath, `${JSON.stringify(act, null, 2)}\n`);
+
+      totalProvisions += act.provisions.length;
+      totalDefinitions += act.definitions.length;
+      ok++;
+
+      console.log(`OK (${act.provisions.length} provisions, ${act.definitions.length} definitions)`);
+    } catch (error) {
+      failed++;
+      console.log(`FAILED (${error instanceof Error ? error.message : String(error)})`);
+    }
+  }
+
+  console.log('\nIngestion summary');
+  console.log('-----------------');
+  console.log(`Successful laws: ${ok}`);
+  console.log(`Failed laws:     ${failed}`);
+  console.log(`Provisions:      ${totalProvisions}`);
+  console.log(`Definitions:     ${totalDefinitions}`);
+  console.log(`Seed directory:  ${SEED_DIR}`);
+
+  if (failed > 0) {
+    process.exitCode = 1;
+  }
 }
 
 main().catch(error => {
-  console.error('Fatal error:', error);
+  console.error('Fatal ingestion error:', error);
   process.exit(1);
 });

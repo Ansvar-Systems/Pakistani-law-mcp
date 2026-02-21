@@ -78,15 +78,16 @@ describe('Negative tests', () => {
 describe('All 10 laws are present', () => {
   const expectedDocs = [
     'pk-eto-2002',
-    'pk-it-policy-framework',
-    'pk-ncsp-2021',
-    'pk-pdp-bill-2023',
     'pk-peca-2016',
     'pk-pta-1996',
-    'pk-pta-content-rules-2020',
     'pk-rtia-2017',
-    'pk-sbp-tgf-2024',
-    'pk-trade-secrets-competition',  ];
+    'pk-payment-systems-2007',
+    'pk-pemra-2002',
+    'pk-investigation-fair-trial-2013',
+    'pk-competition-act-2010',
+    'pk-sbp-act-1956',
+    'pk-fia-act-1974',
+  ];
 
   for (const docId of expectedDocs) {
     it(`should contain document: ${docId}`, () => {
