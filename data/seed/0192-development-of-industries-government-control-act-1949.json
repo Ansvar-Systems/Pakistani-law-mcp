@@ -1,0 +1,68 @@
+{
+  "id": "pk-development-of-industries-government-control-act-1949",
+  "type": "statute",
+  "title": "Development of Industries (Government Control) Act, 1949",
+  "title_en": "Development of Industries (Government Control) Act, 1949",
+  "short_name": "DOICA",
+  "status": "in_force",
+  "issued_date": "1949-03-20",
+  "in_force_date": "1949-03-20",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-ap%2BVYw%3D%3D-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Development of Industries (Government Control) Act, 1949 (XIII of 1949) published by The Pakistan Code (General Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement",
+      "content": "_(1) This Act may be called the Development of\nIndustries 1[Government Control] Act, 1949.\n3\n[(2) It extends to the whole of Pakistan.]\n(3) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions. In this Act unless there is anything repugnant in the subject or context,",
+      "content": "_\n(a)        “industry” means any industry engaged in the manufacture or processing of\nspecified goods or commodities and includes any industry ancillary to such an\nindustry, and “industries” shall be construed accordingly;\n(b)        “specified” means specified in the Schedule to this Act.\n2\n[(c)   “appropriate Government” means, in relation to industries relating to or\nconnected with any matter enumerated in the Federal Legislative List in the\nFourth Schedule to the Constitution, including industries the development\nwhereof under Federal Control is declared by Federal Law to be expedient in\nthe public interest, the Federal Government and, in relation to other industries,\nthe Provisional Government].\n1\nSubs. by A.O., 1964, Art. 2 and Sch., for “Federal Control”.\n2\nSubs. by F.A.O. 1975, Art. 2 and Table, for “Central Government”.\n3\nSubs. by the Central Laws (Statute Reform) Ordinance, 1960 (21 of 1960), s. 3 and 2nd Sch."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Declaration. It is hereby declared that the development under 1[Government Control] of",
+      "content": "industries to which this Act applies is expedient in the public interest.\n2[3A. Power to regulate industry. [In pursuance of the declaration made in the last preceding\nsection the 3[appropriate Government] may in respect of any industry to which this Act applies, plan\nand regulate the setting up of any new undertaking or the development of any new or existing\nundertaking.]"
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Power to make rules. The 3[appropriate Government] may, by notification in the official",
+      "content": "Gazette, make rules to carry the provisions of this Act into effect."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Rules to be subject to previous publication",
+      "content": "_(1) All rules made under this Act shall be\nsubject to the condition of previous publication and the date to be specified under clause (3) of section\n23 of the General Clauses Act, 1897 (X of 1897), shall not be less than one month from the date on\nwhich the draft of the proposed rules was published.\n(2) All such rules shall be published in the official Gazette and shall, unless some later date is\nappointed in such rules, come into force on the date of such publication."
+    },
+    {
+      "provision_ref": "sec10",
+      "section": "10",
+      "title": "Section 10. Machine",
+      "content": "tools, Precision-tools, Gauges and Workshop equipment."
+    },
+    {
+      "provision_ref": "sec14",
+      "section": "14",
+      "title": "Section 14. Paper, Cardboard and Pulp",
+      "content": "1\nSubs. by A.O., 1964 Art. 2 and Sch., for “Federal Control”.\n2\nIns. by Act No. (XLIV of 1950), s.2.\n3\nSubs. by A. O., 1964, Art. 2 and Sch, for “Central Government”."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "industry",
+      "definition": "any industry engaged in the manufacture or processing of specified goods or commodities and includes any industry ancillary to such an industry, and “industries” shall be construed accordingly;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "specified",
+      "definition": "specified in the Schedule to this Act. 2 [(c) “appropriate Government” means, in relation to industries relating to or connected with any matter enumerated in the Federal Legislative List in the Fourth Schedule to the Constitution, including industries the development whereof under Federal Control is declared by Federal Law to be expedient in the public interest, the Federal Government and, in relation to other industries, the Provisional Government]. 1 Subs. by A.O., 1964, Art. 2 and Sch., for “Federal Control”. 2 Subs. by F.A.O. 1975, Art. 2 and Table, for “Central Government”. 3 Subs. by the Central Laws (Statute Reform) Ordinance, 1960 (21 of 1960), s. 3 and 2nd Sch.",
+      "source_provision": "sec2"
+    }
+  ]
+}

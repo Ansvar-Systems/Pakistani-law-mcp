@@ -1,0 +1,85 @@
+{
+  "id": "pk-pakistan-institute-of-international-affairs-administration-ordinance-1980",
+  "type": "statute",
+  "title": "Pakistan Institute of International Affairs (Administration) Ordinance, 1980",
+  "title_en": "Pakistan Institute of International Affairs (Administration) Ordinance, 1980",
+  "short_name": "PIOIA",
+  "status": "in_force",
+  "issued_date": "1980-03-09",
+  "in_force_date": "1980-03-09",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-cpqX-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Pakistan Institute of International Affairs (Administration) Ordinance, 1980 (VII of 1980) published by The Pakistan Code (Departmental Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec11",
+      "section": "11",
+      "title": "Section 11. Removal of difficulties",
+      "content": "(ADMINISTRATION) ORDINANCE, 1980\nORDINANCE No. VII OF 1980\n[10th March, 1980]\nAn Ordinance to provide for the proper administration of the Affairs of the Pakistan Institute of\nInternational Affairs\nWHEREAS it is expedient to provide for the proper administration of the affairs of the\nPakistan Institute of International Affairs;__\nAND WHEREAS the President is              satisfied that circumstances exist which render it\nnecessary to take immediate action;\nNOW THEREFORE, in pursuance of the Proclamation of the fifth day of July, 1977, read\nwith the Laws (Continuance in Force) Order, 1977 (C.M.L.A. Order No.1 of 1977), and in exercise of\nall powers enabling him in that behalf, the President is pleased to make and promulgate the following\nOrdinance:__"
+    },
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title and commencement",
+      "content": "(1) This Ordinance may be called the Pakistan Institute\nof International Affairs (Administration) Ordinance, 1980.\n(2) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions. In this Ordinance, unless there is anything repugnant in the subject or",
+      "content": "context,—\n(a)     “Administrator” means the Administrator appointed under section 5;\n(b)     “Institute” means the Pakistan Institute of International Affairs registered\nunder the Societies Registration Act, (XXI 1860); and\n(c)     “Managing Committee” means the Managing Committee set up under section"
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. 3. Ordinance to over",
+      "content": "ride other laws. This Ordinance shall have effect notwithstanding\nanything contained in the Societies Registration Act, (XXI 1860), or any other law for the time being\nin force."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Dissolution of Council of the Institute, etc. On the commencement of this Ordinance,",
+      "content": "(a)     the Council of the Institute shall stand dissolved;\n(b)     any person exercising or having the right to exercise immediately before the\ncommencement of this Ordinance any power or function in relation to the\nInstitute shall cease to exercise or to have the right to exercise such power or\nfunction ;\n(c)    the administration of the affairs of the Institute shall vest in the Administrator;\n(d)    all assets, rights, powers, authorities and privileges, all property movable and\nimmovable, cash and bank balances, reserves funds, investments, and all other\ninterests and rights in, or arising out of, such property, of the Institute shall\nstand transferred to, and vest in, the Administrator;\n(e)    all debts and liabilities incurred, all obligations under taken, all contracts\nentered into, and all agreements made by or with the Institute, shall stand\ntransferred to, and be deemed to have been incurred, undertaken, entered into\nor made, by or with, the Administrator ;\n(f)    any sum payable to, or recoverable by, the Institute shall be deemed to be\npayable to, or recoverable by, the Administrator; and\n(g)    all suits and other legal proceedings instituted by or against the Institute before\nsuch commencement shall be deemed to have been instituted by or against the\nAdministrator and may be continued or proceeded with accordingly."
+    },
+    {
+      "provision_ref": "sec6",
+      "section": "6",
+      "title": "Section 6. Future Management of the Institute. Within six months of the commencement of this",
+      "content": "Ordinance, the Administrator shall, in consultation with the Managing Committee, prepare and\nsubmit to the Federal Government detailed proposals as to—\n(a)    the future organizational set up of the Institute ;\n(b)    financial and administrative measures designed to make the Institute a viable\nproposition ; and\n(c)    the recovery of the arrears and dues of the Institute."
+    },
+    {
+      "provision_ref": "sec7",
+      "section": "7",
+      "title": "Section 7. Continuance in service of employees. Unless the Administrator otherwise directs in any",
+      "content": "particular case, all the employees of the Institute in employment immediately before the\ncommencement of this Ordinance shall continue in their respective employments on the same terms\nand conditions as were applicable to them immediately before such commencement."
+    },
+    {
+      "provision_ref": "sec8",
+      "section": "8",
+      "title": "Section 8. Bar of jurisdiction. No court shall grant any injunction or make any order or entertain any",
+      "content": "proceedings in relation to anything in good faith done or intended to be done under this Ordinance."
+    },
+    {
+      "provision_ref": "sec9",
+      "section": "9",
+      "title": "Section 9. indemnity. No suit or other legal proceeding shall lie against the Federal Government or",
+      "content": "the Administrator or any other person in respect of anything in good faith done or intended to be\ndone under this Ordinance."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Administrator",
+      "definition": "the Administrator appointed under section 5;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "Institute",
+      "definition": "the Pakistan Institute of International Affairs registered under the Societies Registration Act, (XXI 1860); and",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "Managing Committee",
+      "definition": "the Managing Committee set up under section",
+      "source_provision": "sec2"
+    }
+  ]
+}

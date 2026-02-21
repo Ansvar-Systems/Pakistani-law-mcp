@@ -1,0 +1,56 @@
+{
+  "id": "pk-acting-as-agents-of-moallims-prohibition-ordinance-1980",
+  "type": "statute",
+  "title": "Acting as Agents of Moallims (Prohibition) Ordinance, 1980",
+  "title_en": "Acting as Agents of Moallims (Prohibition) Ordinance, 1980",
+  "short_name": "AAAOM",
+  "status": "in_force",
+  "issued_date": "1980-09-28",
+  "in_force_date": "1980-09-28",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-cp6a-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Acting as Agents of Moallims (Prohibition) Ordinance, 1980 (L of 1980) published by The Pakistan Code (Civil Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Power to make rules",
+      "content": "1980\nORDINANCE No. L OF 1980\n[29th September, 1980]\nAn Ordinance to prohibit persons from acting as agents of Moallims.\nWHEREAS it is expedient to prohibit persons from acting as agents of Moallims and to provide\nfor matters ancillary thereto;\nAND WHEREAS the President is satisfied that circumstances exist which render it necessary\nto take immediate action;\nNOW, THEREFORE, in pursuance of the Proclamation of the fifth day of July, 1977, read\nwith the Laws (Continuance in Force) Order 1977 (CMLA Order No. 1 of 1977), and in exercise of all\npowers enabling him in that behalf, the President is pleased to make and promulgate the following\nOrdinance :—"
+    },
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement",
+      "content": "(1) This Ordinance may be called the Acting as\nAgents of Moallims (Prohibition) Ordinance, 1980.\n(2) it extends to the whole of Pakistan\n(3) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions. In this Ordinance, unless, there is anything repugnant in the subject or",
+      "content": "context,—\n(a)     “intending pilgrim” means a person intending to proceed to Saudi Arabia to\nperform Haj under Haj Policy announced every year by the Federal\nGovernment; and\n(b)     “Moallim” means a Moallim or Daleel, including a person or corporation,\nnominated and approved by the Government of the Kingdom of Saudi Arabia\nto act as Kafeel for Hajis during Haj season."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. List of Moallims and their selection",
+      "content": "(1) The Federal government shall, keeping in view\nthe welfare and convenience of the intending pilgrims, publish a list of Moailims from which an\nintending pilgrim may select a Moallim before proceeding for Haj from Pakistan and specify the\nmanner in which a Moallim is to be so selected.\n(2) Selection of a Moallim made under sub-section (1) shall be final and no intending pilgrim\nshall be authorised to change that selection at any subsequent stage."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Acting as agents, etc. of Moallims prohibited",
+      "content": "(1) No person or group of persons shall—\n(a)     act, or hold himself or itself out, as an agent, attorney or representative of any\nMoallim ; or\n(b)     solicit, or in any way attempt to solicit, the appointment or selection of any\nparticular person as the Moallim of an intending pilgrim ; or\n(c)    for securing any personal or pecuniary advantage for himself or itself or for any\nother person on whose behalf he or it may be acting, seek—\n(i)     to compel or induce an intending pilgrim to appoint or select any\nparticular person as his Moallim , or\n(ii)    to influence the choice of a Moallim by an intending pilgrim ; or\n(d)    establish an office for any of the purposes aforesaid.\n(2) Whoever contravenes the provisions of sub-section (1) shall be punishable with simple\nimprisonment for a term which may extend to two years, or with fine which may extend to five\nthousand rupees, or with both.\n(3) No court shall take cognizance of an offence punishable under sub-section (2) except upon\na complaint in writing made by, or under the authority of, the Federal Government."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "intending pilgrim",
+      "definition": "a person intending to proceed to Saudi Arabia to perform Haj under Haj Policy announced every year by the Federal Government; and",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "Moallim",
+      "definition": "a Moallim or Daleel, including a person or corporation, nominated and approved by the Government of the Kingdom of Saudi Arabia to act as Kafeel for Hajis during Haj season.",
+      "source_provision": "sec2"
+    }
+  ]
+}

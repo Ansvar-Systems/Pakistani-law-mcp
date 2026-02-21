@@ -20,16 +20,16 @@ beforeAll(() => {
 });
 
 describe('Database integrity', () => {
-  it('should have 10 legal documents (excluding EU cross-refs)', () => {
+  it('should have a full-corpus legal document set (excluding EU cross-refs)', () => {
     const row = db.prepare(
       "SELECT COUNT(*) as cnt FROM legal_documents WHERE id != 'eu-cross-references'"
     ).get() as { cnt: number };
-    expect(row.cnt).toBe(10);
+    expect(row.cnt).toBeGreaterThanOrEqual(1000);
   });
 
-  it('should have at least 103 provisions', () => {
+  it('should have a large real-data provision corpus', () => {
     const row = db.prepare('SELECT COUNT(*) as cnt FROM legal_provisions').get() as { cnt: number };
-    expect(row.cnt).toBeGreaterThanOrEqual(103);
+    expect(row.cnt).toBeGreaterThanOrEqual(5000);
   });
 
   it('should have FTS index', () => {
@@ -75,7 +75,7 @@ describe('Negative tests', () => {
   });
 });
 
-describe('All 10 laws are present', () => {
+describe('Core 10 reference laws are present', () => {
   const expectedDocs = [
     'pk-eto-2002',
     'pk-peca-2016',

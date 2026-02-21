@@ -1,0 +1,83 @@
+{
+  "id": "pk-staple-cotton-excise-duty-ordinance-1978",
+  "type": "statute",
+  "title": "Staple Cotton (Excise Duty) Ordinance, 1978",
+  "title_en": "Staple Cotton (Excise Duty) Ordinance, 1978",
+  "short_name": "SCDO",
+  "status": "in_force",
+  "issued_date": "1978-06-24",
+  "in_force_date": "1978-06-24",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-cZqc-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Staple Cotton (Excise Duty) Ordinance, 1978 (XXX of 1978) published by The Pakistan Code (Excise/Taxation Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec7",
+      "section": "7",
+      "title": "Section 7. Application of the provisions of the Central Excises and Salt Act, 1944",
+      "content": "ORDINANCE NO. XXX OF 1978\n[25th June, 1978]\nAn Ordinance to provide for the levy of a duty of excise on staple cotton produced by ginning\nfactories and sold to textile mills.\nWHEREAS it is expedient to provide for the levy of excise duty on staple cotton produced by\nginning factories and sold to textile mills;\nAND WHEREAS the President is satisfied that circumstances exist which render it necessary\nto take immediate action;\nNOW, THEREFORE, in pursuance of the Proclamation of the fifth day of July, 1977, read\nwith the Laws (Continuance in Force) Order, 1977, (C.M.L.A. Order No. I of 1977), and in exercise\nof all powers enabling him in that behalf, the President is pleased to make and promulgate the following\nOrdinance:—"
+    },
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title and commencement",
+      "content": "(1) This Ordinance may be called the Staple Cotton\n(Excise Duty) Ordinance, 1978.\n(2) It shall come into force at once and shall be deemed to have taken effect on the first day of\nJuly, 1976:\nProvided that, unless the Federal Government, by notification in the official Gazette, otherwise\ndirects, it shall not apply to staple cotton of any crop following the crop of 1976-77 and shall stand\nrepealed on the first day of July, 1978."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions. In this Ordinance, unless there is anything repugnant in the subject or context,",
+      "content": "(a)     “Board” means the Central Board of Revenue constituted under the Central\nBoard of Revenue Act, 1924 (IV of 1924);\n(b)     “Corporation” means the Cotton Trading Corporation of Pakistan;\n(c)     “factory” means a cotton ginning factory producing staple cotton for sale;\n(d)     “sale price” means the price of four hundred and fifteen rupees per maund,\ninclusive of excise duty, at which staple cotton is sold by the Corporation to a\ntextile mill;\n(e)     “staple cotton” means ginned cotton other than desi-cotton"
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Rate of duty. There shall be levied and collected a duty of exercise on staple cotton produced",
+      "content": "and sold by a factory, whether directly or through the Corporation, to any buyer, other than the Cotton\nExport Corporation, at the rates set forth in the Schedule:\nProvided that, where the staple cotton is sold through the Corporation at the rates prescribed\nby the Corporation, the duty shall be payable by the Corporation out of the sale price."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Manner of payment of duty. The duty shall be paid at the time of sale and before the",
+      "content": "delivery of staple cotton to a textile mill."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Exemptions. The Board may, by special order in each case, exempt from the payment of the",
+      "content": "whole or any part of the duty leviable under this Ordinance, under circumstances of special nature to\nbe stated in such order, any staple cotton on which such duty is leviable."
+    },
+    {
+      "provision_ref": "sec6",
+      "section": "6",
+      "title": "Section 6. Power to make rules. The Central Board of Revenue may, by notification in the official",
+      "content": "Gazette, make rules to carry into effect the purposes of this ordinance."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Board",
+      "definition": "the Central Board of Revenue constituted under the Central Board of Revenue Act, 1924 (IV of 1924);",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "Corporation",
+      "definition": "the Cotton Trading Corporation of Pakistan;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "factory",
+      "definition": "a cotton ginning factory producing staple cotton for sale;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "sale price",
+      "definition": "the price of four hundred and fifteen rupees per maund, inclusive of excise duty, at which staple cotton is sold by the Corporation to a textile mill;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "staple cotton",
+      "definition": "ginned cotton other than desi-cotton",
+      "source_provision": "sec2"
+    }
+  ]
+}

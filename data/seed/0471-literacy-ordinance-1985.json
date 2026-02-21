@@ -1,0 +1,60 @@
+{
+  "id": "pk-literacy-ordinance-1985",
+  "type": "statute",
+  "title": "Literacy Ordinance, 1985",
+  "title_en": "Literacy Ordinance, 1985",
+  "short_name": "Literacy Ordinance, 1985",
+  "status": "in_force",
+  "issued_date": "1985-03-30",
+  "in_force_date": "1985-03-30",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-b5uV-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Literacy Ordinance, 1985 (XXVII of 1985) published by The Pakistan Code (General Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Savings",
+      "content": "ORDINANCE No. XXVII OF 1985\n[31st March, 1985]\nAn Ordinance to encourage Literacy\nWHEREAS Islam assigns great importance to the acquisition of knowledge and makes its\npursuit incumbent upon every Muslim ;\nAND WHEREAS the literacy ratio in Pakistan is very low which is a matter of great concern\nfor the Government ;\nAND WHEREAS the President is satisfied that circumstances exist which render it necessary\nto take immediate action ;\nNOW, THEREFORE, in pursuance of the Proclamation of the fifth day of July, 1977, and in\nexercise of all powers enabling him in that behalf, the President is pleased to make and promulgate\nthe following Ordinance:—"
+    },
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent, application and commencement",
+      "content": "(1) This Ordinance may be called\n(2) It extends to the Islamabad Capital territory and also applies to the establishments and\ninstitutions under the control of the Federal Government throughout Pakistan.\n1\n[(3) It shall come into force on such 2date as the Federal Government may, by notification in\nthe official Gazette, appoint.]"
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions",
+      "content": "In this Ordinance, unless there is anything repugnant in the subject or\ncontext,—\n(a)        “literate person” means a person who is certified by an authority to be able to\nread a newspaper and write a simple letter in any language;\n(b)        “passport” has the same meaning as in the Passports Act, 1974 (XX of 1974) ;\n(c)        “driving licence” means a licence issued under the Motor Vehicles Ordinance,\n1965 (W. P. Ordinance XIX of 1965), which authorizes the holder thereof to\ndrive a motor vehicle;\n(d)        “arms licence” means a licence issued under the Pakistan Arms Ordinance,\n1985 (W. P. Ordinance XX of 1965) ;\n1\nSubs. and shall be deemed always to have been so subs. by Act VII of 1987, s.2.\n2\ni.e. 1­1­93, vide Ministry of Education’s Notification No. F.5­4/91­NFE­II, dt. 15­8­1991,see Gaz. of Pak. Ext. Pt. III, K­1991, p. 419.\n(e)    “authority” means the Headmaster of the Middle or High School of the District\nin which the applicant is residing; or an officer of the Literacy and Mass\nEducation Commission or the Federal Ministry of Education or Federal\nDirectorate of Education; or a person authorised to issue a passport or a driving\nlicense or an arms license; or the appointing authorities in the establishments or\nestablishments under the control of the Federal Government."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Issue of passports, etc., to and employment of, literate persons only. Notwithstanding",
+      "content": "anything contained in any other law for the time being in force,__\n(a)     a passport other than a Hajj passport a driving licence or an arms licence shall\nbe issued only to a literate person; and\n(b)     only a literate person shall be eligible for employment under a local body or an\nestablishment or institution under the control of the Federal Government:\nProvided that this section not be deemed to apply to the renewal of licences or passports issued,\nor to appointments made, before the date on which this Ordinance comes into force."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "literate person",
+      "definition": "a person who is certified by an authority to be able to read a newspaper and write a simple letter in any language;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "driving licence",
+      "definition": "a licence issued under the Motor Vehicles Ordinance, 1965 (W. P. Ordinance XIX of 1965), which authorizes the holder thereof to drive a motor vehicle;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "arms licence",
+      "definition": "a licence issued under the Pakistan Arms Ordinance, 1985 (W. P. Ordinance XX of 1965) ; 1 Subs. and shall be deemed always to have been so subs. by Act VII of 1987, s.2. 2 i.e. 1­1­93, vide Ministry of Education’s Notification No. F.5­4/91­NFE­II, dt. 15­8­1991,see Gaz. of Pak. Ext. Pt. III, K­1991, p. 419.",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "authority",
+      "definition": "the Headmaster of the Middle or High School of the District in which the applicant is residing; or an officer of the Literacy and Mass Education Commission or the Federal Ministry of Education or Federal Directorate of Education; or a person authorised to issue a passport or a driving license or an arms license; or the appointing authorities in the establishments or establishments under the control of the Federal Government.",
+      "source_provision": "sec2"
+    }
+  ]
+}

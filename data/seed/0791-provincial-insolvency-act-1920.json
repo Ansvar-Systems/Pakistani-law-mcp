@@ -1,0 +1,526 @@
+{
+  "id": "pk-provincial-insolvency-act-1920",
+  "type": "statute",
+  "title": "Provincial Insolvency Act, 1920",
+  "title_en": "Provincial Insolvency Act, 1920",
+  "short_name": "PIA",
+  "status": "in_force",
+  "issued_date": "1920-02-19",
+  "in_force_date": "1920-02-19",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-apuV-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Provincial Insolvency Act, 1920 (V of 1920) published by The Pakistan Code (General Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title and extent",
+      "content": "_(1) This Act may be called the Provincial Insolvency Act, 1920.\n6\n[(2) It extends to the whole of Pakistan except the Karachi Division 7* *."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions.___(1) In this Act, unless there is anything repugnant in the subject or context,",
+      "content": "(a)         “creditor” includes a decree-holder, “debt” includes a judgment-debt, and\n“debtor” includes a judgment-debtor ;\n(b)         “District Court” means the principal Civil Court of original jurisdiction in any\narea 8[outside the limits of the ordinary original civil jurisdiction of the 9[High\nCourt of Sind] as defined in section 2 of the 10[Insolvency (Karachi Division\nand Dacca) Act (III of 1909)];\n(c)         “prescribed” means prescribed by rules made under this Act ;\n(d)         “property” includes any property over which or the profits of which any person\nas a disposing power, which he may exercise for his own benefit ;\n1\nFor statement of Objects and Reasons, see Gazette of India, 1918, Pt. V, p.63 ; for Report of Select Committee, see ibid., 1919, Pt. V, p.119; and ibid.,\n1920, Pt. V, p.9 ; and for Proceedings in Council, see ibid., 1918, Pt. VI, pp. 761 and 1322, and ibid., 1920, Pt. VI, pp.15 and 389.\nThis Act has been amended in the Punjab by Punjab Acts 7 of 1934 and 3 of 1939 ; in Sind by Sind Act 25 of 1939 ; and in the Taluka of Karachi by\nBom. Act 3 of 1935.\nIt has been amended in its application to the Province of West Pakistan by West Pakistan Ordinance 8 of 1959.\nIt has been extended by notification under section 5 of the Scheduled Districts Act, 1874 (14 of 1874), to __\nSind__see Gazette of India, 1920, Pt.I, p. 2052;\nScheduled Districts in the N.W.F.P__see Gazette of India, 1920, Pt. II, p. 910 ;\nBaluchistan—see Baluchistan local R.& O.\nIt has been extended to the Leased Areas of Baluchistan; see the Leased Areas (Laws) Order, 1950 (G.G.O.3 of 1950) ; and also applied in the Federated\nAreas of Baluchistan, see Gazette of India, 1937, Pt. I. p. 1499.\n2\nThe words “in British India” omitted by A. O., 1949.\n3\nThe words “the Presidency-towns and” omitted, ibid.\n4\nSubs. by F.A.O., 1975, Art, 2 and Sch., for “towns of Karachi and Dacca”, which was previously amended by various enactments.\n5\nThe original words “the town of Rangoon” have successively been amended by the Insolvency (Amdt.) Act, 1926 (9 of 1926), s.11, A.O., 1937, and\nOrd. 21 of 1960, s. 3 and 2nd Sch. (with affect from the 14th October, 1955), to read as above.\n6\nSub-section (2) has successively been amended by A.O., 1949, Ord. 21 of 1960, s. 3 and 2nd Sch. (with effect from the 14th October, 1955), the Repealing\nand Amending Ordinance, 1961 (1 of 1961) and A.O., 1964, Art. 2 and Sch., to read as above.\n7\nThe words “and Dacca” omitted by F.A.O., 1975, Art. 2 and Sch.\n8\nThe original words “outside the local limits for the time being of the Presidency-towns and of the Town of Rangoon”, have successively been amended\nby the Insolvency (Amdt.) Act, 1926 (9 of 1926), s. 11, A. O. 1937 and A. O. 1949, to read as above.\n9\nSubs, by the Federal Laws (Revision and Declaration) Ordinance, 1981 (27 of 1981), s. 3 and Sch.II, for “Bench of the High Court of West Paksitan at\nKarachi”, which was previously by various enactments.\n10\nSubs. by A.O., 1964, Art 2 and Sch., for “Insolvency (Dacca and the Federal Territory of Karachi) Act” which had been subs. by Ord. 1 of 1961 s. 3\nand 2nd Sch., for “Insolvency (Capital of the Federation and Dacca), Act”.\n(e)       “secured creditor” means a person holding a mortgage, charge or lien on the\nproperty debtor or any part thereof as a security for a debt due to him from the\ndebtor ; and\n(f)        “transfer of property” includes a transfer of any interest in property and the\ncreation of any charge upon property.\n(2) Words and expression used in this Act and defined in the Code of Civil Procedure, 1908 (V\nof 1908), and not hereinbefore defined shall have the same meanings as those respectively attributed\nto them by the said Code."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Insolvency Jurisdiction",
+      "content": "_(1) The District Courts shall be the Courts having jurisdiction\nunder this Act :\nProvided that the 1[Provincial Government] may, by notification in the 2[official Gazette],\ninvest any Court subordinate to a District Court with jurisdiction in any class of cases, and any Court\nso invested shall within the local limits of its jurisdiction have concurrent jurisdiction with the District\nCourt under this Act.\n(2) For the purpose of this Act, a Court of Small Causes shall be deemed to be subordinate to\nthe District Court."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Power of Court to decide all questions arising in insolvency",
+      "content": "(1) Subject to the provision\nof this Act, the Court shall have full power to decide all questions whether of title or priority, or of any\nnature whatsoever, and whether involving matters of law or of fact, which may arise in any case of\ninsolvency coming within the cognizance of the Court, or which the Court may deem it expedient or\nnecessary to decide for the purpose of doing complete justice or making a complete distribution of\nproperty in any such case.\n(2) Subject to the provisions of this Act and notwithstanding anything contained in any other\nlaw for the time being in force, every such decision shall be final and binding for all purposes as\nbetween, on the one hand, the debtor and the debtor's estate and, on the other hand, all claimants against\nhim or it and all persons claiming through or under them or any of them.\n(3) Where the Court does not deem it expedient or necessary to decide any question of the\nnature referred to in sub-section (1), but has a reason to believe that the debtor has a saleable interest\nin any property, the Court may without further inquiry sell such interest in such manner and subject to\nsuch conditions as it may think fit."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. General powers of Courts",
+      "content": "_ (1) Subject to the provisions of this Act, the Court, in regard\nto proceedings under this Act, shall have the same powers and shall follow the same procedure as it\nhas and follows in the exercise of original civil jurisdiction.\n(2) Subject as aforesaid, High Courts and District Courts, in regard to proceedings under this\nAct in Courts subordinate to them shall have the same powers and shall follow the same procedure as\nthey respectively have and follow in regard to civil suits.\n1\nSubs. by A.O., 1937, for “L. G.”.\n2\nSubs, ibid, for “local official Gazette”.\nActs of Insolvency"
+    },
+    {
+      "provision_ref": "sec6",
+      "section": "6",
+      "title": "Section 6. Acts of insolvency. A debtor commits an act of insolvency in each of the following cases",
+      "content": "namely :___\n(a)        If in 1[Pakistan] or elsewhere, he makes a transfer of all or substantially all his\nproperty to a third person for the benefit of his creditors generally ;\n(b)        If, in 1[Pakistan] or elsewhere, he makes a transfer of his property or of any part\nthereof, with intent to defeat or delay his creditors;\n(c)        If, in 1[Pakistan] or elsewhere, he makes any transfer of his property, or of any\npart thereof, which would, under this or any other enactment for the time being\nin force, be void as a fraudulent preference if he were adjudged an insolvent ;\n(d)        if, with intent to defeat or delay his creditors,___\n(i)        he departs or remains out of the 1[Pakistan],\n(ii)       he departs from his dwelling-house or usual place of business or\notherwise absents himself,\n(iii)      he secludes himself so as to deprive his creditors of the means of\ncommunicating with him ;\n(e)        if any of his property has been sold in execution of the decree of any Court for\nthe payment of money ;\n(f)        if he petitions to be adjudged an insolvent under the provisions of this Act ;\n(g)        if he gives notice to any of his creditors that he has suspended, or that he is about\nto suspend, payment of his debts ; or\n(h)        if he is imprisoned in execution of the decree of any Court for the payment of\nmoney.\nExplanation.- For the purposes of this section the act of an agent may be the act of the principal.\nPetition"
+    },
+    {
+      "provision_ref": "sec7",
+      "section": "7",
+      "title": "Section 7. Petition and adjudication",
+      "content": "_ Subject to the conditions specified in this Act, if a debtor\ncommits an act of insolvency, an insolvency petition may be presented either by a creditor or by the\ndebtor, and the Court may on such petition make an order (hereinafter called an order of adjudication)\nadjudging him an insolvent.\nExplanation.- The presentation of a petition by the debtor shall be deemed an act of insolvency\nwithin the meaning of this section, and on such petition the Court may make an order of adjudication.\n1\nSubs by the Central Laws (Statute Reform) Ordinance, 1960 (21 of 1960), s. 3 and 2nd Sch. (with effect from the 14th October, 1955), for “the Provinces\nand the Capital of the Federation” which had been subs. by A. O., 1949, for “British India”."
+    },
+    {
+      "provision_ref": "sec8",
+      "section": "8",
+      "title": "Section 8. Exemption of corporation, etc., from insolvency proceedings",
+      "content": "_ No insolvency petition\nshall be presented against any corporation or against any association or company registered under any\nenactment for the time being in force."
+    },
+    {
+      "provision_ref": "sec9",
+      "section": "9",
+      "title": "Section 9. Conditions on which creditor may petition",
+      "content": "_ (1) A creditor shall not be entitled to present\nin insolvency petition against a debtor unless___\n(a)        the debt owing by the debtor to the creditor, or, if two or more creditors join in\nthe petition, the aggregate amount of debts owing to such creditors, amounts to\nfive hundred rupees, and\n(b)        the debt is a liquidated sum payable either immediately or at some certain future\ntime, and\n(c)        the act of insolvency on which the petition is grounded has occurred within three\nmonths before the presentation of the petition.\n(2) If the petitioning creditor is a secured creditor, he shall in his petition either state that he is\nwilling to relinquish his security for the benefit of the creditors in the event of the debtor being\nadjudged insolvent, or give an estimate of the value of the security. In the latter case, he may be\nadmitted as a petitioning creditor to the extent of the balance of the debt due to him after deducting the\nvalue so estimated in the same way as if the were an unsecured creditor."
+    },
+    {
+      "provision_ref": "sec10",
+      "section": "10",
+      "title": "Section 10. Conditions on which debtor may petition",
+      "content": "_ (1) A debtor shall not be entitled to present\nan insolvency petition, unless he is unable to pay his debts and___\n(a)        his debts amount to five hundred rupees; or1\n(b)        he is under arrest or imprisonment in execution of the decree of any Court for\nthe payment of money ; or\n(c)        an order of attachment in execution of such a decree has been made, and is\nsubsisting, against his property.\n(2) A debtor is respect of whom an order of adjudication 2[whether made under the 3[Insolvency\n(Karachi Division) 4* * Act], or under this Act (III of 1909)] has been annulled, owing to his failure to\napply, or to prosecute an application for his discharge, shall not be entitled to present an insolvency\npetition without the leave of the Court by which the order of adjudication was annulled. Such Court\nshall not grant leave unless it is satisfied either that the debtor was prevented by any reasonable cause\nfrom presenting or prosecuting his application, as the case may be, or that the petition is founded on\nfacts substantially different from those contained in the petition on which the order of adjudication was\nmade."
+    },
+    {
+      "provision_ref": "sec11",
+      "section": "11",
+      "title": "Section 11. Court to which petition shall be presented. Every insolvency petition shall be presented",
+      "content": "to a Court having jurisdiction under this Act in any local area in which the debtor ordinarily resides or\ncarries on business, or personally works for gain, or if he has been arrested or imprisoned, where he is\nin custody :\n1\nIn its application to the Punjab, a new clause (aa) has been ins. here by the Punjab Relief of Indebtedness Act, 1934 (Punjab 7 of 1934), s. 3.\n2\nSubs. by the Insolvency (Amdt.) Act, 1927 (11 of 1927), s. 4 for “made under this Act”.\n3\nSubs. by A.O., 1964, Art. 2 and Sch., for “Insolvency (Dacca and the Federal Territory of Karachi) Act”, which had been subs. by the Repealing and\nAmending Ordinance, 1961 (1 of 1961), s. 3 and 2nd Sch., for “Insolvency (Capital of the Federation and Dacca), Act”.\n4\nThe words, “and Dacca” omitted by F.A.O., 1975, Art.2 and Sch.,\nProvided that no objection as to the place of presentment shall be allowed by any Court in the\nexercise of appellate or revisional jurisdiction unless such objection was taken in the Court by which\nthe petition was heard at the earliest possible opportunity, and unless there has been a consequent\nfailure of justice."
+    },
+    {
+      "provision_ref": "sec12",
+      "section": "12",
+      "title": "Section 12. Verification of petitions. Every insolvency petition shall be in writing and shall be signed",
+      "content": "and verified in the manner prescribed by the Code of Civil Procedure, 1908 (V of 1908), for signing\nand verifying plaints."
+    },
+    {
+      "provision_ref": "sec13",
+      "section": "13",
+      "title": "Section 13. Contains of petition",
+      "content": "_ (1) Every insolvency petition presented by a debtor shall contain\nthe following particulars, namely :___\n(a)     a statement that the debtor is unable to pay his debts ;\n(b)     the place where he ordinarily resides or carries on business or personally works\nfor gain, or, if he has been arrested or imprisoned, the place where he is in\ncustody ;\n(c)     the Court (if any) by whose order he has been arrested or imprisoned, or by\nwhich an order has been made for the attachment of his property, together with\nparticulars of the decree, in respect of which any such order has been made ;\n(d)    the amount and particulars of all pecuniary claims against him, together with\nthe names and residences of his creditors so far as they are known to, or can by\nthe exercise of reasonable care and diligence be ascertained by him ;\n(e)     the amount and particulars of all his property together with___\n(i)     a specification of the value of all such property not consisting of money;\n(ii)    the place or places at which any such property is to be found ; and\n(iii)   a declaration of his willingness to place at the disposal of the Court all\nsuch property save in so far as it includes such particulars (not being his\nbooks of account) as are exempted by the Code of Civil Procedure, 1908\n(V of 1908), or by any other enactment for the time being in force from\nliability to attachment and sale in execution of a decree ;\n(f)     a statement whether the debtor has on any previous occasion filed a petition to\nbe adjudged an insolvent, and (where such a petition has been filed)___\n(i)     if such petition has been dismissed, the reasons for such dismissal, or\n(ii)    if the debtor has been adjudged an insolvent, concise particulars of the\ninsolvency, including a statement whether any previous adjudication has\nbeen annulled and, if so, the grounds therefor.\n(2) Every insolvency petition presented by a creditor or creditors shall set forth the particulars\nregarding the debtor specified in clause (b) of sub-section (1), and shall also specify___\n(a)     the act of insolvency committed by such debtor, together with the date of its\ncommission ; and\n(b)        the amount and particulars of his or their pecuniary claim or claims against such\ndebtor."
+    },
+    {
+      "provision_ref": "sec14",
+      "section": "14",
+      "title": "Section 14. Withdrawal of petitions. No petition, whether presented by a debtor or by a creditor, shall",
+      "content": "be withdrawn without the leave of the Court."
+    },
+    {
+      "provision_ref": "sec15",
+      "section": "15",
+      "title": "Section 15. Consolidation of petitions. Where two or more insolvency petitions are presented against",
+      "content": "the same debtor, or where separate petitions are presented against joint debtors, the Court may\nconsolidate the proceedings or any of them, on such terms as the Court thinks fit."
+    },
+    {
+      "provision_ref": "sec16",
+      "section": "16",
+      "title": "Section 16. Power to change carriage of proceedings. Where the petitioner does not proceed with",
+      "content": "due diligence on his petition, the Court may substitute as petitioner any other creditor to whom the\ndebtor may be indebted in the amount required by this Act in the case of petitioning creditor."
+    },
+    {
+      "provision_ref": "sec17",
+      "section": "17",
+      "title": "Section 17. Continuance of proceedings on death of debtor. If a debtor by or against whom an",
+      "content": "insolvency petition has been presented dies, the proceedings in the matter shall, unless the Court\notherwise orders, be continued so far as may be necessary for the realisation and distribution of the\nproperty of the debtor."
+    },
+    {
+      "provision_ref": "sec18",
+      "section": "18",
+      "title": "Section 18. Procedure for admission of petition. The procedure laid down in the Code of Civil",
+      "content": "Procedure, 1908 (V of 1908), with respect to the admission of plaints, shall, so far as it is applicable,\nbe followed in the case of insolvency petitions."
+    },
+    {
+      "provision_ref": "sec19",
+      "section": "19",
+      "title": "Section 19. Procedure on admission of petition",
+      "content": "_ (l) Where an insolvency petition is admitted, the\nCourt shall make an order fixing a date for hearing the petition.\n(2) Notice of the order under sub-section (1) shall be given to creditors in such manner as may\nbe prescribed.\n(3) Where the debtor is not the petitioner, notice of the order under sub-section (1) shall be\nserved on him in the manner provided for the service of summons."
+    },
+    {
+      "provision_ref": "sec20",
+      "section": "20",
+      "title": "Section 20. Appointment of interim receiver. The Court when making an order admitting the petition",
+      "content": "may, and where the debtor is the petitioner ordinarily shall, appoint an interim receiver of the property\nof the debtor or of any part thereof, and may direct him to take immediate possession thereof or of any\npart thereof, and the interim receiver shall thereupon have such of the powers conferrable on a receiver\nappointed under the Code of Civil Procedure, 1908 (V of 1908), as the Court may direct. If an interim\nreceiver is not so appointed, the Court may make such appointment at any subsequent time before\nadjudication, and the provisions of 1[this section] shall apply accordingly."
+    },
+    {
+      "provision_ref": "sec21",
+      "section": "21",
+      "title": "Section 21. Interim proceedings against debtor. At the time of making an order admitting the petition",
+      "content": "or at any subsequent time before adjudication the Court may either of its own motion or on the\napplication of any creditor make one or more of the following orders, namely :___\n(1) order the debtor to give reasonable security for his appearance until final orders are made\nupon the petition, and direct that, in default of giving such security, he shall be detained in the civil\nprison ;\n1\nSubs. by the Repealing and Amending Act, 1939 (34 of 1939), s. 2 and Sch. I for “this sub-section”.\n(2) order the attachment by actual seizure of the whole or any part of the property in the\npossession or under the control of the debtor, other than such particulars (not being his books of\naccount) as are exempted by the Code of Civil Procedure, 1908 (V of 1908), or by any other enactment\nfor the time being in force from liability to attachment and sale in execution of a decree ;\n(3) order a warrant to issue with or without bail for the arrest of the debtor, and direct either\nthat he be detained in the civil prison until the disposal of the petition, or that he be released on such\nterms as to security as may be reasonable and necessary :\nProvided that an order under clause (2) or clause (3) shall not be made unless the Court is\nsatisfied that the debtor, with intent to defeat or delay his creditors or to avoid any process of the\nCourt,___\n(i)     has absconded or has departed from the local limits of the jurisdiction of the\nCourt or is about to abscond or to depart from such limits, or is remaining\noutside them, or\n(ii)    has failed to disclose or has concealed, destroyed, transferred or removed from\nsuch limits, or is about to conceal destroy transfer or remove from such limits,\nany documents likely to be of use to his creditors in the course of hearing or any\npart of his property other than such particulars as aforesaid."
+    },
+    {
+      "provision_ref": "sec22",
+      "section": "22",
+      "title": "Section 22. Duties of debtors. The debtor shall on the making of an order admitting the petition",
+      "content": "produce all books of account, and shall at any time thereafter give such inventories of his property,\nand such lists of his creditors and debtors and of the debts due to and from them respectively , submit\nto such examination in respect of his property or his creditors, attend at such times before the Court or\nreceiver, execute such instruments, and generally do all such acts and things in relation to his property\nas may be required by the Court or receiver, or as may be prescribed."
+    },
+    {
+      "provision_ref": "sec23",
+      "section": "23",
+      "title": "Section 23. Release of debtor",
+      "content": "(1) At the time of making an order admitting the petition or at any\nsubsequent time before adjudication, the Court may, if the debtor is under arrest or imprisonment in\nexecution of the decree of any Court for the payment of money, order his release on such terms as to\nsecurity as may be reasonable and necessary.\n(2) The Court may at any time order any person who has been released under this section to be\nre-arrested and re-committed to the custody from which he was released.\n(3) At the time of making any order under this section, the Court shall record in writing its\nreason therefor."
+    },
+    {
+      "provision_ref": "sec24",
+      "section": "24",
+      "title": "Section 24. Procedure at hearing",
+      "content": "_ (1) On the day fixed for the hearing of the petition, or on any\nsubsequent day to which the hearing may be adjourned, the Court shall require proof of the following\nmatters, namely:___\n(a)     that the creditor or the debtor, as the case may be, is entitled to present the\npetition :\nProvided that, where the debtor is the petitioner, he shall, for the purpose of proving his\ninability to pay his debts, be required to furnish only such proof as to satisfy the Court that there are\nprima facie grounds for believing the same and the Court, if and when so satisfied, shall not be bound\nto hear any further evidence thereon ;\n(b)     that the debtor, if he does not appear on a petition presented by a creditor, has\nbeen served with notice of the order admitting the petition ; and\n(c)     that the debtor has committed the act of insolvency alleged against him.\n(2) The Court shall also examine the debtor, if he is present, as to his conduct, dealings and\nproperty in the presence of such creditors as appear at the hearing, and the creditors shall have the right\nto question the debtor thereon.\n(3) The Court shall, if sufficient cause is shown, grant time to the debtor or to any creditor to\nproduce any evidence which appears to it to be necessary for the proper disposal of the petition.\n(4) A memorandum of the substance of the examination of the debtor and of any other oral\nevidence given shall be made by the Judge, and shall form part of the record of the case."
+    },
+    {
+      "provision_ref": "sec25",
+      "section": "25",
+      "title": "Section 25. Dismissal of petition",
+      "content": "_ (1) In the case of a petition presented by a creditor, where the\nCourt is not satisfied with the proof of his right to present the petition or of the service on the debtor\nof notice of the order admitting the petition, or of the alleged act of insolvency, or is satisfied by the\ndebtor that he is able to pay his debts, on that for any other sufficient cause no order ought to be made,\nthe Court shall dismiss the petition.\n(2) In the case of a petition presented by a debtor, the Court shall dismiss the petition if it is not\nsatisfied of his right to present the petition."
+    },
+    {
+      "provision_ref": "sec26",
+      "section": "26",
+      "title": "Section 26. Award of compensation",
+      "content": "_ (1) Where a petition presented by a creditor is dismissed under\nsub-section (1) of section 25, and the Court is satisfied that the petition was frivolous or vexatious, the\nCourt may, on the application of the debtor, award against such creditor such amount, not exceeding\none thousand rupees, as it deems a reasonable compensation to the debtor for the expense or injury\noccasioned to him by the petition and the proceedings thereon, and such amount may be realised as if\nit were a fine.\n(2) An award under this section shall bar any suit for compensation in respect of such petition\nand the proceedings thereon.\nOrder of Adjudication"
+    },
+    {
+      "provision_ref": "sec27",
+      "section": "27",
+      "title": "Section 27. Order of adjudications",
+      "content": "_ (1) If the Court does not dismiss the petition, it shall make an\norder of adjudication, and shall specify in such order the period within which the debtor shall apply\nfor his discharge.\n(2) The Court may, if sufficient cause is shown, extend the period within which the debtor shall\napply for his discharge, and in that case shall publish notice of the order in such manner as it thinks\nfit."
+    },
+    {
+      "provision_ref": "sec28",
+      "section": "28",
+      "title": "Section 28. Effect of an order of adjudication",
+      "content": "_ (1) On the making of an order of adjudication, the\ninsolvent shall aid to the utmost of his power in the realisation of his property and the distribution of\nthe proceeds among his creditors.\n(2) On the making of an order of adjudication, the whole of the property of the insolvent shall\nvest in the Court or in a receiver as hereinafter provided, and shall become divisible among the\ncreditors, and thereafter, except as provided by this Act, no creditor to whom the insolvent is indebted\nin respect of any debt provable under this Act shall during the pendency of the insolvency proceedings\nhave any remedy against the property of the insolvent in respect of the debt, or commence any suit or\nother legal proceeding, except with the leave of the Court and on such terms as the court may impose.\n(3) For the purposes of sub-section (2), all goods being at the date of the presentation of the\npetition on which the order is made, in the possession, order or disposition of the insolvent in his trade\nor business, by the consent and permission of the true owner, under such circumstances that he is the\nreputed owner thereof, shall be deemed to be the property of the insolvent.\n(4) All property which is acquired by or devolves on the insolvent after the date of an order of\nadjudication and before his discharge shall forthwith vest in the Court or receiver, and the provisions\nof sub-section (2) shall apply in respect thereof.\n(5) The property of the insolvent for the purposes of this section shall not include any property\n(not being books of account) which is exempted by the Code of Civil Procedure, 1908 (V of 1908), or\nby any other enactment for the time being in force from liability to attachment and sale in execution\nof a decree.\n(6) Nothing in this section shall affect the power of any secured creditor to realise or otherwise\ndeal with his security, in the same manner as he would have been entitled to realise or deal with it if\nthis section had not been passed.\n(7) An order of adjudication shall relate back to, and take affect from, the date of the\npresentation of the petition on which it is made."
+    },
+    {
+      "provision_ref": "sec29",
+      "section": "29",
+      "title": "Section 29. Stay of pending proceeding. Any Court in which suit or other proceeding is pending",
+      "content": "against a debtor shall, on proof that an order of adjudication has been made against him under this Act,\neither stay the proceeding, or allow it to continue on such terms as such Court may impose."
+    },
+    {
+      "provision_ref": "sec30",
+      "section": "30",
+      "title": "Section 30. Publication of order of adjudication. Notice of an order of adjudication stating the name,",
+      "content": "address and description of the insolvent, the date of the adjudication, the period within which the debtor\nshall apply for his discharge, and the Court by which the adjudication is made, shall be published in\nthe 1[official Gazette] and in such other manner as may be prescribed.\nProceedings consequent on order of Adjudication"
+    },
+    {
+      "provision_ref": "sec31",
+      "section": "31",
+      "title": "Section 31. Protection order",
+      "content": "_ (1) Any insolvent in respect of whom an order of adjudication has\nbeen made may apply to the Court for protection, and the Court may on such application make an order\nfor the protection of the insolvent from arrest or detention.\n(2) A protection order may apply either to all the debts of the debtor, or to any of them as the\nCourt may think proper, and may commence and take effect at and for such time as the Court may\ndirect, and may be revoked or renewed as the Court may think fit.\n(3) A protection order shall protect the insolvent from being arrested or detained in prison for\nany debt to which such order applies, and any insolvent arrested or detained contrary to the terms of\nsuch an order shall be entitled to his release :\nProvided that no such order shall operate to prejudice the rights of any creditor in the event of\nsuch order being revoked or the adjudication annulled.\n1\nSubs. by A.O., 1937, for “local official Gazette”.\n(4) Any creditor shall be entitled to appear and oppose the grant of a protection order."
+    },
+    {
+      "provision_ref": "sec32",
+      "section": "32",
+      "title": "Section 32. Power to arrest after adjudication. At any time after an order of adjudication has been",
+      "content": "made, the Court may, if it has reason to believe on the application of any creditor or the receiver that\nthe debtor has absconded or departed from the local limits of its jurisdiction with intent to avoid any\nobligation which has been, or might be, imposed on him by or under this Act, order a warrant to issue\nfor his arrest, and on his appearing or being brought before it, may, if satisfied that he was absconding\nor had departed with such intent, order his release on such terms as to security as may be reasonable\nor necessary, or, if such security is not furnished, direct that he shall be detained in the civil prison for\na period which may extend to three months."
+    },
+    {
+      "provision_ref": "sec33",
+      "section": "33",
+      "title": "Section 33. Schedule of creditors",
+      "content": "_ (1) When an order of adjudication has been made under this Act,\nall persons alleging themselves to be creditors of the insolvent in respect of debts provable under this\nAct shall tender proof of their respective debts by producing evidence of the amount and particulars\nthereof, and the Court shall, by order, determine the persons who have proved themselves to be\ncreditors of the insolvent in respect of such debts, and the amount of such debts, respectively, and shall\nframe a schedule of such persons and debts :\nProvided that, if, in the opinion of the Court, the value of any debt is incapable of being fairly\nestimated, the Court may make an order to that effect, and thereupon the debt shall not be included in\nthe schedule.\n(2) A copy of every such schedule shall be posted in the Courthouse.\n(3) Any creditor of the insolvent may, at any time before the discharge of the insolvent, tender\nproof of his debt and apply to the Court for an order directing his name to be entered in the schedule\nas a creditor in respect of any debt provable under this Act, and not entered in the schedule, and the\nCourt, after causing notice to be served on the 1[receiver] and other creditors who have proved their\ndebts, and hearing their objections (if any), shall comply with or reject the application."
+    },
+    {
+      "provision_ref": "sec34",
+      "section": "34",
+      "title": "Section 34. Debts provable under the Act",
+      "content": "_ (1) Debts which have been excluded from the schedule\non the ground that their value is incapable of being fairly estimated and demands in the nature of\nunliquidated damages arising otherwise than by reasons of a contract or a breach of trust shall not be\nprovable under this Act.\n(2) Save as provided by sub-section (1), all debts and liabilities, present or future, certain or\ncontingent, to which the debtor is subject when he is adjudged an insolvent, or to which he may become\nsubject before his discharge by reason of any obligation incurred before the date of such adjudication,\nshall be deemed to be debts provable under this Act.\nAnnulment of Adjudication"
+    },
+    {
+      "provision_ref": "sec35",
+      "section": "35",
+      "title": "Section 35. Power to annual adjudication of insolvency. Where, in the opinion of the Court, a debtor",
+      "content": "ought not to have been adjudged insolvent, or where it is proved to the satisfaction of the Court that\nthe debts of the insolvent have been paid in full, the Court shall, on the application of the debtor, or of\nany other, person interested, by order in writing, annul the adjudication 2[and the Court may, of its own\nmotion or on application made by the receiver or any creditor, annul any adjudication made on the\npetition of a debtor who was, by reason of the provisions of sub-section (2) of section 10, not entitled\nto present such petition].\n1\nSubs. by the Provincial Insolvency (Amdt.) Act, 1926 (39 of 1926), s. 2, for “insolvent”.\n1\nIns. by the Insolvency (Amdt.) Act, 1927 (11 of 1927), s. 5."
+    },
+    {
+      "provision_ref": "sec36",
+      "section": "36",
+      "title": "Section 36. Power to cancel one of concurrent orders of adjudication. If, in any case in which an",
+      "content": "order of adjudication has been made, it shall be proved to the Court by which such order was made\nthat insolvency proceedings are pending in another Court against the same debtor, and that the property\nof the debtor can be more conveniently distributed by such other Court, the Court may annul the\nadjudication or stay all proceedings thereon."
+    },
+    {
+      "provision_ref": "sec37",
+      "section": "37",
+      "title": "Section 37. Proceedings on annulment",
+      "content": "_(1) Where an adjudication is annulled, all sales and\ndispositions of property and payments duly made, and all acts theretofore done, by the Court or\nreceiver, shall be valid; but, subject as aforesaid, the property of the debtor who was adjudged insolvent\nshall vest in such person as the Court may appoint, or, in default of any such appointment, shall revert\nto the debtor to the extent of his right or interest therein on such conditions (if any) as the Court may,\nby order in writing, declare.\n(2) Notice of every order annulling an adjudication shall be published in the 1[official Gazette]\nand in such other manner as may be prescribed.\nCompositions and schemes of arrangement"
+    },
+    {
+      "provision_ref": "sec38",
+      "section": "38",
+      "title": "Section 38. Compositions and schemes of arrangement",
+      "content": "_ (1) Where a debtor, after the making of\nan order of adjudication, submits a property for a composition in satisfaction of his debts, or a proposal\nfor a scheme of arrangement of his affairs, the Court shall fix a date for the consideration of the\nproposal, and shall issue a notice to all creditors in such manner as may be prescribed.\n(2) If, on the consideration of the proposal, a majority in number and three-fourths in value of\nall the creditors whose debts are proved and who are present in person or by pleader, resolve to accept\nthe proposal, the same shall be deemed to be duly accepted by the creditors.\n(3) The debtor may at the meeting amend the terms of his proposal if the amendment is, in the\nopinion of the Court, calculated to benefit the general body of creditors.\n(4) Where the Court is of opinion, after hearing the report of the receiver, if a receiver has been\nappointed, and after considering any objections which may be made by or on behalf of any creditor,\nthat the terms of the proposal are not reasonable or are not calculated to benefit the general body of\ncreditors, the Court shall refuse to approve the proposal.\n(5) If any facts are proved on proof of which the Court would be required either to refuse,\nsuspend or attach conditions to the debtor’s discharge, the Court shall refuse to approve the proposal\nunless it provides reasonable security for payment of not less than six annas in the rupee on all the\nunsecured debts provable against the debtor’s estate.\n(6) No composition or scheme shall be approved by the Court which does not provide for the\npayment in priority to other debts of all debts directed to be so paid in the distribution of the property\nof an insolvent.\n(7) In any other case the Court may either approve or refuse to approve the proposal.\n1\nSubs. by A.O., 1937, for “local official Gazette”."
+    },
+    {
+      "provision_ref": "sec39",
+      "section": "39",
+      "title": "Section 39. Order on approval. If the Court approves the proposal, the terms shall be embodied in an",
+      "content": "order of the Court, and 1* * * the order of adjudication shall be annulled, and the provisions of section\n37 shall apply, and the composition or scheme shall be binding on all the creditors 2[so far as relates\nto any debt due to them from the debtor and provable under this Act]."
+    },
+    {
+      "provision_ref": "sec40",
+      "section": "40",
+      "title": "Section 40. Power to re",
+      "content": "adjudge debtor insolvent. If default is made in the payment of any instalment\ndue in pursuance of the composition or scheme, or if it appears to the Court that the composition or\nscheme cannot proceed without injustice or undue delay, or that the approval of the Court was obtained\nby fraud, the Court may, if it thinks fit, re-adjudge the debtor insolvent and annul the composition or\nscheme but without prejudice to the validity of any transfer or payment duly made or of anything duly\ndone under or in pursuance of the composition or scheme. When a debtor is re-adjudged insolvent\nunder this section, all debts provable in other respects which have been contracted before the date of\nsuch re-adjudication shall be provable in the insolvency.\nDischarge"
+    },
+    {
+      "provision_ref": "sec41",
+      "section": "41",
+      "title": "Section 41. Discharge",
+      "content": "_ (1) A debtor may, at any time after the order of adjudication and shall, within\nthe period specified by the Court, apply to the Court for an order of discharge, and the Court shall fix\na day, notice whereof shall be given in such manner as may be prescribed, for hearing such application,\nand any objections which may be made thereto.\n(2) Subject to the provisions of this section, the Court may, after considering the objections of\nany creditor and, where a receiver has been appointed, the report of the receiver___\n(a)        grant or refuse an absolute order of discharge ; or\n(b)        suspend the operation of the order for a specified time ; or\n(c)        grant an order of discharge subject to any conditions with respect to any\nearnings or income which may afterwards become due to the insolvent, or with\nrespect to his after-acquired property."
+    },
+    {
+      "provision_ref": "sec42",
+      "section": "42",
+      "title": "Section 42. Cases in which Court must refuse an absolute discharge",
+      "content": "_ (1) The Court shall refuse\nto grant an absolute order of discharge under section 41 on proof of any of the following facts,\nnamely:___\n(a)        that the insolvent's assets are not of a value equal to eight annas in the rupees\non the amount of his unsecured liabilities, unless he satisfies the Court that the\nfact that the assets are not of a value equal to eight annas in the rupee on the\namount of his unsecured liabilities has arisen from circumstances for which he\ncannot justly be held responsible ;\n(b)        that the insolvent has omitted to keep such books of account as are usual and\nproper in the business carried on by him and as sufficiently disclose his business\ntransactions and financial position within the three years immediately preceding\nhis insolvency ;\n(c)        that the insolvent has continued to trade after knowing himself to be insolvent ;\n1\nThe words “the Court shall frame a schedule in accordance with the provisions of section 33” rep. by the Provincial Insolvency (Amdt.) Act, 1935 (10\nof 1935), s. 2.\n2\nSubs. ibid., for “entered in the said schedule so far as relates to any debts entered therein.”.\n(d)       that the insolvent has contracted any debt provable under this Act without\nhaving at the time of contracting it any reasonable or probable ground of\nexpectation (the burden of proving which shall lie on him) that he would be able\nto pay it ;\n(e)        that the insolvent has failed to account satisfactorily for any loss of assets or for\nany deficiency of assets to meet his liabilities ;\n(f)        that the insolvent has brought on, or contributed to, his insolvency by rash and\nhazardous speculations, or by unjustifiable extravagance in living, or by\ngambling, or by culpable neglect of his business affairs ;\n(g)        that the insolvent has, within three months preceding the date of the presentation\nof the petition, when unable to pay his debts as they became due, given an undue\npreference to any of his creditors ;\n(h)        that the insolvent has on any previous occasion been adjudged an insolvent or\nmade a composition or arrangement with his creditors ;\n(i)        that the insolvent has concealed or removed his property or any part thereof, or\nhas been guilty of any other fraud or fraudulent breach of trust.\n(2) For the purposes of this section, the report of the receiver shall be deemed to be evidence ;\nand the Court may presume the correctness of any statement contained therein.\n(3) The powers of suspending, and of attaching conditions to, an insolvent’s discharge may be\nexercised concurrently."
+    },
+    {
+      "provision_ref": "sec43",
+      "section": "43",
+      "title": "Section 43. Adjudication to be annulled on failure to apply for discharge",
+      "content": "_ (1) If the debtor does\nnot appear on the day fixed for hearing his application for discharge or on such subsequent day as the\nCourt may direct, or if the debtor does not apply for an order of discharge within the period specified\nby the Court, the order of adjudication shall be annulled, and the provisions of section 37 shall apply\naccordingly.\n(2) Where a debtor has been released from custody under the provisions of this Act and the\norder of adjudication is annulled under sub-section (1), the Court may, if it thinks fit, re-commit the\ndebtor to his former custody, and the officer incharge of the prisoner to whose custody such debtor is\nso re-commited shall receive such debtor into his custody according to such re-commitment, and\nthereupon all processes which were in force against the person of such debtor at the time of such release\nas aforesaid shall be deemed to be still in force against him as if no order of adjudication had been\nmade."
+    },
+    {
+      "provision_ref": "sec44",
+      "section": "44",
+      "title": "Section 44. Effect of order of discharge",
+      "content": "_ (1) An order of discharge shall not release the insolvent\n___\nfrom\n(a)        any debt due to the 1[Government] ;\n(b)        any debt or liability incurred by means of any fraud or fraudulent breach of trust\nto which he was a party;\n1\nSubs by A.O., 1961, Art. 2, for “Crown” (with effect from the 23rd March, 1956)\n(c)         any debt or liability in respect of which he has obtained forbearance by any\nfraud to which he was a party ; or\n1\n[(d)    any liability under an order for maintenance of a wife or child.]\n(2) Save as otherwise provided by sub-section (1), an order of discharge shall release the\ninsolvent from all debts provable under this Act.\n(3) An order of discharge shall not, release any person who, at the date of the presentation of\nthe petition, was a partner or co-trustee with the insolvent, or was jointly bound or had made any joint\ncontract with him or any person who was surety for him.\nMethod of Proof of debts"
+    },
+    {
+      "provision_ref": "sec45",
+      "section": "45",
+      "title": "Section 45. Debt payable at a future time. A creditor may prove for a debt not payable when the",
+      "content": "debtor is adjudged an insolvent as if it were payable presently, and may receive dividends equally with\nthe other creditors, deducting therefrom only rebate of interest at the rate of six per centum per annum\ncomputed from the declaration of a dividend to the time when the debt would have become payable,\naccording to the terms on which it was contracted."
+    },
+    {
+      "provision_ref": "sec46",
+      "section": "46",
+      "title": "Section 46. Mutual dealings and set",
+      "content": "off. Where there have been mutual dealings between an insolvent\nand a creditor proving or claiming to prove a debt under this Act, an account shall be taken of what is\ndue from the one party to the other in respect of such mutual dealings and the sum due from the one\nparty shall be set-off against any sum due from the other party, and the balance of the account, and no\nmore, shall be claimed or paid on either respectively."
+    },
+    {
+      "provision_ref": "sec47",
+      "section": "47",
+      "title": "Section 47. Secured creditors",
+      "content": "_ (1) Where a secured creditor realises his security, he may prove for\nthe balance due to him, after deducting the net amount realised.\n(2) Where a secured creditor relinquishes his security for the general benefit of the creditors,\nhe may prove for his whole debt.\n(3) Where a secured creditor does not either realise or relinquish his security, he shall, before\nbeing entitled to have his debt entered in the schedule, state in his proof the particulars of his security,\nand the value at which he assesses it, and shall be entitled to receive a dividend only in respect of the\nbalance due to him after deducting the value so assessed.\n(4) Where a security is so valued, the Court may at any time before realisation redeem it on\npayment to the creditor of the assessed value.\n(5) Where a creditor, after having valued his security, subsequently realises it, the net amount\nrealised shall be substituted for the amount of valuation previously made by the creditor, and shall be\ntreated in all respects as an amended valuation made by the creditor.\n(6) Where a secured creditor does not comply with the provisions of this section, he shall be\nexcluded from all share in any dividend.\n1\nSubs. by the Federal Laws (Revision and Declaration) Ordinance, 1981 (27 of 1981), s. 3 Sch. II, for clause (d)."
+    },
+    {
+      "provision_ref": "sec48",
+      "section": "48",
+      "title": "Section 48. Interest",
+      "content": "_ (1) On any debt or sum certain whereon interest is not reserved or agreed for,\nand which is overdue when the debtor is adjudged an insolvent, and which is provable under this Act,\nthe creditor may prove for interest at rate not exceeding six per centum per annum___\n(a)     if the debt or sum is payable by virtue of a written instrument at a certain time,\nfrom the time when such debt or sum was payable to the date of such\nadjudication ; or\n(b)     if the debt or sum is payable otherwise, from the time when a demand in writing\nhas been made giving the debtor notice that interest will be claimed from the\ndate of the demand until the time of payment to the date of such adjudication.\n(2) Where a debt which has been proved under this Act includes interest or any pecuniary\nconsideration in lieu of interest, the interest or consideration shall, for the purposes of dividend, be\ncalculated at a rate not exceeding six per centum per annum, without prejudice to the right of a creditor\nto receive out of the debtor's estate any higher rate of interest to which he may be entitled after all the\ndebts proved have been paid in full."
+    },
+    {
+      "provision_ref": "sec49",
+      "section": "49",
+      "title": "Section 49. Mode of proof",
+      "content": "_ (1) A debt may be proved under this Act by delivering, or sending by\npost in a registered letter, to the Court an affidavit verifying the debt.\n(2) The affidavit shall contain or refer to a statement of account showing the particulars of the\ndebt, and shall specify the vouchers (if any) by which the same can be substantiated. The Court may\nat any time can for the production of the vouchers."
+    },
+    {
+      "provision_ref": "sec50",
+      "section": "50",
+      "title": "Section 50. Disallowance and reduction of entries in schedule",
+      "content": "_ (1) Where the receiver thinks that\na debt has been improperly entered in the schedule, the Court may, on the application of the receiver\nand after notice to the creditor, and such inquiry (if any) as the Court thinks necessary, expunge such\nentry or reduce the amount of the debt.\n(2) The Court may also, after like inquiry, expunge an entry or reduce the amount of a debt\nupon the application of creditor where no receiver has been appointed, or where the receiver declines\nto interfere in the matter or, in the case of a composition or scheme, upon the application of the debtor.\nEffect of insolvency on antecedent transactions"
+    },
+    {
+      "provision_ref": "sec51",
+      "section": "51",
+      "title": "Section 51. Restriction of rights of creditor under execution",
+      "content": "_ (1) Where execution of a decree has\nissued against the property of a debtor, no person shall be entitled to the benefit of the execution against\nthe receiver except in respect of assets realised in the course of the execution by sale or otherwise\nbefore the date of the admission of the petition.\n(2) Nothing in this section shall affect the rights of a secured creditor in respect of the property\nagainst which the decree is executed.\n(3) A person who in good faith purchases the property of a debtor under a sale in execution\nshall in all cases acquire a good title to it against the receiver.\n52.Duties of Court executing decree as to property taken in execution. Where execution of\na decree has issued against any property of a debtor which is saleable in execution and before the sale\nthereof notice is given to the Court executing the decree that an insolvency petition by or against the\ndebtor has been admitted, the Court shall, on application, direct the property, if in the possession of\nthe Court, to be delivered to the receiver, but the costs of the suit in which the decree was made and of\nthe execution shall be a first charge on the property so delivered, and the receiver may sell the property\nor an adequate part thereof for the purpose of satisfying the charge."
+    },
+    {
+      "provision_ref": "sec53",
+      "section": "53",
+      "title": "Section 53. Avoidance of voluntary transfer. Any transfer of property not being a transfer made",
+      "content": "before and in consideration of marriage or made in favour of a purchaser or incumbrancer in good faith\nand for valuable consideration shall, if the transferor is adjudged insolent 1[on a petition presented]\nwithin two years after the date of the transfer, be voidable as against the receiver and may be annulled\nby the Court."
+    },
+    {
+      "provision_ref": "sec54",
+      "section": "54",
+      "title": "Section 54. Avoidance of preference in certain cases",
+      "content": "_ (1) Every transfer of property, every payment\nmade, every obligation incurred, and every judicial proceeding taken or suffered by any person unable\nto pay his debt as they become due from his own money in favour of any creditor, with a view of\ngiving that creditor a preference over the other creditors, shall, if such person is adjudged insolvent on\na petition presented within three months after the date thereof, be deemed fraudulent and void as\nagainst the receiver, and shall be annulled by the Court.\n(2) This section shall not effect the rights of any person who in good faith and for valuable\nconsideration has acquired a title through or under a creditor of the insolvent.\n2\n[54A. By whom petitions for annulment may be made. A petition for the annulment of any\ntransfer under section 53, or of any transfer, payment, obligation or judicial proceeding under section\n54, may be made by the receiver or with the leave of the Court, by any creditor who has proved his\ndebt and who satisfies the Court that the receiver has been requested and has refused to make such\npetition.]"
+    },
+    {
+      "provision_ref": "sec55",
+      "section": "55",
+      "title": "Section 55. Protection of bona fide transactions. Subject to the foregoing provisions of this Act with",
+      "content": "respect to the effect of insolvency on an execution, and with respect to the avoidance of certain\ntransfers and preferences, nothing in this Act shall invalidate in the case of an insolvency___\n(a)        any payment by the insolvent to any of his creditors ;\n(b)        any payment or delivery to the insolvent ;\n(c)        any transfer by the insolvent for valuable consideration ; or\n(d)        any contract or dealing by or with the insolvent for valuable consideration :\nProvided that any such transaction takes place before the date of the order of adjudication, and\nthat the person with whom such transaction takes place has not at the time notice of the presentation\nof any insolvency petition by or against the debtor.\nRealisation of Property"
+    },
+    {
+      "provision_ref": "sec56",
+      "section": "56",
+      "title": "Section 56. Appointment of receiver",
+      "content": "(1) The Court may, at the time of the order of adjudication, or\nat any time afterwards, appoint a receiver for the property of the insolvent, and such property shall\nthereupon vest in such receiver.\n(2) Subject to such conditions as may be prescribed, the Court may___\n1\nIns. by the Insolvency Law (Amdt.) Act, 1930 (10 of 1930), s. 6.\n2\nS. 54A ins. by the Provincial Insolvency (Amdt.) Act, 1926 (39 of 1926).\n(a)        require the receiver to give such security as it thinks fit duly to account for what\nhe shall receive in respect of the property ; and\n(b)         by general or special order, fix the amount to be paid as remuneration for the\nservices of the receiver out of the assets of the insolvent.\n(3) Where the Court appoints a receiver, it may remove the person in whose possession or\ncustody any such property as aforesaid is from the possession or custody thereof :\nProvided that nothing in this section shall be deemed to authorise the Court to remove from the\npossession or custody of property any person whom the insolvent has not a present right so to remove.\n(4) Where a receiver1 appointed under this section___\n(a)         fails to submit his accounts at such periods and in such form as the Court directs,\nor\n(b)         fails to pay the balance due from him thereon as the Court directs , or\n(c)         occasions loss to the property by his wilful default or gross negligence,\nthe Court may direct his property to be attached and sold, and may apply the\nproceeds to make good any balance found to be due from him or any loss so\noccasioned by him.\n(5) The provisions of this section shall apply, so far as may be, to interim receivers appointed\nunder section 20."
+    },
+    {
+      "provision_ref": "sec57",
+      "section": "57",
+      "title": "Section 57. Power to appoint Official Receiver",
+      "content": "_(1) The 2[Provincial Government] may appoint\nsuch persons as it thinks fit (to be called “Official Receivers”) to be receivers under this Act within\nsuch local limits as it may prescribe.\n(2) Where any Official Receiver has been so appointed for the local limits of the jurisdiction\nof any Court having jurisdiction under this Act, he shall be the receiver for the purpose of every order\nappointing a receiver or an interim receiver issued by any such Court, unless the Court for special\nreasons otherwise directs.\n(3) Any sum payable under clause (b) of sub-section (2) of section 56 in respect of the services\nof an Official Receiver shall be credited3 to such fund as the 2[Provincial Government] may direct.\n(4) Every Official Receiver shall receive such remuneration out of the said fund or otherwise\n2\nas the [Provincial Government] may fix in this behalf, and no remuneration whatever beyond that so\nfixed shall be received by the Official Receiver as such3."
+    },
+    {
+      "provision_ref": "sec58",
+      "section": "58",
+      "title": "Section 58. Powers of Court if no receiver appointed. Where no receiver is appointed, the Court shall",
+      "content": "have all the rights of, and may exercise all the powers conferred on, a receiver under this Act.\n1\nIn the application of the Act to the taluka of Karachi, certain words have been ins. at this place by the Karachi Insolvency (Amdt.) Act, 1935 (Bom.3 of\n1935), s. 3.\n2\nSubs. by A.O., 1937 for “L.G.”.\n3\nIn the application of the Act to the taluka of Karachi, certain words have been ins. in sub-section (3) of s. 57; and new ss. 57A to 57E have been ins. after\ns. 57, by the Karachi Insolvency (Amdt.) Act, 1935 (Bom. 3 of 1935), s. 3."
+    },
+    {
+      "provision_ref": "sec59",
+      "section": "59",
+      "title": "Section 59. Duties and powers of receiver. Subject to the provisions of this Act, the receiver shall,",
+      "content": "with all convenient speed, realise the property of the debtor and distribute dividends among the\ncreditors entitled thereto, and for that purpose may___\n(a)        sell all or any part of the property of the insolvent ;\n(b)        give receipts for any money received by him;\nand may, by leave of the Court do all or any of the following things, namely :___\n(c)        carry on the business of the insolvent so far as may be necessary for the\nbeneficial winding up of the same ;\n(d)        institute, defend or continue any suit or other legal proceedings relating to the\nproperty of the insolvent ;\n(e)        employ a pleader or other agent to take any proceedings or do any business\nwhich may be sanctioned by the Court ;\n(f)        accept as the consideration for the sale of any property of the insolvent a sum\nof money payable at a future time subject to such stipulations as to security and\notherwise as the Court thinks fit ;\n(g)        mortgage or pledge any part of the property of the insolvent for the purpose of\nraising money for the payment of his debts ;\n(h)        refer any dispute to arbitration, and compromise all debts, claims and liabilities,\non such terms as may be agreed upon ; and\n(i)        divide in its existing form amongst the creditors, according to its estimated\nvalue, any property which, from its peculiar nature or other special\ncircumstances, cannot readily or advantageously be sold.\n[59A. Power to require information regarding insolvent’s property.___(1) The Court, if\n1\nspecially empowered in this behalf by an order of the 2[Provincial Government], or any officer of the\nCourt so empowered by a like order, may, on the application of the receiver or any creditor who has\nproved his debt, at any time after an order of adjudication has been made, summon before it in the\nprescribed manner any person known or suspected to have in his possession any property belonging to\nthe insolvent, or supposed to be indebted to the insolvent, or any person whom the Court or such\nofficer, as the case may be, may deem capable of giving information respecting the insolvent or his\ndealings or property, and the Court or such officer may require any such person to produce any\ndocuments in his custody or power relating to the insolvent or to his dealings or property.\n(2) If any person so summoned, after having been tendered a reasonable sum, refuses to come\nbefore the Court or such officer at the time appointed, or refuses to produce any such document, having\nno lawful impediment made known to and allowed by the Court or such officer, the Court or such\nofficer may, by warrant, cause him to be apprehended and brought up for examination.\n1\nS. 59A ins. by the Provincial Insolvency (Amdt.) Act, 1926 (39 of 1926), s. 4.\n2\nSubs. by A.O., 1937, for “L.G.”."
+    },
+    {
+      "provision_ref": "sec60",
+      "section": "60",
+      "title": "Section 60. Special provisions in regard to immovable property",
+      "content": "_ (1) In any local area in which a\ndeclaration has been made under section 68 of the Code of Civil Procedure, 1908 (V of 1908), and is\nin force, on sale of immovable property paying revenue to the Government or held or let for agricultural\npurposes shall be made by the receiver ; but, after the other property of the insolvent has been realised,\nthe Court shall ascertain___\n(a)        the amount required to satisfy the debts proved under this Act after deducting\nthe monies already received ;\n(b)        the immoveable property of the insolvent remaining unsold ; and\n(c)        the incumbrances (if any) existing thereon ;\nand shall forward a statement to the Collector containing the particulars\naforesaid; and thereupon the Collector shall proceed to raise the amount so\nrequired by the exercise of such of the powers conferred on him by paragraphs\n2 to 10 of the Third Schedule to the said Code as he thinks fit, and subject to the\nprovisions of those paragraphs so far as they are applicable, and shall hold at\nthe disposal of the Court all sums that may come to his hands by the exercise of\nsuch powers.\n(2) Nothing in this Act shall be deemed to affect any provisions of any enactment for the time\nbeing in force prohibiting or restricting the execution of decrees or orders against immoveable\nproperty; and any such provisions shall be deemed to apply to the enforcement of an order of\nadjudication made under this Act as if it were such a decree or order.\nDistribution of Property"
+    },
+    {
+      "provision_ref": "sec61",
+      "section": "61",
+      "title": "Section 61. Priority of debts",
+      "content": "_(1) In the distribution of the property of the insolvent, there shall be\npaid in priority to all other debts :___\n(a)        all debts due to the 1[Government] or to any local authority ; and\n(b)        all salary or wages, not exceeding twenty rupees in all, of any clerk, servant or\nlabourer in respect of services rendered to the insolvent during four months\nbefore the date of the presentation of the petition.\n(2) The debts specified in sub-section (1) shall rank equally between themselves, and shall be\npaid in full, unless the property of the insolvent is insufficient to meet them, in which case they shall\nabate in equal proportions between themselves.\n(3) Subject to the retention of such sums as may be necessary for the expenses of administration\nor otherwise, the debts specified in sub-section (1) shall be discharged forthwith in so far as the\nproperty of the insolvent is sufficient to meet them.\n(4) In the case of partners, the partnership property shall be applicable in the first instance in\npayment of the partnership debts, and the separate property of each partner shall be applicable in the\nfirst instance in payment of his separate debts. Where there is a surplus of the separate property of the\npartners, it shall be dealt with as part of the partnership property; and where there is a surplus of the\npartnership property, it shall be dealt with as part of the respective separate property in proportion to\nthe rights and interests of each partner in the partnership property.\n1\nSubs. by A.O., 1961, Art. 2, for “Crown” (with effect from the 23rd March, 1956).\n(5) Subject to the provisions of this Act, all debts entered in the schedule shall be paid rateably\naccording to the amounts of such debts respectively and without any preference.\n(6) Where there is any surplus after payment of the foregoing debts, it shall be applied in\npayment of interest from the date on which the debtor is adjudged an insolvent at the rate of six per\ncentum per annum on all debts entered in the schedule."
+    },
+    {
+      "provision_ref": "sec62",
+      "section": "62",
+      "title": "Section 62. Calculation of dividends",
+      "content": "_ (1) In the calculation of dividends, the receiver shall retain in\nhis hands sufficient assets to meet___\n(a)        debts provable under this Act and appearing, from the insolvent’s statement or\notherwise, to be due to persons resident in places so distant that in the ordinary\ncourse of communication they have not had sufficient time to tender their proofs\n;\n(b)        debts provable under this Act, the subject of claims not yet determined ;\n(c)        disputed proofs or claims ; and\n(d)        the expenses necessary for the administration of the estate or otherwise.\n(2) Subject to the provisions of sub-section (1), all money in hand shall be distributed as\ndividends."
+    },
+    {
+      "provision_ref": "sec63",
+      "section": "63",
+      "title": "Section 63. Right of creditor who has not proved debt before declaration of a dividend. Any",
+      "content": "creditor who has not proved his debt before the declaration of any dividend or dividends shall be\nentitled to be paid, out of any money for the time being in the hands of the receiver, any dividend or\ndividends which he may have failed to receive before that money is applied to the payment of any\nfuture dividend or dividends; but he shall not be entitled to disturb the distribution of any dividend\ndeclared before his debt was proved by reason that he has not participated therein."
+    },
+    {
+      "provision_ref": "sec64",
+      "section": "64",
+      "title": "Section 64. Final dividend. When the receiver has realised all the property of the insolvent or so much",
+      "content": "thereof as can, in the opinion of the Court, be realised without needlessly protracting the receivership,\nhe shall declare a final dividend; but before so doing, he shall give notice in manner prescribed to the\npersons whose claims to be creditors have been notified but not proved, that if they do not prove their\nclaims within the time limited by the notice, he will proceed to make a final dividend without regard\nto their claims. After the expiration of the time so limited, or if the Court, on application by any such\nclaimant, grants him further time for establishing his claim, then on the expiration of such further time,\nthe property of the insolvent shall be divided among the creditors entered in the schedule without\nregard to the claims of any other persons.\n1\n[65. No suit for dividend. No suit for a dividend shall lie against the receiver; but where the\nreceiver refuses to pay any dividend, the Court may, on the application of any creditor who is entered\nin the schedule, order him to pay it, and also to pay out of his own money interest thereon for the time\nthat it is withheld, and the costs of the application."
+    },
+    {
+      "provision_ref": "sec66",
+      "section": "66",
+      "title": "Section 66. Management by and allowance to insolvent",
+      "content": "_ (1) The Court may appoint the insolvent\nhimself to superintend the management of the property of the insolvent or of any part thereof, or to\ncarry on the trade (if any) of the insolvent for the benefit of the creditors, and in any other respect to\naid in administering the property in such manner and on such terms as the Court may direct.\n1\nIn its application to the taluka of Karachi, this section has been amended by the Karachi Insolvency (Amdt.) Act, 1935 (Bom. 3 of 1935), s. 3.\n(2) The Court may, from time to time, make such allowance as it may think just to the insolvent\nout of his property for the support of himself and his family, or in consideration of his services if he is\nengaged in winding up his estate; but any such allowance may, at any time, be varied or determined\nby the Court."
+    },
+    {
+      "provision_ref": "sec67",
+      "section": "67",
+      "title": "Section 67. Right of insolvent to surplus. The insolvent shall be entitled to any surplus remaining",
+      "content": "after payment in full of his creditors with interest as provided by this Act, and of the expenses of the\nproceedings taken thereunder.\n1\n[67A. Committee of inspection.—(1) The Court may, if it thinks fit, authorise the creditors\nwho have proved their debts to appoint a committee of inspection for the purpose of superintending\nthe administration of the insolvent’s property by the receiver.\n(2) The persons appointed to a committee of inspection shall be creditors who have proved\ntheir debts or persons holding general powers-of-attorney from such creditors.\n(3) The committee of inspection shall have such powers of control over the proceedings of the\nreceiver as may be prescribed.]\nAppeal to court against receiver"
+    },
+    {
+      "provision_ref": "sec68",
+      "section": "68",
+      "title": "Section 68. Appeal to Court against receiver. If the insolvent or any of the creditors or any other",
+      "content": "persons is aggrieved by any act or decision of the receiver, he may apply to the Court, and the Court\nmay confirm, reverse or modify the act or decision complained of, and make such order as it thinks\njust :\nProvided that no application under this section shall be entertained after the expiration of\ntwenty-one days from the date of the act or decision complained of."
+    },
+    {
+      "provision_ref": "sec69",
+      "section": "69",
+      "title": "Section 69. Offences by debtors. If a debtor, whether before or after the making of an order of",
+      "content": "adjudication,___\n(a)        wilfully fails to perform the duties imposed on him by section 22 or to deliver\nup possession of any part of his property which is divisible among his creditors\nunder this Act, and which is for the time being in his possession or under his\ncontrol to the Court or to any person authorised by the Court to take possession\nof it, or\n(b)        fraudulently with intent to conceal the state of his affairs or to defeat the objects\nof this Act,___\n(i)         has destroyed or otherwise wilfully prevented or purposely withheld the\nproduction of any document relating to such of his affairs as are subject\nto investigation under this Act, or\n(ii)        has kept or caused to be kept false books, or\n1\nS. 67A ins. by the Provincial Insolvency (Amdt.) Act, 1926 (39 of 1926), s. 5.\n(iii)      has made false entries in or withheld entries from or wilfully altered or\nfalsified any document relating to such of his affairs as are subject to\ninvestigation under this Act, or\n(c)        fraudulently with intent to diminish the sum to be divided among his creditors\nor to give an undue preference to any of his creditors ;___\n(i)        has discharged or concealed any debt due to or from him, or\n(ii)       has made away with, charged, mortgaged or concealed any part of his\nproperty of any kind whatsoever,\nhe shall be punishable on conviction 1* * * with imprisonment which\nmay extend to one year.\n2\n[70. Procedure on charge under section 69. Where the Court is satisfied, after such\npreliminary inquiry, if any, as it thinks necessary, that there is ground for inquiring into any offence\nreferred to in section 69 and appearing to have been committed by the insolvent, the Court may record\na finding to that effect and make a complaint of the offence in writing to a Magistrate of the first class\nhaving jurisdiction, and such Magistrate shall deal with such complaint in the manner laid down in the\nCode of Criminal Procedure, 1898 (V of 1898).]"
+    },
+    {
+      "provision_ref": "sec71",
+      "section": "71",
+      "title": "Section 71. Criminal liability. Where an insolvent has' been guilty of any of the offences specified in",
+      "content": "section 69, he shall not be exempt from being proceeded against therefor by reason that he has obtained\nhis discharge or that a composition or scheme of arrangement has been accepted or approved."
+    },
+    {
+      "provision_ref": "sec72",
+      "section": "72",
+      "title": "Section 72. Undischarged insolvent obtaining credit",
+      "content": "_ (1) A undischarged insolvent obtaining\ncredit to the extent of fifty rupees or upwards from any person without informing such person that he\nis an undischarged insolvent shall, on conviction by a Magistrate, be punishable with imprisonment\nfor a term which may extend to six months, or with fine or with both.\n(2) Where the Court has reason to believe that an undischarged insolvent has committed the\noffence referred to in sub-section (1), the Court, after making any preliminary inquiry that may be\nnecessary, may send the case for trial to the nearest Magistrate of the first class, and may send the\naccused in custody to take sufficient security for his appearance before such Magistrate ; and may bind\nover any person to appear and give evidence on such trial."
+    },
+    {
+      "provision_ref": "sec73",
+      "section": "73",
+      "title": "Section 73. Disqualifications of insolvent.___ (1) Where a debtor is adjudged or re",
+      "content": "adjudged insolvent\nunder this Act, he shall, subject to the provisions of this section, be disqualified from___\n(a)        being appointed or acting as a Magistrate ;\n(b)        being elected to any office of any local authority where the appointment to such\noffice is by election or holding or exercising any such office to which no salary\nis attached ; and\n(c)        being elected to sitting or voting as member of any local authority.\n(2) The disqualifications which an insolvent is subject to under this section shall be removed,\nand shall cease if___\n1\nThe words “by the Court” rep. by the Repealing Act, 1927 (12 of 1927), s. 2 and Sch.\n2\nSubs. by the Insolvency (Amdt.) Act, 1926 (9 of 1926), s. 11, as amended by the Repealing and Amending Act, 1927 (10 of 1927), s. 3 and Sch. II, for\nthe original section.\n(a)       the order of adjudication is annulled under section 35, or\n(b)        he obtains from the Court an order of discharge, whether absolute or\nconditional, with a certificate that his insolvency was caused by misfortune\nwithout any misconduct on his part.\n(3) The Court may grant or refuse such certificate as it thinks fit, but any order of refusal shall\nbe subject to appeal."
+    },
+    {
+      "provision_ref": "sec74",
+      "section": "74",
+      "title": "Section 74. Summary administration. When a petition is presented by or against a debtor, if the Court",
+      "content": "is satisfied by affidavit or otherwise that the property of the debtor is not likely to exceed in value five\nhundred rupees1, the Court may make an order that the debtor's estate be administered in a summary\nmanner, and thereupon the provisions of this Act shall be subject to the following modifications,\nnamely:-\n(i)        unless the Court otherwise directs, no notice required under this Act shall be\npublished in the 2[official Gazette] ;\n(ii)       on the admission of a petition by a debtor, the property of the debtor shall vest\nin the Court as a receiver;\n(iii)      at the hearing of the petition, the Court shall inquire into the debts and assets of\nthe debtor and determine the same by order in writing, and it shall not be\nnecessary to frame a schedule under the provisions of section 33;\n(iv)       the property of the debtor shall be realised with all reasonable despatch, and\nthereafter, when practicable, distributed in a single dividend;\n(v)        the debtor shall apply for his discharge within six months from the date of\nadjudication; and\n(vi)       such other modifications as may be prescribed with the view saving expense\nand simplifying procedure :\nProvided that the Court may at any time direct that the ordinary procedure provided for in this\nAct shall be followed in regard to the debtor's estate, and thereafter the Act shall have effect\naccordingly."
+    },
+    {
+      "provision_ref": "sec75",
+      "section": "75",
+      "title": "Section 75. Appeals",
+      "content": "_ (1) The debtor, any creditor, the receiver or any other person aggrieved by a\ndecision come to or an order made in the exercise of insolvency jurisdiction by a Court subordinate to\na District Court may appeal to the District Court, and the order of the District Court upon such appeal\nshall be final:\n1\nIn Punjab read “two thousand rupees”, see Punjab Relief of Indebtedness Act, 1934 (Punjab 7 of 1934), s. 4.\n2\nSubs. by A.O., 1937, for “local official Gazette”.\nProvided that the High Court, for the purpose of satisfying itself that an order made in any\nappeal decided by the District Court was according to law, may call for the case and pass such order\nwith respect thereto as it thinks fit:\nProvided further, that any such person aggrieved by a decision of the District Court on appeal\nfrom a decision of a subordinate Court under section 4 may appeal to the High Court on any of the\ngrounds mentioned in sub-section (1) of section 100 of the Code of Civil Procedure, 1908 (V of 19080).\n(2) Any such person aggrieved by any such decision or order of a District Court as is specified\nin Schedule I, come to or made otherwise than in appeal from an order made by a subordinate Court,\nmay appeal to the High Court.\n(3) Any such person aggrieved by any other order made by a District Court otherwise than in\nappeal from an order made by a subordinate Court may appeal to the High Court by leave of the District\nCourt or of the High Court.\n(4) The periods of limitation for appeals to the District Court and to the High Court under this\nsection shall be thirty days and ninety days, respectively."
+    },
+    {
+      "provision_ref": "sec76",
+      "section": "76",
+      "title": "Section 76. Costs. The costs of any proceeding under this Act, including the costs of maintaining a",
+      "content": "debtor in the civil prison, shall, subject to any rules made under this Act, be in the discretion of the\nCourt in which the proceeding is had."
+    },
+    {
+      "provision_ref": "sec77",
+      "section": "77",
+      "title": "Section 77. Courts to be auxiliary to each other. All Courts having jurisdiction in insolvency and the",
+      "content": "officers of such Courts, respectively, shall severally act in aid of and be auxiliary to each other in all\nmatters of insolvency, and an order of a Court seeking aid with a request to another of the said Courts\nshall be deemed sufficient to enable the latter Court to exercise, in regard to the matters directed by\nthe order, such jurisdiction as either of such Courts could exercise in regard to similar matters within\ntheir respective jurisdictions."
+    },
+    {
+      "provision_ref": "sec78",
+      "section": "78",
+      "title": "Section 78. Limitation",
+      "content": "_(1) The provisions of sections 5 and 12 of the Limitation Act, 1908 (IX of\n1908), shall apply to appeals and applications under this Act, and for the purpose of the said section\n12, a decision under section 4 shall be deemed to be a decree.\n(2) Where an order of adjudication has been annulled under this Act, in computing the period\nof limitation prescribed for any suit or application for the execution of a decree (other than a suit or\napplication in respect of which the leave of the Court was obtained under sub-section (2) of section\n28) which might have been brought or made but for the making of an order of adjudication under this\nAct, the period from the date of the order of adjudication to the date of the order of annulment shall be\nexcluded :\nProvided that nothing in this section shall apply to a suit or application in respect of a debt\nprovable but not proved under this Act."
+    },
+    {
+      "provision_ref": "sec79",
+      "section": "79",
+      "title": "Section 79. Power to make rules",
+      "content": "_1[(1) The High Court may, with the previous sanction of the\nProvincial Government, make rules for carrying into effect the provisions of this Act.]\n1\nSubs. by A.O., 1937, for the original sub-section.\n(2) In particular and without prejudice to the generality of the foregoing power, such rules may\nprovide___\n(a)         for the appointment and remuneration of receivers (other than Official\nReceivers), the audit of the accounts of all receivers and the cost of such audit,\n(b)         for meetings of creditors,\n(c)         for the procedure to be followed where the debtor is a firm, 1*\n(d)         for the procedure to be followed in the case of estates to be administered in a\nsummary manner, 2[and\n(e)         for any matter which is to be or may be prescribed.]\n(3) All rules made under this section shall be published 3* * * in the 4[official Gazette] 5* * *\nand shall, on such publication, have effect as if enacted in this Act."
+    },
+    {
+      "provision_ref": "sec80",
+      "section": "80",
+      "title": "Section 80. Delegation of powers to Official Receivers",
+      "content": "_(1) The High Court, with the like sanction,\nmay from time to time direct that, in any matters in respect of which jurisdiction is given to the Court\nby this Act, the Official Receiver shall, subject to the directions of the Court, have all or any of the\nfollowing powers, namely:___\n6\n*      *            *          *           *          *           *\n(b)         to frame schedules and to admit or reject proofs of creditors ;\n6\n*      *           *          *           *          *           *\n(e)         to make interim orders in any case of urgency ; and\n(f)         to hear and determine any unopposed or ex -parte application.\n(2) Subject to the appeal to the Court provided for by section 68, any order made or act done\nby the Official Receiver in the exercise of the said powers shall be deemed the order or act of the Court."
+    },
+    {
+      "provision_ref": "sec81",
+      "section": "81",
+      "title": "Section 81. Power of Provincial Government to bar application of certain provisions to certain",
+      "content": "Courts. Any 7[Provincial Government] 8* * * may, by notification in the 9[official Gazette], declare\nthat any of the provisions of this Act specified in Schedule II shall not apply to insolvency proceedings\nin any Court or Courts having jurisdiction under this Act in any part of the territories administered by\nsuch 1[Provincial Government].\n1\nThe word “and” rep. by the Provincial Insolvency (Amdt.) Act, 1926 (39 of 1926), s. 6.\n2\nIns. ibid.\n3\nThe words “in the Gazette of India or” rep. by A.O., 1937.\n4\nSubs. ibid., for “local official Gazette”.\n5\nThe words “as the case may be” rep., ibid.\n6\nCls. (a), (c) and (d) rep. by Act 39 of 1926, s. 7.\n7\nSubs. by A.O., 1937, for “L.G.”.\n8\nThe words “with the previous sanction of the G.G. in C.”, rep. by the Devolution Act, 1920 (38 of 1920), s. 2 and Sch. I.\n9\nSubs. by A.O., 1937, for “local official Gazette”."
+    },
+    {
+      "provision_ref": "sec82",
+      "section": "82",
+      "title": "Section 82. Savings. Nothing in this Act shall",
+      "content": "(a)        affect the 1[Insolvency (Karachi Division 2* * ) Act (III of 1909)], 3* * * or\n(b)        apply to cases to which Chapter IV of the Dekkhan Agriculturists Relief Act,\n1879 (XVII of 1879), is applicable."
+    },
+    {
+      "provision_ref": "sec83",
+      "section": "83",
+      "title": "Section 83. Repeals. 4* * * * * * *",
+      "content": "(2) Where in any enactment or instrument in force at the date of the commencement of this\nAct, reference is made to Chapter XX (of Insolvent Judgment-debtors) of the Code of Civil Procedure,\n1877 (X of 1877), or of the Code of Civil Procedure 1882 (XIV of 1882), or to any section of either of\nthose Chapters, such reference shall, so far as may be practicable, be construed as applying to this Act\nor to the corresponding section thereof.\n1\nSubs. by A.O., 1964, Art. 2 and Sch., for “Insolvency (Dacca and the Federal Territory of Karachi) Act” which had been subs. by the Repealing and\nAmending Ordinance, 1961 (1 of 1961), s. 3 and 2nd Sch., for “Insolvency (Capital of the Federation and Dacca) Act”.\n2\nThe words “and Dacca” omitted by F.A.O., 1975, Art. 2 and Sch.,\n3\nThe words and figures “or section 8 of the Lower Burma Courts Act 1900” rep. by the Repealing and Amending Act, 1930 (8 of 1930), s. 3 and Sch. II.\n4\nSub-section (1) rep. by the Repealing Act, 1927 (12 of 1927), s. 2 and Sch.\n[See section 75(2)]\nDecisions and Orders from which an appeal lies to the High Court under section 75 (2).\nSection                                        Nature of decision or order\n4                   Decision of questions of title, priority, etc., arising in insolvency.\n25                  Order dismissing a petition.\n26                  Order awarding compensation.\n27                  Order of adjudication.\n33                  Orders regarding entries in the schedule.\n35                  Order annulling adjudication.\n37                  Order declaring the conditions on which the debtor's property shall revert to him on\nannulment of adjudication.\n41                  Order on application for discharge.\n50                  Order disallowing or reducing entries in the schedule.\n53                  Order annulling a voluntary transfer.\n54                  Decision that a transfer of property is a preference in favour of a creditor.\n1\n*                 *******\n1\n(See Section 81)\nProvisions of the Act application of which may be barred by\n1\n[Provincial Governments].\nProvisions of the Act.                                             Subject.\nSection\n26                                              ..           Award of compensation.\n28, sub-section (3)                             ..           Reputed property of an insolvent.\n34                                              ..           Debts provable under the Act.\n38\n39                                              ..           Compositions and schemes of arrangement.\n40\n42, sub-sections (1) and (2)                                 Obligation to refuse absolute discharge.\n45\n47\n48                                                           Method of proof of debts.\n49\n50\n51\n52\n53                                                           Effect of insolvency on antecedent transactions.\n54\n55\n1\nSubs. by A.O., 1937, for “Local Governments.”\nSCHEDULE II___contd.\nProvisions of the Act.                                    Subject\n61 [exept clause (a) of sub-section (1) and      Priority of debts.\nsub-section (4)]\n62\nDividends\n63\n64\n65\n66                                               Management by and allowance to insolvent.\n72                                               Penalty for obtaining of credit by undischarged\ninsolvent.\nSCHEDULE III. ___[ENACTMENTS REPEALED.] Rep. by the Repealing Act, 1927\n(XII of 1927), s. 2 and Sch.\n___________\nDate: 11-09-2024"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "creditor",
+      "definition": "a decree-holder, “debt” includes a judgment-debt, and “debtor” includes a judgment-debtor ;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "District Court",
+      "definition": "the principal Civil Court of original jurisdiction in any area 8[outside the limits of the ordinary original civil jurisdiction of the 9[High Court of Sind] as defined in section 2 of the 10[Insolvency (Karachi Division and Dacca) Act (III of 1909)];",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "prescribed",
+      "definition": "prescribed by rules made under this Act ;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "property",
+      "definition": "any property over which or the profits of which any person as a disposing power, which he may exercise for his own benefit ; 1 For statement of Objects and Reasons, see Gazette of India, 1918, Pt. V, p.63 ; for Report of Select Committee, see ibid., 1919, Pt. V, p.119; and ibid., 1920, Pt. V, p.9 ; and for Proceedings in Council, see ibid., 1918, Pt. VI, pp. 761 and 1322, and ibid., 1920, Pt. VI, pp.15 and 389. This Act has been amended in the Punjab by Punjab Acts 7 of 1934 and 3 of 1939 ; in Sind by Sind Act 25 of 1939 ; and in the Taluka of Karachi by Bom. Act 3 of 1935. It has been amended in its application to the Province of West Pakistan by West Pakistan Ordinance 8 of 1959. It has been extended by notification under section 5 of the Scheduled Districts Act, 1874 (14 of 1874), to __ Sind__see Gazette of India, 1920, Pt.I, p. 2052; Scheduled Districts in the N.W.F.P__see Gazette of India, 1920, Pt. II, p. 910 ; Baluchistan—see Baluchistan local R.& O. It has been extended to the Leased Areas of Baluchistan; see the Leased Areas (Laws) Order, 1950 (G.G.O.3 of 1950) ; and also applied in the Federated Areas of Baluchistan, see Gazette of India, 1937, Pt. I. p. 1499. 2 The words “in British India” omitted by A. O., 1949. 3 The words “the Presidency-towns and” omitted, ibid. 4 Subs. by F.A.O., 1975, Art, 2 and Sch., for “towns of Karachi and Dacca”, which was previously amended by various enactments. 5 The original words “the town of Rangoon” have successively been amended by the Insolvency (Amdt.) Act, 1926 (9 of 1926), s.11, A.O., 1937, and Ord. 21 of 1960, s. 3 and 2nd Sch. (with affect from the 14th October, 1955), to read as above. 6 Sub-section (2) has successively been amended by A.O., 1949, Ord. 21 of 1960, s. 3 and 2nd Sch. (with effect from the 14th October, 1955), the Repealing and Amending Ordinance, 1961 (1 of 1961) and A.O., 1964, Art. 2 and Sch., to read as above. 7 The words “and Dacca” omitted by F.A.O., 1975, Art. 2 and Sch. 8 The original words “outside the local limits for the time being of the Presidency-towns and of the Town of Rangoon”, have successively been amended by the Insolvency (Amdt.) Act, 1926 (9 of 1926), s. 11, A. O. 1937 and A. O. 1949, to read as above. 9 Subs, by the Federal Laws (Revision and Declaration) Ordinance, 1981 (27 of 1981), s. 3 and Sch.II, for “Bench of the High Court of West Paksitan at Karachi”, which was previously by various enactments. 10 Subs. by A.O., 1964, Art 2 and Sch., for “Insolvency (Dacca and the Federal Territory of Karachi) Act” which had been subs. by Ord. 1 of 1961 s. 3 and 2nd Sch., for “Insolvency (Capital of the Federation and Dacca), Act”.",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "secured creditor",
+      "definition": "a person holding a mortgage, charge or lien on the property debtor or any part thereof as a security for a debt due to him from the debtor ; and",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "transfer of property",
+      "definition": "a transfer of any interest in property and the creation of any charge upon property. (2) Words and expression used in this Act and defined in the Code of Civil Procedure, 1908 (V of 1908), and not hereinbefore defined shall have the same meanings as those respectively attributed to them by the said Code.",
+      "source_provision": "sec2"
+    }
+  ]
+}

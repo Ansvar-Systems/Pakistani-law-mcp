@@ -1,0 +1,25 @@
+{
+  "id": "pk-martial-law-regulation-no-60-repeal-act-1989",
+  "type": "statute",
+  "title": "Martial Law Regulation No. 60 (Repeal) Act, 1989",
+  "title_en": "Martial Law Regulation No. 60 (Repeal) Act, 1989",
+  "short_name": "MLRNA",
+  "status": "repealed",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-apaUY2Npa5plaQ%3D%3D-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Martial Law Regulation No. 60 (Repeal) Act, 1989 (VI of 1989) published by The Pakistan Code (General Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title and commencement",
+      "content": "(1) This Act may be called the Martial Law Regulation\nNo. 60 (Repeal) Act, 1989.\n(2) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Repeal of M.L.R. No. 60",
+      "content": "Martial Law Regulation No. 60, regarding Educational\nInstitutions in Islamabad Capital Territory, is hereby repealed."
+    }
+  ],
+  "definitions": []
+}

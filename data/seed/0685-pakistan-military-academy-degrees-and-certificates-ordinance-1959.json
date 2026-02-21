@@ -1,0 +1,55 @@
+{
+  "id": "pk-pakistan-military-academy-degrees-and-certificates-ordinance-1959",
+  "type": "statute",
+  "title": "Pakistan Military Academy (Degrees and Certificates) Ordinance, 1959",
+  "title_en": "Pakistan Military Academy (Degrees and Certificates) Ordinance, 1959",
+  "short_name": "PMAAC",
+  "status": "in_force",
+  "issued_date": "1959-09-15",
+  "in_force_date": "1959-09-15",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-a5aZZw%3D%3D-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Pakistan Military Academy (Degrees and Certificates) Ordinance, 1959 (LI of 1959) published by The Pakistan Code (Military Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Power to make regulations",
+      "content": "THE PAKISTAN MILITARY ACADEMY (DEGREES AND CERTIFICATES)\nORDINANCE, 1959\nORDINANCE No. LI of 1959\n[16th September, 1959]\nAn Ordinance to authorise the Pakistan Military Academy at Kakul to confer degrees and grant\ncertificates.\nWHEREAS it is expedient to authorise the Pakistan Military Academy at Kakul to confer\ndegrees and grant certificates;\nNOW, THEREFORE, in pursuance of the Proclamation of the seventh day of October, 1958,\nand in exercise of all powers enabling him in that behalf, the President is pleased to make and\npromulgate the following Ordinance:___"
+    },
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title and commencement",
+      "content": "_(1) This Ordinance may be called the Pakistan Military\nAcademy (Degrees and Certificates) Ordinance, 1959.\n(2) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definition. In this Ordinance, unless there is anything repugnant in the subject or",
+      "content": "context,___\n(a)       “Academy” means the Pakistan Military Academy at Kakul;\n(b)       “certificate” means a certificate mentioned in Part II of the Schedule; and\n(c)       “degree” means a degree mentioned in Part I of the Schedule."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Conferment of degrees, etc., on cadets and officers",
+      "content": "_1[(1)] The Academy shall have the\npower to confer a degree on, or grant a certificate to, any gentleman cadet of the Academy on his\nsuccessful completion of the appropriate course at the Academy, and such power shall include the\npower to confer a degree on, or grant a certificate to, any officer who at any time before the\ncommencement of this Ordinance was commissioned from the Academy.\n1\n[(2) The provisions of sub-section (1) shall apply to those gentlemen cadets of the Academy\nwho, before the commencement of the Pakistan Military Academy (Degrees and Certificates)\n(Amendment) Ordinance, 1962, had successfully completed their training at the Royal Military\nAcademy, Sandhurst, or who, after such commencement, successfully complete their training at that\nAcademy.]"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Academy",
+      "definition": "the Pakistan Military Academy at Kakul;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "certificate",
+      "definition": "a certificate mentioned in Part II of the Schedule; and",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "degree",
+      "definition": "a degree mentioned in Part I of the Schedule.",
+      "source_provision": "sec2"
+    }
+  ]
+}

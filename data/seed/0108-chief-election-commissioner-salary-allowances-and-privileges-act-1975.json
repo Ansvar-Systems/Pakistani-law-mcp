@@ -1,0 +1,56 @@
+{
+  "id": "pk-chief-election-commissioner-salary-allowances-and-privileges-act-1975",
+  "type": "statute",
+  "title": "Chief Election Commissioner (Salary, Allowances and Privileges) Act, 1975",
+  "title_en": "Chief Election Commissioner (Salary, Allowances and Privileges) Act, 1975",
+  "short_name": "CECAA",
+  "status": "in_force",
+  "issued_date": "1975-07-20",
+  "in_force_date": "1975-07-20",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-bpuUZWNu-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Chief Election Commissioner (Salary, Allowances and Privileges) Act, 1975 (LV of 1975) published by The Pakistan Code (General Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title and commencement. This Act may be called the Chief Election Commissioner",
+      "content": "(Salary, Allowances and Privileges) Act, 1975.\n(2) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions. In this Act, unless there is anything repugnant in the subject or context,",
+      "content": "(a)        “Commissioner” means the Chief Election Commissioner appointed under\nclause (1) of Article 213 of the Constitution; and\n(b)        “Constitution” means the Constitution of the Islamic Republic of Pakistan."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Salary, allowances and privileges. A Commissioner shall be entitled to the same salary,",
+      "content": "allowances and privileges as a Judge of the Supreme Court:\n2\n[Provided that where the Commissioner has been a Chief Justice of Pakistan, he shall be\nentitled to the same salary, allowances and privileges as are admissible to Chief Justice of Pakistan.]"
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Provident Fund. The Commissioner may, at his option, become a subscriber to the",
+      "content": "General Provident Fund and, if he so opts, shall subscribe to the Fund as a compulsory subscriber\naccording to the General Provident Fund (Central Services) Rules."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Leave",
+      "content": "(1) A Commissioner who, within the period of seven days immediately preceding\nhis appointment as such, was in the service of Pakistan shall carry with him in his said appointment\nthe leave earned by him and standing to his credit while in such service and may be granted leave by\nthe President under the rules applicable to him while in such service; and his service as\nCommissioner shall count for the grant of leave under the said rules.\n(2) A Commissioner who, within the period of seven days immediately preceding his\nappointment as such, was not in the service of Pakistan may be granted leave by the President as\nfollows:\n(a)        leave on leave salary equivalent to full pay at the rate of one eleventh of the\nperiod spent on duty;\n1\nFor Statement of Objects and Reasons, SEE Gaz. of P., 1975, Ext. Pt. 111. p. 419.\n2\nSubs. by Ord. VII of 02, s.2, with effect from 16-1-02.\n(b)   leave on leave salary equivalent to half pay at the rate of one eleventh of the\nperiod spent on duty, such leave being convertible into leave on full pay at the\nrate of two days of leave on half pay equal to one day's leave on full pay, if it\nis availed of on medical grounds; and\n(c)   extraordinary leave without pay or allowances for a period not exceeding three\nmonths during his full term of three years, subject to a maximum of two\nmonths at any one time, the Commissioner being entitled to combine such\nleave with any other kind of leave admissible to him."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Commissioner",
+      "definition": "the Chief Election Commissioner appointed under clause (1) of Article 213 of the Constitution; and",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "Constitution",
+      "definition": "the Constitution of the Islamic Republic of Pakistan.",
+      "source_provision": "sec2"
+    }
+  ]
+}

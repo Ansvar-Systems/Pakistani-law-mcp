@@ -1,0 +1,79 @@
+{
+  "id": "pk-trained-paramedical-staff-facility-act-2023",
+  "type": "statute",
+  "title": "Trained Paramedical Staff Facility Act, 2023",
+  "title_en": "Trained Paramedical Staff Facility Act, 2023",
+  "short_name": "TPSFA",
+  "status": "in_force",
+  "issued_date": "2023-06-19",
+  "in_force_date": "2023-06-19",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-apaUY2Npa5pmaQ%3D%3D-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Trained Paramedical Staff Facility Act, 2023 (XXX of 2023) published by The Pakistan Code (General Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement",
+      "content": "_(1) This Act shall be called the Trained\nParamedical Staff Facility Act, 2023.\n(2) It extends to the Islamabad Capital Territory.\n(3) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions",
+      "content": "_ In this Act, unless there is anything repugnant in the subject or context,__\n(a)     “Code” means the Code of Criminal Procedure, 1898 (Act V of 1898);\n(b)     “paramedical staff” means the fully trained staff available at any school to\nprovide medical assistance or first aid to the school children in case of need; and\n(c)     “educational institution” means and includes any public, private institution\nhaving the minimum strength of thirty students enrolled there."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Provision of paramedical staff",
+      "content": "_ (1) The Federal Government shall ensure the provision\nof trained paramedical staff at all educational institutions to provide immediate medical assistance and\nfirst aid in every educational institution whenever the need arises.\n(2) All private educational institutions shall also ensure the provision of paramedical staff at\ntheir premises so that the students in need of medical aid may be assisted immediately."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Punishment for non",
+      "content": "compliance.___ Whosoever does not comply to the provisions of this\nAct, shall be given one warning in writing and in case of further non-compliance shall be punished\nwith fine which may extend to one hundred thousand rupees and in case of further noncompliance\nshall be punished with imprisonment for six months."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Cognizance of an offence",
+      "content": "_ Notwithstanding anything contained in the Code, an offence\npunishable under this Act shall be trial under the Code by the magistrate of first class."
+    },
+    {
+      "provision_ref": "sec6",
+      "section": "6",
+      "title": "Section 6. Application of the provisions of the Code",
+      "content": "_ Any proceedings under this Act shall be\ncarried out in accordance with the relevant provisions of the Code."
+    },
+    {
+      "provision_ref": "sec7",
+      "section": "7",
+      "title": "Section 7. Removal of difficulties",
+      "content": "_ If any difficulty arises in giving effect to any provision of this\nAct, the Federal Government *may make such order not inconsistent with the provisions of this Act as\nmay appear to be necessary for the purpose of removing such difficulty."
+    },
+    {
+      "provision_ref": "sec8",
+      "section": "8",
+      "title": "Section 8. Power to make Rules",
+      "content": "_ The Federal Government may, by notification in the official\nGazette, make rules for carrying out the purposes of this Act.\n*appears as ‘mgy’ in gazette"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Code",
+      "definition": "the Code of Criminal Procedure, 1898 (Act V of 1898);",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "paramedical staff",
+      "definition": "the fully trained staff available at any school to provide medical assistance or first aid to the school children in case of need; and",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "educational institution",
+      "definition": "and includes any public, private institution having the minimum strength of thirty students enrolled there.",
+      "source_provision": "sec2"
+    }
+  ]
+}

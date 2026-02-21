@@ -1,0 +1,67 @@
+{
+  "id": "pk-disturbed-areas-special-powers-ordinance-1962",
+  "type": "statute",
+  "title": "Disturbed Areas (Special Powers) Ordinance, 1962",
+  "title_en": "Disturbed Areas (Special Powers) Ordinance, 1962",
+  "short_name": "DAPO",
+  "status": "in_force",
+  "issued_date": "1962-06-04",
+  "in_force_date": "1962-06-04",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-cJ6d-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Disturbed Areas (Special Powers) Ordinance, 1962 (LIV of 1962) published by The Pakistan Code (General Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec6",
+      "section": "6",
+      "title": "Section 6. Omitted",
+      "content": "ORDINANCE NO. LIV OF 1962\n[5th June, 1962]\nAn Ordinance to confer certain special powers upon officers in respect of disturbed areas.\nWHEREAS it is expedient to confer certain special powers upon officers in respect of\ndisturbed areas;\nNOW; THEREFORE, in pursuance of the Proclamation of the seventh day of October, 1958,\nand in exercise of all powers enabling him in that behalf, the President is pleased to make and\npromulgate the following Ordinance: ___"
+    },
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement",
+      "content": "_(1) This Ordinance may be called the .\n(2) It extends to the whole of Pakistan.\n(3) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions",
+      "content": "_In this Ordinance, unless there is anything repugnant in the subject or\ncontext, ___\n(a)     “disturbed area” means an area declared by the Provincial Government, by\nnotification in the official Gazette, to be a disturbed area for the purposes of\nthis Ordinance;\n(b)     “officer of the Armed Forces” means an officer of the Pakistan Army, the\nPakistan Navy or the Pakistan Air Force, and includes___\n(i)     in the case of Pakistan Army, a junior commissioned officer and a non-\ncommissioned officer;\n(ii)    in the case of Pakistan Navy, a superior officer; and\n(iii)   in the case of Pakistan Air Force, a junior commissioned officer, a\nwarrant officer, a petty officer and a non-commissioned officer; and\n(c)     “officer of the Civil Armed Forces” means an officer of the Civil Armed\nForces not below the rank corresponding to that of an Assistant Sub-Inspector\nof Police."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Special powers of Magistrates and Police officers",
+      "content": "_(1) If in the opinion of any\nMagistrate, or any police officer in charge of a police party, it is necessary for the maintenance of\npublic order so to do, he may, after giving such warning as may be appropriate in the circumstances\nof the case, fire upon, or otherwise use force against, any person who is acting in contravention of\nany law or order for the time being in force in a disturbed area prohibiting the assembly of five or\nmore persons, or the carrying of weapons, or of things capable of being used as weapons.\n(2) It shall be lawful for any Magistrate or police officer exercising powers under sub-section\n(1) so to fire or use force as to cause death, and for any person employed in the use of such force to\ncause death of the person against whom he is authorized to use force."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Special powers of officers of the Armed Forces, etc.",
+      "content": "_Any officer of the Armed Forces,\nor any officer of the Civil Armed Forces may, in a disturbed area, ___\n(a)        exercise the powers of a Magistrate or police officer conferred by section 3;\n(b)        arrest without warrant any person who has committed a cognizable offence, or\nagainst whom a reasonable suspicion exists that he has committed or is about\nto commit a cognizable offence; and\n(c)        enter and search, without warrant, any premises to make any such arrest as is\nreferred to in clause (b), or to recover any person believed to be wrongfully\nrestrained or confined, or any property reasonably suspected to be stolen\nproperty, or any arms believed to be unlawfully kept in such premises."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Bar to suits, etc",
+      "content": "_No prosecution, suit or other legal proceedings shall be instituted\nagainst any person in respect of anything done or purporting to be done in exercise of the powers\nconferred by sections 3 and 4, except with the previous sanction in writing, ___\n(a)        in the case of a Magistrate or police officer, of the Provincial Government; and\n(b)        in the case of an officer of the Armed Forces or an officer of the Civil Armed\nForces, of the 1[Federal Government]."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "disturbed area",
+      "definition": "an area declared by the Provincial Government, by notification in the official Gazette, to be a disturbed area for the purposes of this Ordinance;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "officer of the Armed Forces",
+      "definition": "an officer of the Pakistan Army, the Pakistan Navy or the Pakistan Air Force, and includes___ (i) in the case of Pakistan Army, a junior commissioned officer and a non- commissioned officer; (ii) in the case of Pakistan Navy, a superior officer; and (iii) in the case of Pakistan Air Force, a junior commissioned officer, a warrant officer, a petty officer and a non-commissioned officer; and",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "officer of the Civil Armed Forces",
+      "definition": "an officer of the Civil Armed Forces not below the rank corresponding to that of an Assistant Sub-Inspector of Police.",
+      "source_provision": "sec2"
+    }
+  ]
+}

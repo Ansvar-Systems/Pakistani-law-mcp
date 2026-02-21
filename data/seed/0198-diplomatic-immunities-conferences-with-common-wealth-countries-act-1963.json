@@ -1,0 +1,72 @@
+{
+  "id": "pk-diplomatic-immunities-conferences-with-common-wealth-countries-act-1963",
+  "type": "statute",
+  "title": "Diplomatic Immunities (Conferences with Common wealth Countries) Act, 1963",
+  "title_en": "Diplomatic Immunities (Conferences with Common wealth Countries) Act, 1963",
+  "short_name": "DIWCW",
+  "status": "in_force",
+  "issued_date": "1963-04-02",
+  "in_force_date": "1963-04-02",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-cJmc-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Diplomatic Immunities (Conferences with Common wealth Countries) Act, 1963 (II of 1963) published by The Pakistan Code (Civil Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement",
+      "content": "(1) This Act may be called the Diplomatic\nImmunities (Conferences with Commonwealth Countries) Act, 1963.\n(2) It extends to the whole of Pakistan.\n(3) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions",
+      "content": "In this Act, unless there is anything repugnant in the subject or context,—\n(a)       “envoy” means the envoy of a foreign sovereign power duly accredited in\nPakistan;\n(b)       “list” means a list compiled and published under section 4, and includes any\namendment of such list ;\n(c)       “official staff” means officials employed directly under the orders of a\nrepresentative included in a list ;\n(d)       “Secretary” means the Secretary to the Government of Pakistan in the\nMinistry concerned with the convening or sponsoring of a conference."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Application of Act reciprocal",
+      "content": "If the 1[Federal Government] is satisfied that the govern-\nment of any country within the Commonwealth has made provision for extending to the\nrepresentatives of the Government of Pakistan attending conferences in that country and their official\nstaff immunities similar to those provided for in this Act, it may, by notification in the official\nGazette, declare that this Act applies to such country, and thereupon the provisions of this Act shall\nduring the period such notification remains in force, apply accordingly."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Compilation and Publication of lists",
+      "content": "(1) Where a conference is held in Pakistan and is\nattended by representatives of the Government of Pakistan and of the government or governments of\none or more countries to which this Act applies, the Secretary shall compile, and cause to be\npublished in the official Gazette, a list of the representatives of such government or governments and\nmembers of their official staffs, showing separately—\n1\nSubs. by F.A.O., 1975, Art. 2 and Table, for “Central Government”.\n(a)     the representatives ; and\n(b)     the members of the official staffs—\n(i)    who are not citizens of Pakistan, or who are not deemed to be such\ncitizens ; and\n(ii)   who are, or are deemed to be, such citizens.\n(2) Whenever it appears to the Secretary that any person ceases or begins to be qualified for\ninclusion in a list, he may amend the list and cause the amendment, or, if he thinks fit, an amended\nlist, to be published in the official Gazette.\n(3) Every list or amendment published under this section in relation to any conference shall\ninclude a statement of the date from which the list or amendment takes or took effect."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Diplomatic Immunities of Commonwealth Representatives attending Conferences in",
+      "content": "Pakistan.—(1) Every representative who is for the time being included in a list shall, subject to the\nprovisions of sub-section (3), be entitled to the immunity from suit and legal process, and to the\ninviolability of residence, official premises and official archives, to which he would be entitled if he\nwere an envoy.\n(2) Every member of the official staff who is for the time being included in a list shall,\nsubject to the provisions of sub-section (3), be entitled to the immunity from suit and legal process to\nwhich he would be entitled if the representative under whose orders he is employed were an envoy.\n(3) Where a representative or a member of an official staff is or is deemed to be a citizen of\nPakistan, he shall not, except in respect of things done or omitted to be done in the course of the\nperformance of his duties as such representative or member, be entitled to the immunity mentioned\nin sub-section (1) or, as the case may be, sub-section (2)."
+    },
+    {
+      "provision_ref": "sec6",
+      "section": "6",
+      "title": "Section 6. List to be conclusive proof of right to Immunities",
+      "content": "If any question arises as to whether\nany person is or was included or not included at any time among the persons entitled to any\nimmunity under this Act, the official Gazette containing the list as effective for the time being, shall\nbe conclusive proof of the fact that the person is or was so included or not so included.\n____________\nDated: - 04.01.2024"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "envoy",
+      "definition": "the envoy of a foreign sovereign power duly accredited in Pakistan;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "list",
+      "definition": "a list compiled and published under section 4, and includes any amendment of such list ;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "official staff",
+      "definition": "officials employed directly under the orders of a representative included in a list ;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "Secretary",
+      "definition": "the Secretary to the Government of Pakistan in the Ministry concerned with the convening or sponsoring of a conference.",
+      "source_provision": "sec2"
+    }
+  ]
+}

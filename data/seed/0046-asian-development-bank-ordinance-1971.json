@@ -1,0 +1,62 @@
+{
+  "id": "pk-asian-development-bank-ordinance-1971",
+  "type": "statute",
+  "title": "Asian Development Bank Ordinance, 1971",
+  "title_en": "Asian Development Bank Ordinance, 1971",
+  "short_name": "ADBO",
+  "status": "in_force",
+  "issued_date": "1971-04-15",
+  "in_force_date": "1971-04-15",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-bpuUY2Fw-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Asian Development Bank Ordinance, 1971 (IX of 1971) published by The Pakistan Code (Banking/Financial Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec6",
+      "section": "6",
+      "title": "Section 6. Power to make rules",
+      "content": "1THE ASIAN DEVELOPMENT BANK ORDINANCE, 1971\nORDINANCE NO. IX of 1971\n[16th April, 1971]\nAn Ordinance to implement the international agreement for the establishment and operation of the\nAsian Development Bank and for matters connected therewith.\nWHEREAS PAKISTAN is a signatory to the Agreement establishing the Asian Development\nBank and thereby became a member of the said Bank;\nAND WHEREAS it is expedient to make provision for the implementation of the\ninternational agreement for the establishment and operation of the aforesaid Bank and for carrying\nout the obligations of Pakistan as a member of the said Bank and for matters connected therewith;\nNOW, THEREFORE, in pursuance of the Proclamation of the 25th day of March, 1969, read\nwith the Provisional Constitution Order, and in exercise of all powers enabling him in that behalf, the\nPresident is pleased to make and promulgate the following Ordinance :—"
+    },
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement",
+      "content": "(1) This Ordinance may be called the Asian\nDevelopment Bank Ordinance, 1971.\n(2) It extends to the whole of Pakistan.\n(3) It shall come into force at once and shall be deemed to have taken effect from the 19th\nDecember, 1966."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions. In this Ordinance, unless there is anything repugnant in the subject or",
+      "content": "context,—\n(a)        “Agreement” means the Agreement for the establishment and operation of the\ninternational body known as the Asian Development Bank;\n(b)        “Bank” means the Asian Development Bank established under the Agreement."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Financial provisions",
+      "content": "(1) There shall be paid out of the 2[Federal Consolidated Fund] all\nsuch sums as may, from time to time, be required for the purpose of paying—\n(a)        the subscriptions payable by the 3[Federal Government] to the Bank under\nparagraphs 1, 2 and 3 of Article 5 of the Agreement; and\n(b)        any sums payable by the 3[Federal Government] to the Bank under paragraph\n1 of Article 25 of the Agreement.\n(2) The 3[Federal Government] may, if it thinks fit so to do, create and issue to the Bank, in\nsuch form as it thinks fit, any such non-interest Bearing and non-negotiable notes or other obligations\nas are provided for by paragraph 3 of Article 6 of the Agreement.,\n1\nValidated by the Validation of Laws Act, 1975 (63 of 1975), s. 2 and Sch.,\n2\nSubs' by the F.A.O., 1975 (P.O. No. 4 of 1975) Art. 2 and Table, for “Central Consolidated Fund”.\n3\nSee foot-note 1, on page 558, supra.\n(3) Any sums received by or on behalf of the 1[Federal Government] from the Bank shall be\npaid into the 2[Federal Consolidated Fund.]"
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. State Bank to be depository of the Bank. The State Bank of Pakistan shall be the",
+      "content": "depository of the Pakistan currency holdings and other assets of the Bank located in Pakistan."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Certain provisions of the agreement to have force of law",
+      "content": "(1) Notwithstanding\nanything to the contrary contained in any other law, the provisions of the Agreement set out in the\nSchedule shall have the force of law in Pakistan;\nProvided that nothing in Article 56 of the Agreement shall be construed as—\n(a)        entitling the Bank to import into Pakistan goods free of any duty of customs\nwithout any restriction on their subsequent sale therein, or\n(b)        conferring on the Bank any exemption from duties or taxes which form part of\nrendered.\n(2) The 1[Federal Government] may, by notification in the official Gazette, amend the\nSchedule in conformity with any amendments, which may hereafter be duly made and adopted, of\nthe provisions of the Agreement-set out therein."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Agreement",
+      "definition": "the Agreement for the establishment and operation of the international body known as the Asian Development Bank;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "Bank",
+      "definition": "the Asian Development Bank established under the Agreement.",
+      "source_provision": "sec2"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pk-federal-court-repeal-act-2014",
+  "type": "statute",
+  "title": "Federal Court (Repeal) Act, 2014",
+  "title_en": "Federal Court (Repeal) Act, 2014",
+  "short_name": "FCA",
+  "status": "repealed",
+  "issued_date": "2014-11-30",
+  "in_force_date": "2014-11-30",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-apaUY2FqZp8%3D-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Federal Court (Repeal) Act, 2014 (II of 2014) published by The Pakistan Code (General Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title and commencement",
+      "content": "(1) This Act may be called the Federal\nCourt(Repeal) Act, 2014.\n(2)    It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Repeal of Act XXV of 1937",
+      "content": "The Federal Court Act, 1937 (XXV of 1937), is hereby\nrepealed."
+    }
+  ],
+  "definitions": []
+}

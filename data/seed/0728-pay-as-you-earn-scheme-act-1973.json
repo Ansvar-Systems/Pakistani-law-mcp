@@ -1,0 +1,56 @@
+{
+  "id": "pk-pay-as-you-earn-scheme-act-1973",
+  "type": "statute",
+  "title": "Pay-As-You-Earn Scheme Act, 1973",
+  "title_en": "Pay-As-You-Earn Scheme Act, 1973",
+  "short_name": "PSA",
+  "status": "in_force",
+  "issued_date": "1973-02-08",
+  "in_force_date": "1973-02-08",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-bpuUY2lq-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Pay-As-You-Earn Scheme Act, 1973 (XXXI of 1973) published by The Pakistan Code (General Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title and commencement",
+      "content": "(1) This Act may be called the Pay-As-You-Earn\nScheme Act, 1973.\n(2) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions",
+      "content": "In this Act, unless there is anything repugnant in the subject or context,—\n(a)     “Prescribed” means prescribed by the Scheme or the rules made under this\nAct; and\n(b)     “Scheme” means the scheme brought into force under section 3."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. The Scheme",
+      "content": "(1) The Federal Government may prepare and, by notification in the\nofficial Gazette, bring into force a scheme, to be known as the Pay-As-You-Earn Scheme, for\nthe import of machinery and equipment on credit for the establishment of an industrial unit or\nenterprise and requiring that the cost of the machinery or equipment so imported, and such other\ncharges in foreign exchange as may be prescribed, shall be met from out of the export earnings of\nsuch industrial unit or enterprise.\n(2) The Scheme may specify, among other things, the categories of industrial units or\nenterprises for the establishment of which machinery or equipment may be imported under the\nScheme, the proportion of export earnings which may be utilized by an industrial unit or enterprise\nfor meeting charges in foreign exchange, the procedure for sanctioning of projects and scrutiny of\nlist of importable machinery, and the terms and conditions of foreign credits."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Power to make rules",
+      "content": "(1) The Federal Government may, by notification in the official\nGazette, make rules for the administration of the Scheme.\n(2) Any rules made under sub-section (1) may provide that an industrial unit or enterprise\nshall,—\n(a)      if it fails to repatriate to Pakistan any foreign exchange which it is required by\nthe Scheme to repatriate ; or\n(b)     if the prescribed percentage of its export earnings is not sufficient to meet the\ncost of the machinery and equipment and the other prescribed charge in\nforeign exchange,\nbe liable to pay to the State Bank of Pakistan by way of penalty a sum not exceeding twenty-seven\nper cent, of the value in Pakistan rupees of the amount of foreign exchange it fails to repatriate or, as\nthe case may be, of the amount by which its export earnings fall short of the aggregate of the cost\nand charges referred to in clause (b).\n(3) Any amount payable by an industrial unit or enterprise as a penalty under the rules\nmade under sub-section (1) shall be recoverable as an arrear of land revenue."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. 1 [Omitted]",
+      "content": "_______________________\nRGN Uploaded on 28.2.2024\n1\nOmitted by the Federal Laws (Revision and Declaration) Ordinance, 1981 (XXVII of1981), s. 3 and Sch, II."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Prescribed",
+      "definition": "prescribed by the Scheme or the rules made under this Act; and",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "Scheme",
+      "definition": "the scheme brought into force under section 3.",
+      "source_provision": "sec2"
+    }
+  ]
+}

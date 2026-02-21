@@ -1,0 +1,67 @@
+{
+  "id": "pk-islamic-development-bank-ordinance-1978",
+  "type": "statute",
+  "title": "Islamic Development Bank Ordinance, 1978",
+  "title_en": "Islamic Development Bank Ordinance, 1978",
+  "short_name": "IDBO",
+  "status": "in_force",
+  "issued_date": "1978-02-21",
+  "in_force_date": "1978-02-21",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-cZiY-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Islamic Development Bank Ordinance, 1978 (VI of 1978) published by The Pakistan Code (Banking/Financial Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec6",
+      "section": "6",
+      "title": "Section 6. Power to make rules",
+      "content": "ORDINANCE NO. VI OF 1978\n[22nd February, 1978]\nAn Ordinance to implement the international agreement for the establishment and operation of the\nIslamic Development Bank and for matters connected therewith.\nWHEREAS Pakistan is a signatory to the Agreement establishing the Islamic Development\nBank and thereby became a member of the said Bank;\nAND WHEREAS it is expedient to make provision for the implementation of the international\nagreement for the establishment and operation of the aforesaid Bank and for carrying out the\nobligations of Pakistan as a member of the said Bank and for matters connected therewith;\nAnd WHEREAS the President is satisfied that circumstances exist which render it necessary\nto take immediate action;\nNow, therefore, in pursuance of the Proclamation of the fifth day of July, 1977, read with the\nLaws (Continuance in Force) Order, 1977, (C.M.L.A. Order No. 1 of 1977), and in exercise of all\npowers enabling him in that behalf, the President is pleased to make and promulgate the following\nOrdinance:-"
+    },
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement",
+      "content": "(1) This Ordinance may be called the Islamic\nDevelopment Bank Ordinance, 1978.\n(2) It extends to the whole of Pakistan.\n(3) It shall come into force at once and shall be deemed to have taken effect on the twenty-third\nday of April, 1975."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions. In this Ordinance, unless there is anything repugnant in the subject or context,",
+      "content": "(a)     “Agreement” means the Agreement for the establishment and operation of the\ninternational body known as the Islamic Development Bank;\n(b)     “Article” means Article of the Agreement; and .\n(c)     “Bank” means the Islamic Development Bank established under the Agreement."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Financial provisions",
+      "content": "_(1) There shall be paid out of the Federal Consolidated Fund all\nsuch sums as may, from time to time, be required for the purpose of paying—\n(a)     the subscription payable by the Federal Government to the Bank under\nparagraphs 1, 2, 3, 4 and 5 of Article 5; and\n(b)     any other sums payable by the Federal Government to the Bank under the\nAgreement.\n(2) Any sums received, by or on behalf of the Federal Government from the Bank shall be paid\ninto the Federal Consolidated Fund."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. State Bank to be depository of the Bank. The State Bank of Pakistan shall be the depository",
+      "content": "of the Pakistan currency holdings and other assets of the Bank located in Pakistan."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Certain provisions of the Agreement to have force of law",
+      "content": "_(1) Notwithstanding anything\nto the contrary contained in any other law, the provisions of the Agreement set out in the Schedule\nshall have the force of law in Pakistan:\nProvided that nothing in Article 59 of the Agreement shall be construed as—\n(a)     entitling the Bank to import into Pakistan goods free of any duty of customs\nwithout any restriction on their sub-sequent sale therein, or\n(b)     conferring on the Bank an exemption from duties or taxes which form part of\nrendered.\n(2) The Federal Government may, by notification in the official Gazette, amend the Schedule\nin conformity with any amendments, which may hereafter be duly made and adopted, of the provisions\nof the Agreement set out therein."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Agreement",
+      "definition": "the Agreement for the establishment and operation of the international body known as the Islamic Development Bank;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "Article",
+      "definition": "Article of the Agreement; and .",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "Bank",
+      "definition": "the Islamic Development Bank established under the Agreement.",
+      "source_provision": "sec2"
+    }
+  ]
+}

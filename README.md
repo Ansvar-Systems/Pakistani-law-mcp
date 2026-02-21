@@ -23,7 +23,11 @@ npx @ansvar/pakistani-law-mcp
 
 ## Data Sources
 
-AI-generated seed data covering 10 key cybersecurity and data protection laws. Full official ingestion pending.
+Real legislation ingested from The Pakistan Code (official federal law portal): https://pakistancode.gov.pk/english/index.php
+
+- 1030 laws indexed from official A-Z listing
+- 1018 laws ingested into seed corpus from official linked PDFs
+- 12 laws skipped (official PDF missing or non-extractable text), documented in `REAL_INGESTION_REPORT.md`
 
 ## License
 

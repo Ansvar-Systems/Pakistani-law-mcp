@@ -1,0 +1,27 @@
+{
+  "id": "pk-banking-tribunals-validation-of-orders-act-1994",
+  "type": "statute",
+  "title": "Banking Tribunals (Validation of Orders) Act, 1994",
+  "title_en": "Banking Tribunals (Validation of Orders) Act, 1994",
+  "short_name": "BTOOA",
+  "status": "in_force",
+  "issued_date": "1994-11-30",
+  "in_force_date": "1994-11-30",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-apmcbA%3D%3D-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Banking Tribunals (Validation of Orders) Act, 1994 (V of 1994) published by The Pakistan Code (Banking/Financial Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement",
+      "content": "(1) This Act may be called the Banking Tribunals\n(Validation of Orders) Act, 1994.\n(2) It extends to the whole of Pakistan.\n(3) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Validation. Notwithstanding any order or decision of any court, any order or judgement",
+      "content": "passed, decision or proceeding taken or recoveries made by the Banking Tribunal under the Banking\nTribunals (Amendment) Act, 1992,(IV of 1992), or any appointment made or notification issued\nthereunder, at any time before the commencement of this Act, and purporting to be in exercise of the\nauthority conferred on the Banking Tribunal under the said Act shall be deemed to have been validly\nmade, passed or taken and shall have, and shall be deemed always to have had, affect accordingly."
+    }
+  ],
+  "definitions": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "pk-removal-of-accused-persons-act-1973",
+  "type": "statute",
+  "title": "Removal of Accused Persons Act, 1973",
+  "title_en": "Removal of Accused Persons Act, 1973",
+  "short_name": "ROAPA",
+  "status": "in_force",
+  "issued_date": "1973-09-14",
+  "in_force_date": "1973-09-14",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-bpuUY2pt-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Removal of Accused Persons Act, 1973 (LXIII of 1973) published by The Pakistan Code (Criminal Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement",
+      "content": "(1) This Act may be called the Removal of\nAccused Persons Act, 1973.\n(2) It extends to the whole of Pakistan.\n(3) it shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Removal of prisoners, etc",
+      "content": "Notwithstanding anything contained in any other law for\nthe time being in force, the Federal Government may, by general or special order, provide for\nthe removal of any accused person or class of accused persons held in custody in any Province to\nany other Province to be held in custody therein."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. 1 [ Omitted]",
+      "content": "_____________\nRGN Date: 20-05-2024\n1\nOmitted by the Federal Laws (Revision and Declaration) Ordinance No. XXVII of 1981, s.3 and sch. II."
+    }
+  ],
+  "definitions": []
+}

@@ -1,0 +1,61 @@
+{
+  "id": "pk-armed-forces-civil-general-transport-companies-and-requisition-of-civil-transpor",
+  "type": "statute",
+  "title": "Armed Forces Civil General Transport Companies and Requisition of Civil Transport Ordinance, 2002",
+  "title_en": "Armed Forces Civil General Transport Companies and Requisition of Civil Transport Ordinance, 2002",
+  "short_name": "AFCGT",
+  "status": "in_force",
+  "issued_date": "2002-11-13",
+  "in_force_date": "2002-11-13",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-apaUY2Ftbp4%3D-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Armed Forces Civil General Transport Companies and Requisition of Civil Transport Ordinance, 2002 (CXXII of 2002) published by The Pakistan Code (General Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Power to make rules",
+      "content": "REQUISITION OF CIVIL TRANSPORT ORDINANCE, 2002\nORDINANCE NO CXXII OF 2002\n[14th November, 2002]\nAn Ordinance to provide for raising of civil general transport companies and for requisition of civil\ntransport for the Armed Forces\nWHEREAS it is expedient to provide for raising of civil general transport companies and for\nrequisition of civil transport for the Armed Forces at a short notice to meet their transport\nrequirements for mobilizing the logistics resources before the declaration of emergency it view of\nunpredictable operation activity of any adversary of Pakistan;\nAND WHEREAS the President is satisfied that circumstances exist which render in necessary\nto take immediate action;\nNOW, THEREFORE in pursuance of the Proclamation of Emergency of the fourteenth day\nof October 1999, and the Provisional Constitution Order No.1 of 1999, read with the Provisional\nConstitution (Amendment) Order No. 9 of 1999, and in exercise of all powers enabling him in that\nbehalf, the President of the Islamic Republic of Pakistan is pleased to make and promulgate the\nfollowing Ordinance:___"
+    },
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement",
+      "content": "_(1) This Ordinance may be called the Armed\nForces Civil General Transport Companies and Requisition of Civil Transport Ordinance, 2002.\n(2) It extends to the whole of Pakistan.\n(3) It shall come into force at once and shall be deemed to have taken effect on the twenty-\nthird day of December, 2001."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions",
+      "content": "_In this Ordinance unless there is anything repugnant in the subject or\ncontext:___\n(a)     “Armed Forces” means the Army, Navy or Air Force of Pakistan or any\nArmed Forces raised or maintained by the Federal Government including Civil\nArmed Forces, or any other Armed Forces attached to, or operating with, any\nsuch force or forces;\n(b)     “Civil transport” means any vehicle or transport owned by a department of the\nFederal Government, a Provincial Government or a local body, or any private\ntransport or vehicle owned by any person residing within territorial limits of\nPakistan and includes all types of locomotives, general purpose mechanical\ntransport and specialized transport vehicles and related equipment or plant;\nand\n(c)     “Prescribed Authority” means the Secretary to the Government of Pakistan,\nMinistry of Defence, or any other officer designated by him for the purpose."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Raising of general transport companies and requisition of civil transport",
+      "content": "_(1) The\nPrescribed Authority may on behalf of the Federal Government, raise civil general transport\ncompanies and requisition civil transport whenever such raising and requisitioning is considered\nnecessary or expedient, even prior to the declaration of emergency in Pakistan:\nProvided that in the case of requisition of civil transport, compensation shall be paid as may\nbe prescribed by rules.\n(2) The control over civil general transport companies and civil transport referred to in sub-\nsection (1), may be exercised by members of the Armed Forces."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Provision of this Ordinance to be in addition to, and not in derogation, of other",
+      "content": "laws.___The provisions of this Ordinance shall be in addition to, and not in derogation of, the\nprovisions of any other law, rules or regulations for the time being in force authorizing the Federal\nGovernment to requisition civil transport for such purpose as specified in any such law, rules or\nregulations."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Armed Forces",
+      "definition": "the Army, Navy or Air Force of Pakistan or any Armed Forces raised or maintained by the Federal Government including Civil Armed Forces, or any other Armed Forces attached to, or operating with, any such force or forces;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "Civil transport",
+      "definition": "any vehicle or transport owned by a department of the Federal Government, a Provincial Government or a local body, or any private transport or vehicle owned by any person residing within territorial limits of Pakistan and includes all types of locomotives, general purpose mechanical transport and specialized transport vehicles and related equipment or plant; and",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "Prescribed Authority",
+      "definition": "the Secretary to the Government of Pakistan, Ministry of Defence, or any other officer designated by him for the purpose.",
+      "source_provision": "sec2"
+    }
+  ]
+}

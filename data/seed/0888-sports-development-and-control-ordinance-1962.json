@@ -1,0 +1,51 @@
+{
+  "id": "pk-sports-development-and-control-ordinance-1962",
+  "type": "statute",
+  "title": "Sports (Development and Control) Ordinance, 1962",
+  "title_en": "Sports (Development and Control) Ordinance, 1962",
+  "short_name": "SACO",
+  "status": "in_force",
+  "issued_date": "1962-05-01",
+  "in_force_date": "1962-05-01",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-cJ2d-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Sports (Development and Control) Ordinance, 1962 (XVI of 1962) published by The Pakistan Code (General Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Exclusive right to make rules for the development, control and uniformity of Sports",
+      "content": "throughout Pakistan\nORDINANCE N0. XVI OF 1962\n[2nd May, 1962]\nAn Ordinance to regulate the development and control of Sports\nWHEREAS it is expedient to regulate the development and control of Sports in Pakistan;\nNOW, THEREFORE, in pursuance of the Proclamation of the seventh day of October, 1958,\nand in exercise of all powers enabling him in that behalf, the President is pleased to make and\npromulgate the following Ordinance:__"
+    },
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement",
+      "content": "_(1) This Ordinance shall be called the Sports\n(Development and Control) Ordinance, 1962.\n(2) It extends to the whole of Pakistan.\n(3) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions",
+      "content": "_In this Ordinance, unless there is anything repugnant in the subject or\ncontext,__\n(i)       “Sports” shall include Hockey, Football, Athletics, Wrestling, Cricket,\nWeight-lifting, Squash Rackets, Swimming, Boxing, Cycling, Basketball,\nGolf, Volleyball, Rifle Shooting, Table Tennis, Badminton, Lawn Tennis,\nPolo, Racing, Body-Building, Skiing, Mountaineering, and any other activity\nwhich the 1[Federal Government] may, by notification in the official Gazette,\nspecify.\n(ii)      “Board” means a Board constituted under this Ordinance, for the control of\nSports in Pakistan."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Establishment of the Board",
+      "content": "_(1) As soon as may be after the commencement of this\nOrdinance, the 1[Federal Government] may, for the purposes of promoting and developing uniform\nstandards of competition in Sports in Pakistan comparable to the standards prevailing internationally,\nand regulating and controlling sports in Pakistan on a national basis, by notification in the official\nGazette, constitute, one or more boards for the control of Sports in Pakistan.\n(2) A Board shall be a body corporate having perpetual succession and a common seal with\npower to acquire, hold and dispose of property, both movable and immovable.\n1\nSubs. by F.A.O., 1975."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Name, Constitution, powers and functions of a Board",
+      "content": "_The name, Constitution,\npowers and functions of a Board shall be such as may be determined by the 1[Federal Government]."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Board",
+      "definition": "a Board constituted under this Ordinance, for the control of Sports in Pakistan.",
+      "source_provision": "sec2"
+    }
+  ]
+}

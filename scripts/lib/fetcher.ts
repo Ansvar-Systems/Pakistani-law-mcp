@@ -43,26 +43,37 @@ export async function fetchText(url: string, maxRetries = 2): Promise<FetchTextR
   await enforceRateLimit();
 
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
-    const response = await fetch(url, {
-      headers: {
-        'User-Agent': USER_AGENT,
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-      },
-      redirect: 'follow',
-    });
+    try {
+      const response = await fetch(url, {
+        headers: {
+          'User-Agent': USER_AGENT,
+          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        },
+        redirect: 'follow',
+        signal: AbortSignal.timeout(60_000),
+      });
 
-    if ((response.status === 429 || response.status >= 500) && attempt < maxRetries) {
-      await sleep((attempt + 1) * 2000);
-      continue;
+      if ((response.status === 429 || response.status >= 500) && attempt < maxRetries) {
+        await sleep((attempt + 1) * 2000);
+        continue;
+      }
+
+      const body = await response.text();
+      return {
+        status: response.status,
+        body,
+        contentType: response.headers.get('content-type') ?? '',
+        url: response.url,
+      };
+    } catch (error) {
+      if (attempt < maxRetries) {
+        await sleep((attempt + 1) * 2500);
+        continue;
+      }
+
+      const message = error instanceof Error ? error.message : String(error);
+      throw new Error(`Fetch text failed (${url}): ${message}`);
     }
-
-    const body = await response.text();
-    return {
-      status: response.status,
-      body,
-      contentType: response.headers.get('content-type') ?? '',
-      url: response.url,
-    };
   }
 
   throw new Error(`Failed to fetch text URL after retries: ${url}`);
@@ -72,26 +83,37 @@ export async function fetchBinary(url: string, maxRetries = 2): Promise<FetchBin
   await enforceRateLimit();
 
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
-    const response = await fetch(url, {
-      headers: {
-        'User-Agent': USER_AGENT,
-        'Accept': 'application/pdf,application/octet-stream,*/*',
-      },
-      redirect: 'follow',
-    });
+    try {
+      const response = await fetch(url, {
+        headers: {
+          'User-Agent': USER_AGENT,
+          'Accept': 'application/pdf,application/octet-stream,*/*',
+        },
+        redirect: 'follow',
+        signal: AbortSignal.timeout(90_000),
+      });
 
-    if ((response.status === 429 || response.status >= 500) && attempt < maxRetries) {
-      await sleep((attempt + 1) * 2000);
-      continue;
+      if ((response.status === 429 || response.status >= 500) && attempt < maxRetries) {
+        await sleep((attempt + 1) * 2000);
+        continue;
+      }
+
+      const arrayBuffer = await response.arrayBuffer();
+      return {
+        status: response.status,
+        body: Buffer.from(arrayBuffer),
+        contentType: response.headers.get('content-type') ?? '',
+        url: response.url,
+      };
+    } catch (error) {
+      if (attempt < maxRetries) {
+        await sleep((attempt + 1) * 2500);
+        continue;
+      }
+
+      const message = error instanceof Error ? error.message : String(error);
+      throw new Error(`Fetch binary failed (${url}): ${message}`);
     }
-
-    const arrayBuffer = await response.arrayBuffer();
-    return {
-      status: response.status,
-      body: Buffer.from(arrayBuffer),
-      contentType: response.headers.get('content-type') ?? '',
-      url: response.url,
-    };
   }
 
   throw new Error(`Failed to fetch binary URL after retries: ${url}`);

@@ -1,0 +1,33 @@
+{
+  "id": "pk-high-treason-punishment-act-1973",
+  "type": "statute",
+  "title": "High Treason (Punishment) Act, 1973",
+  "title_en": "High Treason (Punishment) Act, 1973",
+  "short_name": "HTA",
+  "status": "in_force",
+  "issued_date": "1973-09-25",
+  "in_force_date": "1973-09-25",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-bpuUY2Zp-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of High Treason (Punishment) Act, 1973 (LXVIII of 1973) published by The Pakistan Code (Criminal Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement",
+      "content": "(1) This Act may be called the High Treason\n(Punishment) Act, 1973.\n(2) It extends to the whole of Pakistan.\n(3) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Punishment for high treason, etc",
+      "content": "A person who is found guilty—\n(a)     of having committed an act of abrogation or subversion of a Constitution in\nforce in Pakistan at any time since the twenty-third day of March, 1956, or\n(b)     of high treason as defined in Article 6 of the Constitution, shall be punishable\nwith death or imprisonment for life."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Procedure",
+      "content": "No court shall take cognizance of an offence punishable under this Act\nexcept upon a complaint in writing made by a person authorised by the Federal Government in this\nbehalf.\n____________\nRGN Date: 06-05-2024"
+    }
+  ],
+  "definitions": []
+}

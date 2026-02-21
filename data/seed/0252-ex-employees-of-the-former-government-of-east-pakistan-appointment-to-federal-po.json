@@ -1,0 +1,66 @@
+{
+  "id": "pk-ex-employees-of-the-former-government-of-east-pakistan-appointment-to-federal-po",
+  "type": "statute",
+  "title": "Ex-Employees of the Former Government of East Pakistan (Appointment to Federal Posts) Ordinance, 1983.",
+  "title_en": "Ex-Employees of the Former Government of East Pakistan (Appointment to Federal Posts) Ordinance, 1983.",
+  "short_name": "EOTFG",
+  "status": "in_force",
+  "issued_date": "1983-05-24",
+  "in_force_date": "1983-05-24",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-bpma-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Ex-Employees of the Former Government of East Pakistan (Appointment to Federal Posts) Ordinance, 1983. (XI of 1983) published by The Pakistan Code (Service Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Pension",
+      "content": "PAKISTAN (APPOINTMENT TO FEDERAL POSTS) ORDINANCE, 1983\nORDINANCE No. XI OF 1983\n[25th May, 1983]\nAn Ordinance to provide for the appointment of former employees of the Government of East\nPakistan to posts under the Federal Government.\nWHEREAS it is expedient to provide for the appointment of former employees of the\nGovernment of East Pakistan to posts under the Federal Government;\nAND WHEREAS the President is satisfied that circumstances exist which render it necessary to\ntake immediate action;\nNOW, THEREFORE, in pursuance of the Proclamation of the fifth day of July 1977, and in\nexercise of all powers enabling him in that behalf, the President is pleased to make and promulgate\nthe following Ordinance:___"
+    },
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement",
+      "content": "_ (1) This Ordinance may be called the\nEx-Employees of the former Government of East Pakistan (Appointment to Federal Posts)\nOrdinance, 1983.\n(2) It extends to the whole of Pakistan.\n(3) It shall come into force at once and shall be deemed to have taken effect on the sixteenth\nday of December, 1971."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions. In this Ordinance, unless there is anything repugnant in the subject or",
+      "content": "context,__\n(a)     “employee” means an employee of the former Government of East Pakistan\nwho was repatriated or who migrated from East Pakistan to Pakistan during\nthe period commencing on the 16th December, 1971, and ending on the 31st\nDecember, 1974, in consequence of occupation of the territory by enemy\ntroops or establishment of Bangladesh ;\n(b)     “former post” means the post which was held by an employee at the time of\nhis repatriation or migration to Pakistan;\n(c)     “Grade” means the Grade of the National Pay Scale in which a post or group\nof posts is placed; and\n(d)     “post” means a post in an All-Pakistan Service or a service of the Federation\nor a post in connection with the affairs of the Federation."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Appointment. An employee may, with the approval of the competent Authority, be",
+      "content": "appointed to an existing or supernumerary post in the Grade, as far as practicable, equivalent to the\nscale of the former post of such employee from the date he holds such post.\nExplanation.___ In this section, “competent authority”, in relation to a post, means the\nauthority competent under the Civil Servants Act, 1973 (LXXI of 1973), to make appointment to that\npost."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Seniority. The service rendered under the former Government of East Pakistan by an",
+      "content": "employee shall count towards seniority in the Grade of the post to which he may be appointed under\nsection 3."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "employee",
+      "definition": "an employee of the former Government of East Pakistan who was repatriated or who migrated from East Pakistan to Pakistan during the period commencing on the 16th December, 1971, and ending on the 31st December, 1974, in consequence of occupation of the territory by enemy troops or establishment of Bangladesh ;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "former post",
+      "definition": "the post which was held by an employee at the time of his repatriation or migration to Pakistan;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "Grade",
+      "definition": "the Grade of the National Pay Scale in which a post or group of posts is placed; and",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "post",
+      "definition": "a post in an All-Pakistan Service or a service of the Federation or a post in connection with the affairs of the Federation.",
+      "source_provision": "sec2"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "pk-ex-government-servants-employment-with-foreign-governments-prohibition-act-1966",
+  "type": "statute",
+  "title": "Ex-Government Servants (Employment with Foreign Governments) (Prohibition) Act, 1966",
+  "title_en": "Ex-Government Servants (Employment with Foreign Governments) (Prohibition) Act, 1966",
+  "short_name": "ESWFG",
+  "status": "in_force",
+  "issued_date": "1966-07-06",
+  "in_force_date": "1966-07-06",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-cJqb-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Ex-Government Servants (Employment with Foreign Governments) (Prohibition) Act, 1966 (XII of 1966) published by The Pakistan Code (Service Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement.― (1) This Act may be called the Ex",
+      "content": "Government\nServants (Employment with Foreign Governments) (Prohibition) Act, 1966.\n(2) It extends to the whole of Pakistan.\n(3) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions",
+      "content": "In this Act, unless there is anything repugnant, in the subject or context,—\n(a)        “ex-Government servant” means any person who was, at any time, appointed\nor employed as an officer or servant of the 2[Federal Government] or a\nProvincial Government and has ceased to be so appointed or employed;\n(b)        “foreign agency” means any office or establishment of the diplomatic or\nconsular representative of a foreign Government by whatever name called, and\nincludes any information, public relations, trade or commercial agency,\nservice centre or foundation established or maintained by any such Govern-\nment or by any person who is a national of a foreign country ; and\n(c)        “foreign Government” means the Government of a foreign country."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Prohibition of employment etc. ― (1) No ex",
+      "content": "Government servant shall, except with the\nprevious permission in writing of the 2[Federal Government], 3[or a person or authority authorized by\nit in this behalf] seek or take up employment as an officer or servant of a foreign government or a\nforeign agency.\n(2) No ex-Government servant who is, at the commencement of this Act, in the service of a\nforeign government or a foreign agency shall, except with the permission in writing of the 4[Federal\nGovernment], continue in such service after the expiry of three months from such commencement.\n5\n[4. Penalty. Whoever contravenes the provisions of section 3 shall be punishable with\nimprisonment for a term which may extend to seven year, or with fine which may extend to fifty\nthousand rupees, or with forfeiture of property, or with any two or more of the said punishments.].\n1\nFor Statement of Objects and reasons, see Gaz. of P., 1966, Ext., P. 335 (R)\n2\nSubs. by F.A.O., 1975, Art. 2 and Table, for “Central Government”.\n3\nIns. by the Ex-Government Servants (Employment with Foreign Government) (Prohibition) (Amdt.) Ordinance, 1984 (29 of 1984), s.2.\n4\nSubs. by F.A.O., 1975, Art. 2 and Table, for “Central Government.\n5\nSubs. by the Ex-Government Servants (Employment with Foreign Government) (Prohibition) (Amdt.) Ordinance, 1982 (11 of 1982), s. 2 for section 4."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "ex-Government servant",
+      "definition": "any person who was, at any time, appointed or employed as an officer or servant of the 2[Federal Government] or a Provincial Government and has ceased to be so appointed or employed;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "foreign agency",
+      "definition": "any office or establishment of the diplomatic or consular representative of a foreign Government by whatever name called, and includes any information, public relations, trade or commercial agency, service centre or foundation established or maintained by any such Govern- ment or by any person who is a national of a foreign country ; and",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "foreign Government",
+      "definition": "the Government of a foreign country.",
+      "source_provision": "sec2"
+    }
+  ]
+}

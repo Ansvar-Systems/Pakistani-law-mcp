@@ -21,8 +21,8 @@ export interface ParsedAct {
   title_en: string;
   short_name: string;
   status: 'in_force' | 'amended' | 'repealed' | 'not_yet_in_force';
-  issued_date: string;
-  in_force_date: string;
+  issued_date?: string;
+  in_force_date?: string;
   url: string;
   description: string;
   provisions: ParsedProvision[];
@@ -211,7 +211,45 @@ export function parseProvisionsFromPdfText(rawText: string): ParsedProvision[] {
     }
   }
 
-  return Array.from(bySection.values());
+  const parsed = Array.from(bySection.values());
+  if (parsed.length > 0) {
+    return parsed;
+  }
+
+  // Fallback for legacy/scanned layouts where numbered section markers are not reliably extracted.
+  const fallbackContent = cleanProvisionContent(text);
+  if (fallbackContent.length >= 10) {
+    return [
+      {
+        provision_ref: 'sec0',
+        section: '0',
+        title: 'Section 0. Full text',
+        content: fallbackContent,
+      },
+    ];
+  }
+
+  const shortNotice = text
+    .replace(/\r/g, '')
+    .split('\n')
+    .map(line => line.trim())
+    .filter(Boolean)
+    .filter(line => /(repeal|repealed|omitted|lapse|not\s+yet\s+in\s+force)/i.test(line))
+    .join('\n')
+    .trim();
+
+  if (shortNotice.length >= 10) {
+    return [
+      {
+        provision_ref: 'sec0',
+        section: '0',
+        title: 'Section 0. Official notice',
+        content: shortNotice,
+      },
+    ];
+  }
+
+  return [];
 }
 
 export function extractDefinitions(provisions: ParsedProvision[]): ParsedDefinition[] {

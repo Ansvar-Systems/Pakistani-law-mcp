@@ -13,8 +13,8 @@ sources:
       url: "https://pakistancode.gov.pk/english/Xki72HF.php"
       summary: "Portal disclaimer states content is for information purposes and users should refer to Gazette notifications."
     coverage:
-      scope: "Federal laws listed on Pakistan Code with law-level pages and downloadable complete-law PDFs."
-      limitations: "Structured article API endpoint is access-restricted from this environment; ingestion uses official PDF text extraction from law pages."
+      scope: "Federal laws listed on Pakistan Code with law-level pages and downloadable complete-law PDFs (A-Z index crawl)."
+      limitations: "As of 2026-02-21, 1030 laws were indexed; 1018 were ingestible. 12 entries had broken PDF URLs or zero extractable PDF text. Structured article endpoint access is restricted from this environment."
     languages:
       - "en"
       - "ur"

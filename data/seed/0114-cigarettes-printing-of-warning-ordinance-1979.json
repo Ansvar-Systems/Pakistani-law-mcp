@@ -1,0 +1,68 @@
+{
+  "id": "pk-cigarettes-printing-of-warning-ordinance-1979",
+  "type": "statute",
+  "title": "Cigarettes (Printing of Warning) Ordinance, 1979",
+  "title_en": "Cigarettes (Printing of Warning) Ordinance, 1979",
+  "short_name": "COWO",
+  "status": "in_force",
+  "issued_date": "1979-12-30",
+  "in_force_date": "1979-12-30",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-cpma-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Cigarettes (Printing of Warning) Ordinance, 1979 (LXXIII of 1979) published by The Pakistan Code (General Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec8",
+      "section": "8",
+      "title": "Section 8. Power to make rules",
+      "content": "ORDINANCE No. LXXIII OF 1979\n[31st December, 1979]\nAn Ordinance to provide for printing of a health warning on packets of cigarettes.\nWHEREAS it is expedient to provide for printing or health warning on packets of cigarettes\nand for matters connected therewith;\nAND WHEREAS the President is satisfied that circumstances exist which render it necessary\nto take immediate action;\nNOW, THEREFORE, in pursuance of the Proclamation of the fifth day of July, 1977, read with\nthe Laws (Continuance in Force) Order, 1977 (C.M.L.A. Order No. 1 of 1977), and in exercise of all\npowers enabling him in that behalf, the President is pleased to make and promulgate the following\nOrdinance:―"
+    },
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent 1[application] and commencement:―(1) This Ordinance may be",
+      "content": "called the Cigarettes (Printing of Warning) Ordinance, 1979.\n(2) It extends to the whole of Pakistan.\n2\n[(2A) It shall apply to Cigarettes manufactured for consumption in Pakistan.]\n(3) It shall come into force on the first day of 3[September], 1980."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definition",
+      "content": "In this Ordinance, unless there is anything repugnant in the subject or\ncontext,―\n(a)    “cigarette” includes Biri;\n(b)        “health warning” means the health warning specified in section 3; and\n(c)        “packet” includes a wrapper or other container.\n4[3. Printing of health warning.—There shall be printed legibly and prominently, both in\nEnglish and Urdu, on every packet of tobacco and on all types of advertisements on any media, a\nhealth wraning as the Ministry of Health may, by notification in the official Gazette, prescribe.]"
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Prohibition to sell, etc",
+      "content": "No person shall—\n(a)        manufacture packets of cigarettes; or\n(b)        sell or offer for sale cigarettes from packets of cigarettes; or\n(c)        possess or sell or offer for sale packets of cigarettes, on which the health\nwarning is not printed as required by Section 3.\n1\nIns. by the Cigarettes (Printing of Warning) (Amendment) Ordinance, 1980 (40 of 1980.) ,s.2.\n2\nSub-section (2A) ins. ibid., s.2.\n3\nSubs. by Cigarettes (Printing of Warning) (Amdt.) Ordinance, 1980 (40 of 1980), s.2.\n4\nSubs. by Ord. LXXV of 2002,s.2."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Penalties",
+      "content": "(1) Whoever contravenes any provision of Section 4 shall be punishable with\nimprisonment for a term which may extend to two years, or with fine which may extend to ten\nthousand rupees, or with both.\n(2) Where a Court convicts a person of an offence punishable under sub-section (1), it shall\ndirect that the packets of cigarettes and the cigarettes in respect of which the offence has been\ncommitted be forfeited to the Federal Government."
+    },
+    {
+      "provision_ref": "sec6",
+      "section": "6",
+      "title": "Section 6. Offences by companies",
+      "content": "If the person contravening any provision of Section 4 be a\ncompany or other body corporate, every director, manager, secretary or other officer or agent thereof\nshall, unless he proves that the contravention took place without his knowledge or that he exercised\nall due diligence to prevent such contravention, be deemed to be guilty of such contravention."
+    },
+    {
+      "provision_ref": "sec7",
+      "section": "7",
+      "title": "Section 7. Cognizance of offences",
+      "content": "(1) No Court inferior to that of a Magistrate of the First Class\nshall try any offence punishable under this Ordinance.\n(2) No Court shall take cognizance of an offence punishable under this Ordinance except on\na complaint made in writing by a police officer not below the rank of an Assistant Sub-Inspector or\nan Excise Officer not below the rank of an Sub-Inspector or any other officer authorised in this\nbehalf by the Federal Government."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "health warning",
+      "definition": "the health warning specified in section 3; and",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "packet",
+      "definition": "a wrapper or other container. 4[3. Printing of health warning.—There shall be printed legibly and prominently, both in English and Urdu, on every packet of tobacco and on all types of advertisements on any media, a health wraning as the Ministry of Health may, by notification in the official Gazette, prescribe.]",
+      "source_provision": "sec2"
+    }
+  ]
+}

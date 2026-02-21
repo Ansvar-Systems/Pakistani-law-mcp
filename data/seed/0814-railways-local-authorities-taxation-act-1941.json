@@ -1,0 +1,45 @@
+{
+  "id": "pk-railways-local-authorities-taxation-act-1941",
+  "type": "statute",
+  "title": "Railways (Local Authorities, Taxation) Act, 1941",
+  "title_en": "Railways (Local Authorities, Taxation) Act, 1941",
+  "short_name": "RATA",
+  "status": "in_force",
+  "issued_date": "1941-11-25",
+  "in_force_date": "1941-11-25",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-cJeV-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Railways (Local Authorities, Taxation) Act, 1941 (XXV of 1941) published by The Pakistan Code (Excise/Taxation Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title and extent",
+      "content": "(1) This Act may be called the Railways (Local Authorities\nTaxation) Act, 1941.\n2\n[(2) It extends to the whole of Pakistan.]"
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions. In this Act,",
+      "content": "(a)        “local authority” means a local authority as defined in the General Clauses\nAct, 1897 (X of 1897), and includes any authority legally entitled to or\nentrusted with the control or management of any fund for the maintenance of\nwatchmen or for the conservancy, of a river;\n(b)        “railway administration” has the meaning assigned to the expression in clause\n(6) of section 3 of the Railways Act, 1890 (IX of 1890)."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Liability of Railways to taxation by local authorities",
+      "content": "(1) In respect of property vested\nin [* * *] the 3[Federal Government], being property of a railway, a railway administration shall be\n1\nliable to pay any tax in aid of the funds of any local authority, if the 3[Federal Government], by\nnotification in the official Gazette, declares it to be so liable.\n(2) While a notification under sub-section (1) is in force, the railway administration shall be\nliable to pay to the local authority either the tax mentioned in the notification or in lieu thereof such\nsum, if any, as a person appointed in this behalf by the 3[Federal Government] may, having regard to\nthe services rendered to the railway and all the relevant circumstances of the case, from time to time\ndetermine to be fair and reasonable. The person so appointed shall be a person who is or has been a\nJudge of a High Court or a District Judge.\n1\nSubs. and omitted by the Central Laws (Adaptation) Order 1961 (Order No. 1 of 1961), Art. 2.\n2\nSubs. by the Central Laws (Statute Reform) Ordinance, 1960 (XXI of 1960), s. 3 and 2nd Sch.\n3\nSubs. by the Federal Adaptation Order of Laws Order, 1975 (P. O. No. 1 of 1975), Art. 2 and Table."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Saving. Nothing in this Act shall be construed as debarring any railway administration",
+      "content": "administering a railway from entering into a contract with any local authority for the supply of water\nor light or for the scavenging of railway, premises or for any other service which the local authority\nmay be rendering or be prepared to render within any part of the local area under its control.\n______________\nDate: 31-07-2024"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "local authority",
+      "definition": "a local authority as defined in the General Clauses Act, 1897 (X of 1897), and includes any authority legally entitled to or entrusted with the control or management of any fund for the maintenance of watchmen or for the conservancy, of a river;",
+      "source_provision": "sec2"
+    }
+  ]
+}

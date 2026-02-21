@@ -1,0 +1,56 @@
+{
+  "id": "pk-employer-s-liability-act-1938",
+  "type": "statute",
+  "title": "Employer's Liability Act, 1938",
+  "title_en": "Employer's Liability Act, 1938",
+  "short_name": "ELA",
+  "status": "in_force",
+  "issued_date": "1938-09-23",
+  "in_force_date": "1938-09-23",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-b5%2Bd-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Employer's Liability Act, 1938 (XXIV of 1938) published by The Pakistan Code (Labour Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title and extent",
+      "content": "_ (1) This Act may be called the Employers’ Liability Act, 1938.\n2\n[(2) It extends to the whole of Pakistan.]"
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions. In this Act, unless there is anything repugnant in the subject or context,",
+      "content": "_\n(a)        “workman” means any person who has entered into, or works under a contract\nof service or apprenticeship with an employer whether by way of manual\nlabour, clerical work or otherwise, and whether the contract is expressed or\nimplied, oral or in writing; and\n(b)        “employer” includes any body of persons whether incorporated or not, any\nmanaging agent of an employer, and the legal representatives of a deceased\nemployer, and, where the services of a workman are temporarily lent or let on\nhire to another person by the person with whom the workman has entered into\na contract of service or apprenticeship, means such other person while the\nworkman is working for him."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Defence of common employment barred in certain cases. Where personal injury is",
+      "content": "caused to a workman___\n(a)        by reason of the omission of the employer to maintain in good and safe\ncondition any way, works, machinery or plant connected with or used in his\ntrade or business, or by reason of any like omission on the part of any person\nin the service of the employer who has been entrusted by the employer with\nthe duty of seeing that such way, works, machinery or plant are in good and\nsafe condition ; or\n(b)\nby reason of the negligence of any person in the service of the employer who\nhas any superintendence entrusted to him, whilst in the exercise of such super-\nintendence ; or\n_________________________________________________________________________________\n1\nThe Act has been applied to Baluchistan, see the Leased Areas (Laws) Order, 1950 (G. G. O. 3 of 1950) ; and applied in the Federal Areas of\nBaluchistan, see Gazette of India, 1937, Pt. I, p. 1999 ;\nIt has also been extended to ___\n(i) the Leased Area of Baluchistan, see the Leased (Laws) Order, 1950 (G. G. O. 3 of 1950) ; and applied in the Federal Areas of Baluchistan, see\nGazette of India, 1937, Pt. I, p. 1499 ;\n(ii) the Baluchistan States Union, see the Baluchistan States Union (Federal Laws) (Extension) Order, 1953 (G. G. O. 4 of 1953), as amended ;\n(iii) the Khairpur States, see Khairpur (Federal Laws) (Extension) Order, 1953 (G. G. O. 11 of 1953), as amended ; and\n(iv) the State of Bahawalpur, see the Bahawalpur (Extension of Federal Laws) Order, 1953 (G. G. O. 11 of 1953), as amended.\nThe Act has been and shall be deemed to have been brought into force in Gwadur with effect from the 8th September, 1958, by the Gwadur\n(Application of Central Laws) Ordinance 1960 (XXXVII of 1960), s. 2.\n2\nSubs. by the Central Laws (Statute Reform) Ordinance, 1960 (Ordinance No. XXI of 1960), s. 3 and 2nd Sch.\n(c)    by reason of the negligence of any person in the service of the employer to\nwhose orders or directions the workman at the time of the injury was bound to\nconform and did conform, where the injury resulted from his having so\nconformed ; or\n(d)    by reason of any act or omission of any person in the service of the employer\ndone or made in obedience to any rule or bye-law of the employer (not being a\nrule or bye-law which is required by or under any law for the time being in\nforce to be approved by any authority and which has been so approved) or in\nobedience to particular instructions given by any person to whom the\nemployer has delegated authority in that behalf or in the normal performance\nof his duties ;\na suit for damages in respect of the injury instituted by the workman or by any\nperson entitled in case of his death shall not fail by reason only of the fact that\nthe workman was at the time of the injury a workman of, or in the service of,\nor engaged in the work of, the employer."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Risk not to be deemed to have been assumed without full knowledge. In any such suit",
+      "content": "for damages, the workman shall not be deemed to have undertaken any risk attaching to the employ-\nment unless the employer proves that the risk was fully explained to and understood by the workman\nand that the workman voluntarily undertook the same."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Saving. Nothing in this Act shall affect the validity of any decree or order of a civil Court",
+      "content": "passed before the commencement of this Act in any such suit for damages.\n____________\nDate: 24-09-2024"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "workman",
+      "definition": "any person who has entered into, or works under a contract of service or apprenticeship with an employer whether by way of manual labour, clerical work or otherwise, and whether the contract is expressed or implied, oral or in writing; and",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "employer",
+      "definition": "any body of persons whether incorporated or not, any managing agent of an employer, and the legal representatives of a deceased employer, and, where the services of a workman are temporarily lent or let on hire to another person by the person with whom the workman has entered into a contract of service or apprenticeship, means such other person while the workman is working for him.",
+      "source_provision": "sec2"
+    }
+  ]
+}

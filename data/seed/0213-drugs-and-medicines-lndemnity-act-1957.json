@@ -1,0 +1,33 @@
+{
+  "id": "pk-drugs-and-medicines-lndemnity-act-1957",
+  "type": "statute",
+  "title": "Drugs and Medicines (lndemnity) Act, 1957",
+  "title_en": "Drugs and Medicines (lndemnity) Act, 1957",
+  "short_name": "DAMA",
+  "status": "in_force",
+  "issued_date": "1857-03-26",
+  "in_force_date": "1857-03-26",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-ap%2BcaA%3D%3D-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Drugs and Medicines (lndemnity) Act, 1957 (XVII of 1957) published by The Pakistan Code (Health/Medical Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement",
+      "content": "_ (1) This Act may be called the Drugs and\nMedicines (Indemnity) Act, 1957.\n(2) It extends to the whole of Pakistan.\n(3) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definition. In this Act, “ the notified order ” means the Government of Pakistan, Ministry",
+      "content": "of Industries, Notification No. P.C. 19 (15)|55, dated the 14th September, 1955, published in the\nGazette of Pakistan, Extraordinary, dated the 14th September, 1955."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Indemnity. No suit, prosecution or other legal proceeding shall lie in any court against any",
+      "content": "Government servant or any other person for or on account or in respect of anything done, action\ntaken, notification or direction issued, price fixed, investigation or arrest made, property seized or\nconfiscated, loss or injury suffered, legal proceeding instituted, or penalty or punishment imposed,\nenforced or continued, in pursuance or in virtue of the notified order.\n__________________\nRGN Date: 18-09-2024"
+    }
+  ],
+  "definitions": []
+}

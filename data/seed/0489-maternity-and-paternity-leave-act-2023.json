@@ -1,0 +1,84 @@
+{
+  "id": "pk-maternity-and-paternity-leave-act-2023",
+  "type": "statute",
+  "title": "Maternity and Paternity Leave Act, 2023",
+  "title_en": "Maternity and Paternity Leave Act, 2023",
+  "short_name": "MAPLA",
+  "status": "in_force",
+  "issued_date": "2023-06-19",
+  "in_force_date": "2023-06-19",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-apaUY2Npa5pmZg%3D%3D-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Maternity and Paternity Leave Act, 2023 (XXXI of 2023) published by The Pakistan Code (General Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, application and commencement",
+      "content": "(1) This Act shall be called the Maternity\nand Paternity Leave Act, 2023.\n(2) It shall apply to all public and private establishments under administrative control of the\nFederal Government wherever they may be.\n(3) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions",
+      "content": "In this Act, unless there is anything repugnant in the subject or context,—\n(a)    “child” for the purposes of this Act, means a child in the womb of a pregnant\nemployee or wife of the male employee and includes a still-born;\n(b)    “employee” means any natural person who has for pay, wages or other benefits,\nentered into, or works under, a contract of service or apprenticeship on regular\nbasis without limit of period with an employer whether by way of manual\nlabour, clerical work or otherwise and whether the contract is expressed or\nimplied, oral or in writing;\n(c)    “establishment” means any ministry, division, attached department, subordinate\noffice, executive department, public or private organization, firm, corporation,\nautonomous or semi-autonomous body, body corporate, enterprise, company,\nindustry, factory or such other, office or institution, by whatever name called\nfor, and under administrative control of the Federal Government;\n(d)    “employer” includes Federal Government or any ministry or division or\ndepartment or office of the Federal Government or anybody of persons whether\nincorporated or not, any managing agent of an employer and the legal\nrepresentatives of a deceased employer and where the services of a workman\nare temporarily lent or let on hire to another person by the person with whom\nperson having employed a workman working for him; and\n(e)    “prescribed” means prescribed by rules made under this Act."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Right to maternity leave",
+      "content": "(1) Maternity leave shall in the prescribed manner be granted\non full pay outside the leave account to a female employee on her option to the extent of one hundred\nand eighty days on first birth, one hundred and twenty days on second birth and ninety days on third\nbirth from the date of commencement thereof.\n(2) Such maternity leave may not be granted for more than three time in the entire service of\nthe female employee except when such leave is granted within her leave account due and admissible\nto her or as an extra ordinary leave without pay."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Paternity leave",
+      "content": "(1) A male employee expecting his wife to give birth to a child shall, at\nhis option, be granted paternity leave on full pay not exceeding thirty days outside his leave account\nfrom the date of its commencement.\n(2) Such paternity leave may not be granted for more than three times in the entire service of\nthe male employee except when such leave is granted within his leave account due and admissible to\nhim or as an extra ordinary leave without pay."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Offence and punishment",
+      "content": "A person who contravenes any provision of this Act shall\nbe deemed to have committed an offence punishable with imprisonment of either description for a\nterm which may extend to six months or a fine which may extend to one hundred thousand rupees or\nwith both."
+    },
+    {
+      "provision_ref": "sec6",
+      "section": "6",
+      "title": "Section 6. Act to override other laws",
+      "content": "The provisions of this Act shall have effect notwithstanding\nanything contained in any other law for the time being in force."
+    },
+    {
+      "provision_ref": "sec7",
+      "section": "7",
+      "title": "Section 7. Power to make rules",
+      "content": "The Federal Government may, by notification in the official\nGazette, make rules to carry out the purposes of this Act."
+    },
+    {
+      "provision_ref": "sec8",
+      "section": "8",
+      "title": "Section 8. Removal of difficulty",
+      "content": "If any difficulty arises in giving effect to any provision of this Act,\nbe necessary to remove the difficulty.\n_________________\nRGN Date: 21-07-2025"
+    }
+  ],
+  "definitions": [
+    {
+      "term": "employee",
+      "definition": "any natural person who has for pay, wages or other benefits, entered into, or works under, a contract of service or apprenticeship on regular basis without limit of period with an employer whether by way of manual labour, clerical work or otherwise and whether the contract is expressed or implied, oral or in writing;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "establishment",
+      "definition": "any ministry, division, attached department, subordinate office, executive department, public or private organization, firm, corporation, autonomous or semi-autonomous body, body corporate, enterprise, company, industry, factory or such other, office or institution, by whatever name called for, and under administrative control of the Federal Government;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "employer",
+      "definition": "Federal Government or any ministry or division or department or office of the Federal Government or anybody of persons whether incorporated or not, any managing agent of an employer and the legal representatives of a deceased employer and where the services of a workman are temporarily lent or let on hire to another person by the person with whom person having employed a workman working for him; and",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "prescribed",
+      "definition": "prescribed by rules made under this Act.",
+      "source_provision": "sec2"
+    }
+  ]
+}

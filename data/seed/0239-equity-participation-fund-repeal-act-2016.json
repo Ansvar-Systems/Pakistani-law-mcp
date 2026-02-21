@@ -1,0 +1,27 @@
+{
+  "id": "pk-equity-participation-fund-repeal-act-2016",
+  "type": "statute",
+  "title": "Equity Participation Fund (Repeal) Act, 2016",
+  "title_en": "Equity Participation Fund (Repeal) Act, 2016",
+  "short_name": "EPFA",
+  "status": "repealed",
+  "issued_date": "2016-05-08",
+  "in_force_date": "2016-05-08",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-apaUY2Jvb5w%3D-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Equity Participation Fund (Repeal) Act, 2016 (XXI of 2016) published by The Pakistan Code (General Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title and commencement",
+      "content": "(1) This Act may be called the Equity\nParticipation Fund (Repeal) Act, 2016.\n(2) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Repeal",
+      "content": "(1) The Equity Participation Fund Ordinance, 1970 (1 of 1970) is hereby\nrepealed."
+    }
+  ],
+  "definitions": []
+}

@@ -1,0 +1,74 @@
+{
+  "id": "pk-day-care-centres-act-2023",
+  "type": "statute",
+  "title": "Day Care Centres Act, 2023",
+  "title_en": "Day Care Centres Act, 2023",
+  "short_name": "DCCA",
+  "status": "in_force",
+  "issued_date": "2023-06-14",
+  "in_force_date": "2023-06-14",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-apaUY2Npa5pmaA%3D%3D-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Day Care Centres Act, 2023 (XXVIII of 2023) published by The Pakistan Code (General Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement",
+      "content": "_ (1) This Act shall be called the Day Care Centres\nAct, 2023.\n(2) It extends to the Islamabad Capital Territory.\n(3) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions",
+      "content": "_ In this Act, unless there is anything repugnant in the subject or context,___\n(a)    “Code” means the Code of Criminal Procedure, 1898 (Act V of 1898);\n(b)    “day care” means child care during the day when the parents work; and\n(c)    establishment” means and includes any public, private, autonomous, semi-\nautonomous, corporation, body, society under the Societies Registration Act,\n1860 (XXI of 1860) any club, any small and medium enterprise, any NGO, etc."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Establishing day care centre",
+      "content": "_ (1) The Federal Government shall ensure the establishment\nof day care centre at all those establishments having at least seventy employees.\n(2) All private establishments having at least seventy employees shall ensure the establishment\nof day care centre at their premises to provide benefit to their employees."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Punishment for non",
+      "content": "compliance.___ Whosoever does not comply to the provisions of this\nAct shall be given one warning in writing and in case of further non-compliance shall be punished with\nfine which may extend to one hundred thousand rupees. In case of further non-compliance, the person\nconcerned shall be punished with imprisonment for six months."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Cognizance of an offence",
+      "content": "_ Notwithstanding anything contained in the Code, an offence\npunishable under this Act shall be trial under the Code by the magistrate of first class."
+    },
+    {
+      "provision_ref": "sec6",
+      "section": "6",
+      "title": "Section 6. Application of the provisions of the Code",
+      "content": "_ Any proceedings under this Act shall be\ncarried out in accordance with the relevant provisions of the Code."
+    },
+    {
+      "provision_ref": "sec7",
+      "section": "7",
+      "title": "Section 7. Removal of difficulties",
+      "content": "_ If any difficulty arises in giving effect to any provision of this\nAct, the Federal Government may make such order not inconsistent with the provisions of this Act as\nmay appear to be necessary for the purpose of removing such difficulty."
+    },
+    {
+      "provision_ref": "sec8",
+      "section": "8",
+      "title": "Section 8. Power to make Rules",
+      "content": "_ The Federal Government may, by notification in the official\nGazette, make rules for carrying out the purposes of this Act."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "Code",
+      "definition": "the Code of Criminal Procedure, 1898 (Act V of 1898);",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "day care",
+      "definition": "child care during the day when the parents work; and (c) establishment” means and includes any public, private, autonomous, semi- autonomous, corporation, body, society under the Societies Registration Act, 1860 (XXI of 1860) any club, any small and medium enterprise, any NGO, etc.",
+      "source_provision": "sec2"
+    }
+  ]
+}

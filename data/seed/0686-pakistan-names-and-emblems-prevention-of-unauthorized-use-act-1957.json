@@ -1,0 +1,94 @@
+{
+  "id": "pk-pakistan-names-and-emblems-prevention-of-unauthorized-use-act-1957",
+  "type": "statute",
+  "title": "Pakistan Names and Emblems (Prevention of Unauthorized Use) Act, 1957",
+  "title_en": "Pakistan Names and Emblems (Prevention of Unauthorized Use) Act, 1957",
+  "short_name": "PNAEO",
+  "status": "in_force",
+  "issued_date": "1957-04-29",
+  "in_force_date": "1957-04-29",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-ap%2Bcag%3D%3D-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Pakistan Names and Emblems (Prevention of Unauthorized Use) Act, 1957 (XXVIII of 1957) published by The Pakistan Code (Criminal Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement",
+      "content": "_ (1) This Act may be called the Pakistan Names\nand Emblems (Prevention of Unauthorised Use) Act, 1957.\n(2) It extends to the whole of Pakistan and applies to all citizens of Pakistan wherever they\nmay be.\n(3) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definitions.___ In this Act, unless there is anything repugnant in the subject or context,",
+      "content": "(a)     “competent authority” means any authority competent under any law for the\ntime being in force to grant a patent or to register a trade-mark or design or a\ncompany, firm or other body of persons ;\n(b)    “design” means the design as defined in clause (5) of section 2 of the Patents\nand Designs Act, 1911 (II of 1911);\n(c)     “emblem” means the flag, emblem, seal, insignia or coat-of-arms specified in the\nSchedule and includes a pictorial or illustrative representation or colourable\nimitation of any emblem ;\n(d)     “name” means a name specified in the Schedule and includes any abbreviation\nof a name ;\n(e)     “patent” means a patent as defined in clause (11) of section 2 of the Patents\nand Designs Act, 1911 (II of 1911) ;\n(f)     “trade-mark” means a trade-mark as defined in clause (1) of sub-section (1) of\nsection 2 of the Trade Marks Act, 1940 (v of 1940)."
+    },
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Prohibition of use of name or emblem and penalty",
+      "content": "_(1) No person shall, except with\nthe previous permission in writing of, and in accordance with the conditions, if any, imposed by, the\n1\n[Federal Government] or any officer authorised by it in this behalf, use or continue to use a name or\nemblem in any trade-mark or design or in the title of any patent or for the purposes of any trade,\nbusiness, calling or profession, or for any other purpose whatsoever.\n(2) Whoever contravenes the provisions of sub-section (1) shall be punished with fine which\nmay extend to five hundred rupees."
+    },
+    {
+      "provision_ref": "sec4",
+      "section": "4",
+      "title": "Section 4. Prohibition of grant or registration of patent, trade",
+      "content": "mark, etc.___(1) Notwithstanding\nanything contained in any other law for the time being in force, no competent authority shall___\n(a)        register a trade-mark or design which bears a name or an emblem,\n(b)        register a company or firm or other body of persons which bears a name, or\n(c)        grant a patent in respect of an invention which bears in its title a name.\n(2) If any question arises whether or not a trade-mark or design bears an emblem, the\ncompetent authority shall refer it to the 1[Federal Government] whose decision thereon shall be final."
+    },
+    {
+      "provision_ref": "sec5",
+      "section": "5",
+      "title": "Section 5. Amendment of the Schedule",
+      "content": "_The 1[Federal Government] may, by notification in the\nofficial Gazette, add to, amend or alter the Schedule and any such addition, amendment, or alteration\nshall have effect as if it had been made by this Act."
+    },
+    {
+      "provision_ref": "sec6",
+      "section": "6",
+      "title": "Section 6. Previous sanction for prosecution",
+      "content": "_ No person shall be proceeded against for an offence\nunder this Act except with the previous sanction of the 1[Federal Government] or an officer\nauthorized by it in this behalf by a general or special order."
+    },
+    {
+      "provision_ref": "sec7",
+      "section": "7",
+      "title": "Section 7. Act not to prejudice other law",
+      "content": "_The provisions of this Act shall be in addition to and\nnot in derogation of any other law for the time being in force."
+    },
+    {
+      "provision_ref": "sec8",
+      "section": "8",
+      "title": "Section 8. Power to make rules",
+      "content": "_ (1) The 1[Federal Government] may, by notification in the official\nGazette, make rules for carrying out the purposes of this Act.\n(2) In making any rule under sub-section (1) the 1[Federal Government] may provide that a\ncontravention of the rule shall be punishable with fine which may extend to two hundred rupees."
+    }
+  ],
+  "definitions": [
+    {
+      "term": "competent authority",
+      "definition": "any authority competent under any law for the time being in force to grant a patent or to register a trade-mark or design or a company, firm or other body of persons ;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "design",
+      "definition": "the design as defined in clause (5) of section 2 of the Patents and Designs Act, 1911 (II of 1911);",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "emblem",
+      "definition": "the flag, emblem, seal, insignia or coat-of-arms specified in the Schedule and includes a pictorial or illustrative representation or colourable imitation of any emblem ;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "name",
+      "definition": "a name specified in the Schedule and includes any abbreviation of a name ;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "patent",
+      "definition": "a patent as defined in clause (11) of section 2 of the Patents and Designs Act, 1911 (II of 1911) ;",
+      "source_provision": "sec2"
+    },
+    {
+      "term": "trade-mark",
+      "definition": "a trade-mark as defined in clause (1) of sub-section (1) of section 2 of the Trade Marks Act, 1940 (v of 1940).",
+      "source_provision": "sec2"
+    }
+  ]
+}

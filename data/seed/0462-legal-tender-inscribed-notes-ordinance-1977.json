@@ -1,0 +1,33 @@
+{
+  "id": "pk-legal-tender-inscribed-notes-ordinance-1977",
+  "type": "statute",
+  "title": "Legal Tender (Inscribed Notes) Ordinance, 1977",
+  "title_en": "Legal Tender (Inscribed Notes) Ordinance, 1977",
+  "short_name": "LTNO",
+  "status": "in_force",
+  "issued_date": "1977-05-25",
+  "in_force_date": "1977-05-25",
+  "url": "https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-apaUY2Fuap4%3D-sg-jjjjjjjjjjjjj",
+  "description": "Official consolidated text of Legal Tender (Inscribed Notes) Ordinance, 1977 (XXII of 1977) published by The Pakistan Code (General Laws).",
+  "provisions": [
+    {
+      "provision_ref": "sec3",
+      "section": "3",
+      "title": "Section 3. Certain bank notes to cease to be legal tender",
+      "content": "ORDINANCE No. XXII OF 1977\n[26th May, 1977]\nAn Ordinance to provide that certain bank notes shall cease to be legal tender\nWHEREAS it is expedient to provide that certain bank notes shall cease to be legal tender;\nAND WHEREAS the National Assembly is not in session and the President is satisfied that\ncircumstances exist which render it necessary to take immediate action;\nNOW, THEREFORE, in exercise of the powers conferred by clause (1) of Article 89 of the\nConstitution of the Islamic Republic of Pakistan, the President is pleased to make and promulgate the\nfollowing Ordinance:—"
+    },
+    {
+      "provision_ref": "sec1",
+      "section": "1",
+      "title": "Section 1. Short title, extent and commencement",
+      "content": "(l) This Ordinance may be called the .\n(2) It extends to the whole of Pakistan.\n(3) It shall come into force at once."
+    },
+    {
+      "provision_ref": "sec2",
+      "section": "2",
+      "title": "Section 2. Definition. In this Ordinance, “bank notes” shall have the same meaning as in the State Bank",
+      "content": "of Pakistan Act, 1956 (XXXIII of 1956) 1[, and shall include a Government of Pakistan one rupee\nnote]."
+    }
+  ],
+  "definitions": []
+}
