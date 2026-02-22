@@ -14,7 +14,7 @@ sources:
       summary: "Portal disclaimer states content is for information purposes and users should refer to Gazette notifications."
     coverage:
       scope: "Federal laws listed on Pakistan Code with law-level pages and downloadable complete-law PDFs (A-Z index crawl)."
-      limitations: "As of 2026-02-21, 1030 laws were indexed; 1018 were ingestible. 12 entries had broken PDF URLs or zero extractable PDF text. Structured article endpoint access is restricted from this environment."
+      limitations: "As of 2026-02-22, 1030 laws were indexed and ingested. 1018 used direct official PDF text extraction, 7 required OCR from official image-only PDFs, 2 used equivalent official duplicate entries after canonical PDF 404 failures, and 3 used current public mirror fallbacks after persistent canonical PDF 404 failures. Structured article endpoint access is restricted from this environment."
     languages:
       - "en"
       - "ur"
@@ -22,4 +22,4 @@ sources:
 data_freshness:
   automated_checks: true
   check_frequency: "weekly"
-  last_verified: "2026-02-21"
+  last_verified: "2026-02-22"

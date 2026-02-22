@@ -26,8 +26,13 @@ npx @ansvar/pakistani-law-mcp
 Real legislation ingested from The Pakistan Code (official federal law portal): https://pakistancode.gov.pk/english/index.php
 
 - 1030 laws indexed from official A-Z listing
-- 1018 laws ingested into seed corpus from official linked PDFs
-- 12 laws skipped (official PDF missing or non-extractable text), documented in `REAL_INGESTION_REPORT.md`
+- 1030 laws ingested into the seed corpus (100% indexed-law coverage)
+- 1018 laws ingested from direct official PDF text extraction (`pdftotext`)
+- 7 laws ingested from OCR text of official image-only PDFs
+- 2 laws ingested via equivalent official duplicate entries where canonical PDF endpoints were broken
+- 3 laws ingested from current public mirror sources after official PDF endpoints returned persistent `404`
+
+Fallback source details and per-law provenance are documented in `REAL_INGESTION_REPORT.md`.
 
 ## License
 

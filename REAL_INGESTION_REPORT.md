@@ -1,46 +1,50 @@
 ## Pakistan Law MCP -- Real Ingestion (Full-Corpus Pass)
 
 **Portal:** https://pakistancode.gov.pk/english/index.php  
-**Method:** HTML index/law-page scrape + official PDF text extraction (`pdftotext`)  
-**Language:** English (official portal corpus)
+**Primary method:** A-Z index crawl + official law-page PDFs + `pdftotext`  
+**Updated:** 2026-02-22
 
 **Before (AI-seeded):**
 - 10 documents, 103 provisions (synthetic)
 
-**After (real data):**
+**After (real corpus):**
 - Indexed on portal: 1030 laws
-- Ingested successfully: 1018 laws (real text)
-- Not ingestible from source as of 2026-02-21: 12 laws (official PDF missing or 0 extractable text)
-- Database: 1018 documents, 28022 provisions, 5683 definitions
-- Database size: 57 MB
+- Ingested into seed corpus: 1030 laws (100% indexed-law coverage)
+- Database: 1030 documents, 28249 provisions, 5703 definitions
+- Database size: 56.5 MB
+
+### Ingestion path breakdown
+- 1018 laws: direct text extraction from official Pakistan Code PDFs
+- 7 laws: OCR of official image-only PDFs (no extractable text from `pdftotext`)
+- 2 laws: equivalent official duplicate entries used because canonical PDF endpoints returned `404`
+- 3 laws: current public legal mirror fallback used because canonical official PDF endpoints returned persistent `404`
 
 ### Verification (character-by-character)
-All checks below are exact string matches against text extracted directly from the official PDF linked on the law page:
+Exact string containment checks against text extracted from the official linked PDF for Electronic Transactions Ordinance, 2002:
 
-1. Electronic Transactions Ordinance, 2002 -- Section 3 (`pk-eto-2002`, 240 chars): **MATCH**  
+1. Section 3 (`pk-eto-2002`) -- **MATCH** (240 chars)  
    https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-apaUY2Fta5Y%3D-sg-jjjjjjjjjjjjj
-2. Electronic Transactions Ordinance, 2002 -- Section 4 (`pk-eto-2002`, 308 chars): **MATCH**  
+2. Section 4 (`pk-eto-2002`) -- **MATCH** (308 chars)  
    https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-apaUY2Fta5Y%3D-sg-jjjjjjjjjjjjj
-3. Electronic Transactions Ordinance, 2002 -- Section 10 (`pk-eto-2002`, 406 chars): **MATCH**  
+3. Section 10 (`pk-eto-2002`) -- **MATCH** (406 chars)  
    https://pakistancode.gov.pk/english/UY2FqaJw1-apaUY2Fqa-apaUY2Fta5Y%3D-sg-jjjjjjjjjjjjj
 
-### Hard-source failures (not fabricated)
-The following laws could not be ingested from the official source. They were intentionally skipped to avoid fabricated text.
+### Fallback provenance for previously non-ingestible laws
+1. Capital Development Authority (Amendment) Ordinance, 2025 -- official PDF OCR
+2. Federal Ministers and Ministers of State (Salaries, Allowance and Privileges) (Amendment) Ordinance, 2025 -- official PDF OCR
+3. Government Management of Private Estates Act, 1892 -- official duplicate entry fallback (`cJ0%3D` path)
+4. Marriage Functions (Ostentatious Displays) Ordinance, 1999 -- mirror fallback: https://nasirlawsite.com/laws/function.htm
+5. Motor Vehicles (Drivers) Ordinance, 1942 -- mirror fallback: https://nasirlawsite.com/laws/mvdo.htm
+6. National Agri-trade and Food Safety Authority Ordinance, 2025 -- official PDF OCR
+7. Petroleum Products (Petroleum Levy) (Amendment) Ordinance, 2025 -- official PDF OCR
+8. Representation Of People Act, 1976 (repealed) -- mirror fallback: https://nasirlawsite.com/laws/rpa.htm
+9. Suits Valuation Act, 1887 -- official duplicate entry fallback (`b5k%3D` path)
+10. Tax Laws (Amendment) Ordinance, 2025 -- official PDF OCR
+11. Transfer of Railways (Amendment) Ordinance, 2025 -- official PDF OCR
+12. Virtual Assets Ordinance, 2025 -- official PDF OCR
 
-1. Capital Development Authority (Amendment) Ordinance, 2025 -- 0 extractable text
-2. Federal Ministers and Ministers of State (Salaries, Allowance and Privileges) (Amendment) Ordinance, 2025 -- 0 extractable text
-3. Government Management of Private Estates Act, 1892 -- official PDF URL returns 404
-4. Marriage Functions (Ostentatious Displays) Ordinance, 1999 -- official PDF URL returns 404
-5. Motor Vehicles (Drivers) Ordinance, 1942 -- official PDF URL returns 404
-6. National Agri-trade and Food Safety Authority Ordinance, 2025 -- 0 extractable text
-7. Petroleum Products (Petroleum Levy) (Amendment) Ordinance, 2025 -- 0 extractable text
-8. Representation Of People Act, 1976 (repealed) -- official PDF URL returns 404
-9. Suits Valuation Act, 1887 -- official PDF URL returns 404
-10. Tax Laws (Amendment) Ordinance, 2025 -- 0 extractable text
-11. Transfer of Railways (Amendment) Ordinance, 2025 -- 0 extractable text
-12. Virtual Assets Ordinance, 2025 -- 0 extractable text
-
-### Limitations
-- Pakistan Code structured section endpoint access is blocked from this environment; ingestion relies on official linked PDFs only.
-- Some portal entries reference broken PDF endpoints (404), so no official text is retrievable from this source path.
-- Some PDFs are present but produce zero text with `pdftotext` (image-only/empty extract stream). OCR was not used.
+### Notes
+- No legal text was fabricated.
+- Canonical `url` in each seed remains the Pakistan Code law-page URL.
+- When fallback ingestion was used, provenance was appended to the seed `description` field.
+- OCR-derived texts can contain recognition noise; they were kept only where official sources were image-only and no structured text endpoint was accessible.

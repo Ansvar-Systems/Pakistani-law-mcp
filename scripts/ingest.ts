@@ -19,12 +19,15 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execFileSync } from 'node:child_process';
+import { createWorker } from 'tesseract.js';
 import { fetchBinary, fetchText } from './lib/fetcher.js';
 import {
   extractDefinitions,
-  extractTextFromPdf,
   parseLawPagePdfUrl,
+  extractTextFromPdf,
   parseProvisionsFromPdfText,
+  type ParsedProvision,
   type ParsedAct,
 } from './lib/parser.js';
 
@@ -36,6 +39,9 @@ const INDEX_DIR = path.join(SOURCE_DIR, 'index');
 const LAW_DIR = path.join(SOURCE_DIR, 'laws');
 const PDF_DIR = path.join(SOURCE_DIR, 'pdfs');
 const TXT_DIR = path.join(SOURCE_DIR, 'txt');
+const EXTERNAL_DIR = path.join(SOURCE_DIR, 'external');
+const OCR_DIR = path.join(SOURCE_DIR, 'ocr');
+const OCR_CACHE_DIR = path.join(SOURCE_DIR, 'ocr-cache');
 const SEED_DIR = path.resolve(__dirname, '../data/seed');
 const MANIFEST_PATH = path.join(SOURCE_DIR, 'manifest.json');
 
@@ -63,6 +69,19 @@ interface IngestArgs {
   resume: boolean;
 }
 
+interface TextSource {
+  text: string;
+  sourceUrl: string;
+  note?: string;
+}
+
+interface SourceFallback {
+  type: 'official_law_path' | 'external_html';
+  lawPath?: string;
+  url?: string;
+  note: string;
+}
+
 const KNOWN_ID_BY_PATH: Record<string, string> = {
   'UY2FqaJw1-apaUY2Fqa-apaUY2Fta5Y%3D-sg-jjjjjjjjjjjjj': 'pk-eto-2002',
   'UY2FqaJw1-apaUY2Fqa-apaUY2Jvbp8%3D-sg-jjjjjjjjjjjjj': 'pk-peca-2016',
@@ -74,6 +93,36 @@ const KNOWN_ID_BY_PATH: Record<string, string> = {
   'UY2FqaJw1-apaUY2Fqa-apaUY2FsbJk%3D-sg-jjjjjjjjjjjjj': 'pk-competition-act-2010',
   'UY2FqaJw1-apaUY2Fqa-ap%2BbZw%3D%3D-sg-jjjjjjjjjjjjj': 'pk-sbp-act-1956',
   'UY2FqaJw1-apaUY2Fqa-bpuUY2Zr-sg-jjjjjjjjjjjjj': 'pk-fia-act-1974',
+};
+
+const SOURCE_FALLBACKS_BY_LAW_PATH: Record<string, SourceFallback> = {
+  // Duplicate official entries where one law page points to a broken PDF endpoint.
+  'UY2FqaJw1-apaUY2Fqa-apaUY2Npbpo%3D-sg-jjjjjjjjjjjjj': {
+    type: 'official_law_path',
+    lawPath: 'UY2FqaJw1-apaUY2Fqa-cJ0%3D-sg-jjjjjjjjjjjjj',
+    note: 'Text sourced from equivalent official duplicate entry due broken PDF link on canonical entry.',
+  },
+  'UY2FqaJw1-apaUY2Fqa-apaUY2NpaJZl-sg-jjjjjjjjjjjjj': {
+    type: 'official_law_path',
+    lawPath: 'UY2FqaJw1-apaUY2Fqa-b5k%3D-sg-jjjjjjjjjjjjj',
+    note: 'Text sourced from equivalent official duplicate entry due broken PDF link on canonical entry.',
+  },
+  // Non-official fallback mirrors used only when official PDF endpoint is unavailable.
+  'UY2FqaJw1-apaUY2Fqa-apaUbA%3D%3D-sg-jjjjjjjjjjjjj': {
+    type: 'external_html',
+    url: 'https://nasirlawsite.com/laws/function.htm',
+    note: 'Official PDF endpoint unavailable; text sourced from current public legal mirror.',
+  },
+  'UY2FqaJw1-apaUY2Fqa-cJid-sg-jjjjjjjjjjjjj': {
+    type: 'external_html',
+    url: 'https://nasirlawsite.com/laws/mvdo.htm',
+    note: 'Official PDF endpoint unavailable; text sourced from current public legal mirror.',
+  },
+  'UY2FqaJw1-apaUY2Fqa-apaUY2Npb5w%3D-sg-jjjjjjjjjjjjj': {
+    type: 'external_html',
+    url: 'https://nasirlawsite.com/laws/rpa.htm',
+    note: 'Official PDF endpoint unavailable; text sourced from current public legal mirror.',
+  },
 };
 
 function parseArgs(): IngestArgs {
@@ -113,6 +162,9 @@ function ensureDirs(): void {
   fs.mkdirSync(LAW_DIR, { recursive: true });
   fs.mkdirSync(PDF_DIR, { recursive: true });
   fs.mkdirSync(TXT_DIR, { recursive: true });
+  fs.mkdirSync(EXTERNAL_DIR, { recursive: true });
+  fs.mkdirSync(OCR_DIR, { recursive: true });
+  fs.mkdirSync(OCR_CACHE_DIR, { recursive: true });
   fs.mkdirSync(SEED_DIR, { recursive: true });
 }
 
@@ -349,14 +401,123 @@ function buildDescription(law: IndexedLaw): string {
   return `Official consolidated text of ${law.title}${actPart} published by The Pakistan Code${categoryPart}.`;
 }
 
-async function ingestOneLaw(
-  law: IndexedLaw,
-  id: string,
-  order: number,
+function buildDescriptionWithSourceNote(law: IndexedLaw, sourceNote?: string): string {
+  const base = buildDescription(law);
+  if (!sourceNote) return base;
+  return `${base} ${sourceNote}`;
+}
+
+function decodeHtmlEntities(value: string): string {
+  const named = value
+    .replace(/&nbsp;/gi, ' ')
+    .replace(/&amp;/gi, '&')
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;/gi, "'")
+    .replace(/&lt;/gi, '<')
+    .replace(/&gt;/gi, '>');
+
+  return named
+    .replace(/&#(\d+);/g, (_, digits: string) => String.fromCodePoint(Number.parseInt(digits, 10)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex: string) => String.fromCodePoint(Number.parseInt(hex, 16)));
+}
+
+function extractExternalLawText(html: string): string {
+  const bodyMatch = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
+  let body = bodyMatch?.[1] ?? html;
+
+  body = body
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<!--[\s\S]*?-->/g, ' ')
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<\/(p|div|li|tr|h1|h2|h3|h4|h5|h6|table|section|article)>/gi, '\n')
+    .replace(/<[^>]+>/g, ' ');
+
+  const decoded = decodeHtmlEntities(body).replace(/\u00a0/g, ' ');
+  const normalized = decoded
+    .split('\n')
+    .map(line => line.replace(/\s+/g, ' ').trim())
+    .filter(Boolean)
+    .filter(line => !/^(go to|index|home|ll\.?\s*b|directory)$/i.test(line));
+
+  let text = normalized.join('\n').trim();
+  const tailMarker = text.search(/\bGo to\b.*\bIndex\b/i);
+  if (tailMarker >= 0) {
+    text = text.slice(0, tailMarker).trim();
+  }
+
+  const anchor = text.search(/\b(?:ACT|ORDINANCE)\s+NO\./i);
+  if (anchor > 0) {
+    const titleStart = text.lastIndexOf('\n', Math.max(0, anchor - 320));
+    if (titleStart >= 0) {
+      text = text.slice(titleStart + 1).trim();
+    }
+  }
+
+  return text;
+}
+
+function parseProvisionsFromText(rawText: string): ParsedProvision[] {
+  const parsed = parseProvisionsFromPdfText(rawText);
+  if (parsed.length > 0) return parsed;
+
+  const fallback = rawText.replace(/\r/g, '').trim();
+  if (fallback.length >= 10) {
+    return [
+      {
+        provision_ref: 'sec0',
+        section: '0',
+        title: 'Section 0. Full text',
+        content: fallback,
+      },
+    ];
+  }
+
+  return [];
+}
+
+async function ocrPdfToText(pdfPath: string, key: string): Promise<string> {
+  const pageDir = path.join(OCR_DIR, key);
+  fs.rmSync(pageDir, { recursive: true, force: true });
+  fs.mkdirSync(pageDir, { recursive: true });
+
+  const pagePrefix = path.join(pageDir, 'page');
+  execFileSync('pdftoppm', ['-png', '-r', '300', pdfPath, pagePrefix], { stdio: 'ignore' });
+
+  const pageFiles = fs.readdirSync(pageDir)
+    .filter(file => file.endsWith('.png'))
+    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+
+  if (pageFiles.length === 0) {
+    throw new Error(`OCR failed to render pages for ${pdfPath}`);
+  }
+
+  const worker = await createWorker('eng', undefined, {
+    cachePath: OCR_CACHE_DIR,
+    logger: () => undefined,
+  });
+
+  try {
+    let text = '';
+    for (const pageFile of pageFiles) {
+      const pagePath = path.join(pageDir, pageFile);
+      const result = await worker.recognize(pagePath);
+      text += `${result.data.text}\n\n`;
+    }
+    return text.trim();
+  } finally {
+    await worker.terminate();
+    fs.rmSync(pageDir, { recursive: true, force: true });
+  }
+}
+
+async function fetchOfficialTextFromLawPath(
+  lawPath: string,
+  cacheKey: string,
   skipFetch: boolean,
-): Promise<ParsedAct> {
-  const key = hashString(law.lawPath);
-  const lawUrl = `${PAKISTAN_CODE_BASE}/${law.lawPath}`;
+): Promise<TextSource> {
+  const key = hashString(cacheKey);
+  const lawUrl = `${PAKISTAN_CODE_BASE}/${lawPath}`;
   const lawHtmlPath = path.join(LAW_DIR, `${key}.html`);
   const pdfPath = path.join(PDF_DIR, `${key}.pdf`);
   const txtPath = path.join(TXT_DIR, `${key}.txt`);
@@ -386,12 +547,96 @@ async function ingestOneLaw(
     fs.writeFileSync(pdfPath, pdf.body);
   }
 
-  const text = extractTextFromPdf(pdfPath);
-  fs.writeFileSync(txtPath, text);
+  let text = extractTextFromPdf(pdfPath);
+  if (text.trim().length < 20) {
+    text = await ocrPdfToText(pdfPath, key);
+  }
 
-  const provisions = parseProvisionsFromPdfText(text);
+  if (text.trim().length < 10) {
+    throw new Error(`No text extracted from PDF: ${pdfUrl}`);
+  }
+
+  fs.writeFileSync(txtPath, text);
+  return { text, sourceUrl: lawUrl };
+}
+
+async function fetchExternalText(url: string, cacheKey: string, skipFetch: boolean): Promise<TextSource> {
+  const key = hashString(cacheKey);
+  const htmlPath = path.join(EXTERNAL_DIR, `${key}.html`);
+  const txtPath = path.join(TXT_DIR, `${key}.txt`);
+
+  let html: string;
+  if (skipFetch && fs.existsSync(htmlPath)) {
+    html = fs.readFileSync(htmlPath, 'utf-8');
+  } else {
+    const response = await fetchText(url, 5);
+    if (response.status !== 200) {
+      throw new Error(`External source HTTP ${response.status}: ${url}`);
+    }
+    html = response.body;
+    fs.writeFileSync(htmlPath, html);
+  }
+
+  const text = extractExternalLawText(html);
+  if (text.trim().length < 10) {
+    throw new Error(`No law text extracted from external source: ${url}`);
+  }
+
+  fs.writeFileSync(txtPath, text);
+  return { text, sourceUrl: url };
+}
+
+async function ingestOneLaw(
+  law: IndexedLaw,
+  id: string,
+  skipFetch: boolean,
+): Promise<ParsedAct> {
+  const lawUrl = `${PAKISTAN_CODE_BASE}/${law.lawPath}`;
+
+  const attempts: Array<() => Promise<TextSource>> = [
+    () => fetchOfficialTextFromLawPath(law.lawPath, law.lawPath, skipFetch),
+  ];
+
+  const fallback = SOURCE_FALLBACKS_BY_LAW_PATH[law.lawPath];
+  if (fallback?.type === 'official_law_path' && fallback.lawPath) {
+    attempts.push(async () => ({
+      ...(await fetchOfficialTextFromLawPath(
+        fallback.lawPath!,
+        `${law.lawPath}-official-fallback`,
+        skipFetch,
+      )),
+      note: fallback.note,
+    }));
+  } else if (fallback?.type === 'external_html' && fallback.url) {
+    attempts.push(async () => ({
+      ...(await fetchExternalText(
+        fallback.url!,
+        `${law.lawPath}-external-fallback`,
+        skipFetch,
+      )),
+      note: `${fallback.note} Source: ${fallback.url}.`,
+    }));
+  }
+
+  let selectedSource: TextSource | null = null;
+  let lastError: string | null = null;
+
+  for (const attempt of attempts) {
+    try {
+      selectedSource = await attempt();
+      break;
+    } catch (error) {
+      lastError = error instanceof Error ? error.message : String(error);
+    }
+  }
+
+  if (!selectedSource) {
+    throw new Error(lastError ?? `Ingestion failed for ${law.title}`);
+  }
+
+  const provisions = parseProvisionsFromText(selectedSource.text);
   if (provisions.length === 0) {
-    throw new Error(`No provisions parsed: ${pdfUrl}`);
+    throw new Error(`No provisions parsed from source: ${selectedSource.sourceUrl}`);
   }
   const definitions = extractDefinitions(provisions);
 
@@ -408,7 +653,7 @@ async function ingestOneLaw(
     issued_date: issuedDate,
     in_force_date: issuedDate,
     url: lawUrl,
-    description: buildDescription(law),
+    description: buildDescriptionWithSourceNote(law, selectedSource.note),
     provisions,
     definitions,
   };
@@ -479,7 +724,7 @@ async function main(): Promise<void> {
 
     process.stdout.write(`[${order}/${indexed.length}] ${law.title} ... `);
     try {
-      const act = await ingestOneLaw(law, id, order, skipFetch);
+      const act = await ingestOneLaw(law, id, skipFetch);
       fs.writeFileSync(seedPath, `${JSON.stringify(act, null, 2)}\n`);
 
       totalProvisions += act.provisions.length;
