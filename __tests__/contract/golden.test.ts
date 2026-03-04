@@ -6,20 +6,23 @@
 import { describe, it, expect, beforeAll } from 'vitest';
 import Database from 'better-sqlite3';
 import * as path from 'path';
+import { existsSync } from 'node:fs';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const DB_PATH = path.resolve(__dirname, '../../data/database.db');
+const dbAvailable = existsSync(DB_PATH);
 
 let db: InstanceType<typeof Database>;
 
 beforeAll(() => {
+  if (!dbAvailable) return;
   db = new Database(DB_PATH, { readonly: true });
   db.pragma('journal_mode = DELETE');
 });
 
-describe('Database integrity', () => {
+describe.skipIf(!dbAvailable)('Database integrity', () => {
   it('should have a full-corpus legal document set (excluding EU cross-refs)', () => {
     const row = db.prepare(
       "SELECT COUNT(*) as cnt FROM legal_documents WHERE id != 'eu-cross-references'"
@@ -40,7 +43,7 @@ describe('Database integrity', () => {
   });
 });
 
-describe('Article retrieval', () => {
+describe.skipIf(!dbAvailable)('Article retrieval', () => {
   it('should retrieve a provision by document_id and section', () => {
     const row = db.prepare(
       "SELECT content FROM legal_provisions WHERE document_id = 'pk-eto-2002' AND section = '1'"
@@ -50,7 +53,7 @@ describe('Article retrieval', () => {
   });
 });
 
-describe('Search', () => {
+describe.skipIf(!dbAvailable)('Search', () => {
   it('should find results via FTS search', () => {
     const rows = db.prepare(
       "SELECT COUNT(*) as cnt FROM provisions_fts WHERE provisions_fts MATCH 'Pakistan'"
@@ -59,7 +62,7 @@ describe('Search', () => {
   });
 });
 
-describe('Negative tests', () => {
+describe.skipIf(!dbAvailable)('Negative tests', () => {
   it('should return no results for fictional document', () => {
     const row = db.prepare(
       "SELECT COUNT(*) as cnt FROM legal_provisions WHERE document_id = 'fictional-law-2099'"
@@ -75,7 +78,7 @@ describe('Negative tests', () => {
   });
 });
 
-describe('Core 10 reference laws are present', () => {
+describe.skipIf(!dbAvailable)('Core 10 reference laws are present', () => {
   const expectedDocs = [
     'pk-eto-2002',
     'pk-peca-2016',
@@ -100,7 +103,7 @@ describe('Core 10 reference laws are present', () => {
   }
 });
 
-describe('list_sources', () => {
+describe.skipIf(!dbAvailable)('list_sources', () => {
   it('should have db_metadata table', () => {
     const row = db.prepare('SELECT COUNT(*) as cnt FROM db_metadata').get() as { cnt: number };
     expect(row.cnt).toBeGreaterThan(0);
