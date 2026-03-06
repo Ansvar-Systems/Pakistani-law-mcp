@@ -32,12 +32,12 @@ export function generateResponseMetadata(
   }
 
   return {
-    data_source: 'Official Legal Database (na.gov.pk) — Government (State Chancellery of Pakistani)',
-    jurisdiction: 'EE',
+    data_source: 'Pakistan Code (pakistancode.gov.pk) — National Database and Registration Authority (NADRA) / Ministry of Law and Justice',
+    jurisdiction: 'PK',
     disclaimer:
-      'This data is sourced from the Official Legal Database under public domain. ' +
-      'The authoritative versions are maintained by Government (State Chancellery of Pakistani). ' +
-      'Always verify with the official Official Legal Database portal (na.gov.pk).',
+      'This data is sourced from official Pakistani legal sources under public domain. ' +
+      'The authoritative versions are maintained by the Ministry of Law and Justice of Pakistan. ' +
+      'Always verify with the official Pakistan Code portal (pakistancode.gov.pk).',
     freshness,
   };
 }
